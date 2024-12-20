@@ -9,6 +9,7 @@ REM set pgacc= -makevalid  --config GML_SKIP_CORRUPTED_FEATURES=TRUE -update -f 
 
 REM set pgacc= -s_srs EPSG:4326 -t_srs EPSG:25832 --config OGR_PG_ENABLE_METADATA=FALSE  -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=sweco2 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE 
 REM set pgacc= -skipfailures --config GML_SKIP_CORRUPTED_FEATURES=TRUE -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=sweco5 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE 
+REM set pgacc= -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE 
 set pgacc= -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE 
 REM set pgacc= -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost dbname=ballerup_park user=postgres password=ukulemy active_schema=sweco2 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE 
 
