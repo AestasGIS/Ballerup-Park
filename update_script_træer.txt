@@ -1,0 +1,71 @@
+SELECT 
+  id, 
+  jsondata->>'ElementTypeKey' as elementdata, 
+  jsondata->'ElementAttributes'->0->>'Key' as key0, 
+  jsondata->'ElementAttributes'->0->>'Name' as name0, 
+  jsondata->'ElementAttributes'->0->>'Value' as value0
+FROM sweco.elementdetails_point 
+WHERE jsondata->>'ElementTypeKey' = 'TR' AND jsondata->'ElementAttributes'->0->>'Value' IS NOT NULL
+
+SELECT id, jsondata->>'ElementTypeKey' as elementdata, jsondata FROM sweco.elementdetails_point WHERE jsondata->>'ElementTypeKey' = 'TR'
+
+
+UPDATE elementer.elementer_punkter t2
+SET 
+ekstra = 
+  ('{'||
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->0->>'Key',  t1.jsondata->'ElementAttributes'->0->>'Name',  t1.jsondata->'ElementAttributes'->0->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->1->>'Key',  t1.jsondata->'ElementAttributes'->1->>'Name',  t1.jsondata->'ElementAttributes'->1->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->2->>'Key',  t1.jsondata->'ElementAttributes'->2->>'Name',  t1.jsondata->'ElementAttributes'->2->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->3->>'Key',  t1.jsondata->'ElementAttributes'->3->>'Name',  t1.jsondata->'ElementAttributes'->3->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->4->>'Key',  t1.jsondata->'ElementAttributes'->4->>'Name',  t1.jsondata->'ElementAttributes'->4->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->5->>'Key',  t1.jsondata->'ElementAttributes'->5->>'Name',  t1.jsondata->'ElementAttributes'->5->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->6->>'Key',  t1.jsondata->'ElementAttributes'->6->>'Name',  t1.jsondata->'ElementAttributes'->6->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->7->>'Key',  t1.jsondata->'ElementAttributes'->7->>'Name',  t1.jsondata->'ElementAttributes'->7->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->9->>'Key',  t1.jsondata->'ElementAttributes'->9->>'Name',  t1.jsondata->'ElementAttributes'->9->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->10->>'Key', t1.jsondata->'ElementAttributes'->10->>'Name', t1.jsondata->'ElementAttributes'->10->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->11->>'Key', t1.jsondata->'ElementAttributes'->11->>'Name', t1.jsondata->'ElementAttributes'->11->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->12->>'Key', t1.jsondata->'ElementAttributes'->12->>'Name', t1.jsondata->'ElementAttributes'->12->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->13->>'Key', t1.jsondata->'ElementAttributes'->13->>'Name', t1.jsondata->'ElementAttributes'->13->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->14->>'Key', t1.jsondata->'ElementAttributes'->14->>'Name', t1.jsondata->'ElementAttributes'->14->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->15->>'Key', t1.jsondata->'ElementAttributes'->15->>'Name', t1.jsondata->'ElementAttributes'->15->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->16->>'Key', t1.jsondata->'ElementAttributes'->16->>'Name', t1.jsondata->'ElementAttributes'->16->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->17->>'Key', t1.jsondata->'ElementAttributes'->17->>'Name', t1.jsondata->'ElementAttributes'->17->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->18->>'Key', t1.jsondata->'ElementAttributes'->18->>'Name', t1.jsondata->'ElementAttributes'->18->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->19->>'Key', t1.jsondata->'ElementAttributes'->19->>'Name', t1.jsondata->'ElementAttributes'->19->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', t1.jsondata->'ElementAttributes'->20->>'Key', t1.jsondata->'ElementAttributes'->20->>'Name', t1.jsondata->'ElementAttributes'->20->>'Value') 
+  ||'}')::jsonb
+FROM sweco.elementdetails_point t1
+WHERE t1.id = t2.id AND t2.etype_key = 'TR';
+
+
+
+SELECT 
+  id, 
+  jsondata->>'ElementTypeKey' as elementdata, 
+  ('{'||
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->0->>'Key', jsondata->'ElementAttributes'->0->>'Name', jsondata->'ElementAttributes'->0->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->1->>'Key', jsondata->'ElementAttributes'->1->>'Name', jsondata->'ElementAttributes'->1->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->2->>'Key', jsondata->'ElementAttributes'->2->>'Name', jsondata->'ElementAttributes'->2->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->3->>'Key', jsondata->'ElementAttributes'->3->>'Name', jsondata->'ElementAttributes'->3->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->4->>'Key', jsondata->'ElementAttributes'->4->>'Name', jsondata->'ElementAttributes'->4->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->5->>'Key', jsondata->'ElementAttributes'->5->>'Name', jsondata->'ElementAttributes'->5->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->6->>'Key', jsondata->'ElementAttributes'->6->>'Name', jsondata->'ElementAttributes'->6->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->7->>'Key', jsondata->'ElementAttributes'->7->>'Name', jsondata->'ElementAttributes'->7->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->8->>'Key', jsondata->'ElementAttributes'->8->>'Name', jsondata->'ElementAttributes'->8->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->9->>'Key', jsondata->'ElementAttributes'->9->>'Name', jsondata->'ElementAttributes'->9->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->10->>'Key', jsondata->'ElementAttributes'->10->>'Name', jsondata->'ElementAttributes'->10->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->11->>'Key', jsondata->'ElementAttributes'->11->>'Name', jsondata->'ElementAttributes'->11->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->12->>'Key', jsondata->'ElementAttributes'->12->>'Name', jsondata->'ElementAttributes'->12->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->13->>'Key', jsondata->'ElementAttributes'->13->>'Name', jsondata->'ElementAttributes'->13->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->14->>'Key', jsondata->'ElementAttributes'->14->>'Name', jsondata->'ElementAttributes'->14->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->15->>'Key', jsondata->'ElementAttributes'->15->>'Name', jsondata->'ElementAttributes'->15->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->16->>'Key', jsondata->'ElementAttributes'->16->>'Name', jsondata->'ElementAttributes'->16->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->17->>'Key', jsondata->'ElementAttributes'->17->>'Name', jsondata->'ElementAttributes'->17->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->18->>'Key', jsondata->'ElementAttributes'->18->>'Name', jsondata->'ElementAttributes'->18->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->19->>'Key', jsondata->'ElementAttributes'->19->>'Name', jsondata->'ElementAttributes'->19->>'Value')||','|| 
+  format('"%1$s":{"Key":"%1$s","Name":"%2$s","Value":"%3$s"}', jsondata->'ElementAttributes'->20->>'Key', jsondata->'ElementAttributes'->20->>'Name', jsondata->'ElementAttributes'->20->>'Value') 
+  ||'}')::jsonb AS ekstra
+FROM sweco.elementdetails_point 
+WHERE jsondata->>'ElementTypeKey' = 'TR' AND jsondata->'ElementAttributes'->0->>'Value' IS NOT NULL
+LIMIT 10

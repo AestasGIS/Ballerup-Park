@@ -1,0 +1,284 @@
+BORKS:	Linier	Bordurkantsten	BorKS	#FFE97F	
+SC:	Arbejdsomraader	Skovlunde center	SC		#F6E006
+SH:	Punkter	Stophane	SH	#6A5ACD	#000000
+RV:	Arbejdsomraader	Renhold veje	RV		#FF0000
+LFUL:	Flader	Løst faldunderlag	LFUL	#F1CAA7	#000000
+FEJV2:	Arbejdsomraader	Fejning vej, niveau 2	FEJV2		#FF00FF
+KSS:	Arbejdsomraader	Kontrolområder, Skovlunde Station	KSS		#FF0000
+V2SMR:	Linier	Vej 2 spor m. midterrabat	V2SMR	#7FC9FF	
+HOGP:	Flader	Hække og Pur	HogP	#A2070E	
+KBR:	Arbejdsomraader	Kontrolområder, Ballerup Rådhus	KBR		#FF0000
+FAGOBOS:	Flader	Forsøgsareal - Grubning og brænding og såning	FAGoBoS	#58CF25	#58CF25
+PC:	Arbejdsomraader	Plejecentre	PC	#C3AA23	#C3AA23
+INSTPL:	Flader	Intern stiplads	InStPl	#CC8FE4	#CC8FE4
+IV:	Flader	Insektvold	IV	#E08314	#E08314
+CYST:	Linier	Cykelsti	CySt	#0026FF	
+SNS:	Linier	Slået-naturspor	SNS	#C72669	
+FAFAG:	Flader	Forsøgsareal - Fjernelse af græstørv	FAFaG	#F2FA05	#F2FA05
+BOGB:	Flader	Bænke og borde	BogB	#582CC4	#582CC4
+RG3:	Flader	Rabatgræs 3 x årligt	RG3	#441986	#441986
+UB:	Arbejdsomraader	Udbud 2020	UB	#316CFB	#316CFB
+IS:	Arbejdsomraader	Idrætsanlæg - Skoler	IS		#FF6A00
+BEPL:	Punkter	Betonplint	BePl	#B24CF4	#B24CF4
+RGB:	Linier	Rabatgræs 3 i bagkant fortov/sti	RGB	#00FF21	
+KBI:	Arbejdsomraader	Kontrolområder, Ballerup Idrætsby	KBI		#FF0000
+FEJCS:	Arbejdsomraader	Fejning cykelstier	FEJCS		#FF00FF
+NOHD:	Arbejdsomraader	Naturområder - HD	NOHD		#7FFF8E
+B:	Punkter	Blomsterkummer	B	#FA52A5	#000000
+NOGR:	Arbejdsomraader	Naturområder Grantoftegaard	NOGR		#FF006E
+GV:	Arbejdsomraader	Græsslåning veje	GV		#0094FF
+NO:	Arbejdsomraader	Naturområder	NO		#7FFF8E
+ASFOB:	Flader	OB asfalt	ASFOB	#646464	#646464
+KH:	Linier	Hæk	KH	#88CE88	
+FO:	Flader	Fold	Fo	#BFCCA3	#000000
+FUL:	Arbejdsomraader	Faldunderlag	FUL	#2CB15D	#2CB15D
+BEBS:	Flader	Betonbelægningssten	BeBS	#ECD2C0	#000000
+FGV:	Flader	Fælledgræs på vold	FGV	#FF0000	#FF0000
+PGA:	Punkter	Pergola	PGA	#FF0000	#000000
+STM:	Flader	Stenmel	StM	#FFB27F	#FFB27F
+STK:	Linier	Stålkant	StK	#AD582E	
+BK:	Punkter	Bænk	BK		#FFD800
+TRPF:	Flader	Trappe	TRPF	#B200FF	#B200FF
+OI:	Arbejdsomraader	Øvrige institutioner	OI		#FFD800
+FABOS:	Flader	Forsøgsareal - Brænding og såning	FABoS	#B200FF	#B200FF
+MH:	Arbejdsomraader	Mindre haveanlæg	MH		#FF00DC
+UBF:	Arbejdsomraader	Ukrudtsbørstning, Fortove	UBF		#2F29D7
+M:	Flader	Mur	M	#FF0000	#FF0000
+SPL:	Punkter	Spotlys	SPL	#27A9D1	#27A9D1
+GR:	Flader	Græs	GR	#398713	#398713
+VT:	Arbejdsomraader	Vintertjeneste	VT		#646464
+TRPB:	Punkter	Trappe	TRPB	#FF00FF	#000000
+CYKST:	Flader	Cykelstativer	CykSt	#5E19FD	#5E19FD
+VDIH:	Arbejdsomraader	Vinter Daginstitutioner indenfor hegn	VDIH		#FF00FF
+V4SMR:	Linier	Vej 4 spor m. midterrabat	V4SMR	#FFB27F	
+HA:	Linier	Helleanlæg	HA	#28E62D	
+DI:	Arbejdsomraader	Daginstitutioner	DI		#F99C5A
+KG:	Flader	Kunstgræs	KG	#90EE90	#000000
+TP:	Arbejdsomraader	Torve og pladser	TP		#0026FF
+VR:	Linier	Vandrende	VR	#0094FF	
+CSR:	Linier	Chaussestenrevir	CSR	#FF6A00	
+KBBV:	Arbejdsomraader	Kontrolområder, Ballerup Byvej	KBBV		#FF0000
+BR:	Flader	Bådrampe	BR	#0026FF	#0026FF
+VSOIH:	Arbejdsomraader	Vinter skoler og institutioner, håndarbejde	VSoIH		#FF9900
+BHP:	Flader	Buske	BHP	#820E0A	#820E0A
+TU:	Punkter	Terrænudstyr_p	TU	#008080	#000000
+BLS:	Arbejdsomraader	Bynære lege- og sundhedspladser	BLS		#FFB27F
+BD:	Punkter	Bord	BD	#000000	#000000
+SOE:	Flader	Sø	SOE	#ADD8E6	#000000
+SA:	Punkter	Signalanlæg	SA	#FF8C00	#000000
+KL:	Punkter	Kørelåge	KL	#FFC0CB	#000000
+NOHD1:	Arbejdsomraader	Naturområde - HD - 1	NOHD1		#CE4515
+VTG:	Flader	Værdifuld trægruppe	VTG	#92FDF6	#92FDF6
+BB:	Flader	Bunddækkende Buske	BB	#32CD32	#000000
+SP:	Flader	Sportsplæne	SP	#C1DD8A	#000000
+GFL:	Flader	Gummifliser	GFL		#000000
+SAK:	Flader	Sandkasse	SaK	#F1CAA7	#000000
+SAND:	Flader	Sand	SAND	#F5DEB3	#000000
+IF:	Flader	Insitufliser	IF	#DCDC26	#DCDC26
+122:	Flader	Terrænudstyr	122	#008080	#000000
+SHB:	Flader	Sankt Hans Bål	SHB	#FF0000	#000000
+GKS:	Linier	Granitkantsten	GKS	#00FFFF	
+LFU:	Arbejdsomraader	Løst faldunderlag	LFU	#D170B1	#D170B1
+SKUR:	Flader	Skur	Skur	#986C1F	#986C1F
+KS:	Arbejdsomraader	Kontrolområder, Skovlunde	KS		#FF0000
+P:	Punkter	Pullert	P	#000000	#000000
+INST:	Linier	Intern sti	InSt	#CC8FE4	
+TU:	Arbejdsomraader	Termisk ukrudtsbekæmpelse	TU		#FF6600
+LS:	Flader	Læskur	LS	#571296	#571296
+IB:	Flader	Insitubeton	IB	#FFD800	#FFD800
+TRR:	Flader	Træhulsrist	TrR	#FB1975	#FB1975
+ML:	Punkter	Måler	ML	#0000FF	#000000
+077:	Linier	Markvej	077	#FFA500	
+GRF:	Flader	Granitfliser	GRF	#CBC3C3	#CBC3C3
+EUT:	Punkter	Eludtag	EUT	#FF00FF	#000000
+FBMV:	Linier	Fritrumsbeskæring mod vej m.v.	FBMV	#FF0000	
+VEJ:	Flader	Veje, stier og fortove	VEJ	#8A5E8A	
+FM:	Linier	Fritstående mur	FM	#A35A5A	
+FAFAGOS:	Flader	Forsøgsareal - Fjernelse af græstørv og såning	FAFaGoS	#00FF90	#00FF90
+NS:	Linier	Natursti	NS	#FF7F7F	
+FS:	Arbejdsomraader	Forsøg	FS	#E4066A	#E4066A
+TO:	Arbejdsomraader	Testområde	TO	#3606F9	#3606F9
+LAK:	Punkter	Lysmast Anders Klavsen	LAK		#E17D23
+BP:	Flader	Brugsplæne	BP	#00FF21	#00FF21
+SNF:	Flader	Slået-naturflade	SNF	#188ACA	#188ACA
+AV:	Linier	Autoværn	AV	#FF6A00	
+FOH:	Linier	Foldhegn	FoH	#000000	
+BISTR:	Flader	Bistribe	BiStr	#FFD800	#FFD800
+FUL:	Flader	Faldunderlag	FUL	#C8EC07	#C8EC07
+CYSR:	Linier	Cykelstativ	CYSR	#FFD800	
+SFS:	Flader	SF-sten	SFS	#E48D53	#E48D53
+RGT:	Flader	Rabatgræs til tilstandskrav	RGT	#7685BA	#7685BA
+ASF:	Flader	Asfalt	ASF	#D3BDCF	#000000
+FAIG:	Flader	Forsøgsarealer i græsrabatter	FAiG		#2EF7C1
+RB:	Punkter	Regnvandsbrønd	RB	#4682B4	#000000
+VS:	Punkter	Vejskilt	VS	#FF0000	#000000
+GABE:	Flader	Gadebelysning	GaBe	#6DA10F	#6DA10F
+MK:	Flader	Mark	MK	#DFC37D	#000000
+RSKR:	Flader	Rabatgræs skråning	RSKR	#3FF63C	#3FF63C
+KPL:	Punkter	Klaplåge	KPL	#FFC0CB	#000000
+SD:	Linier	Stendige	SD	#EBEB3A	
+VBF:	Punkter	Vejbrønd fælleskloak	VBF	#FF00FF	#000000
+SF:	Punkter	Sandfang	SF	#FFB27F	#000000
+ROB:	Flader	Rodvenligt bærelag	RoB	#A46879	#A46879
+STSK:	Linier	Støjskærm	StSk	#FFD800	
+FABE:	Flader	Fast belægning	FaBe	#1B2308	#1B2308
+KLI:	Flader	Klinker	Kli	#FF0000	#FF0000
+BLP:	Punkter	Bålplads	BLP	#FF4500	#000000
+123:	Linier	Terrænudstyr_l	123	#008080	
+BUS:	Punkter	Busstander	BUS	#FFFF00	#000000
+RG5:	Flader	Rabatgræs 5 x årligt	RG5	#00FF90	#00FF90
+KBN:	Arbejdsomraader	Kontrolområder, Ballerup Nord	KBN		#FF0000
+121:	Flader	Terrænbygværker	121	#008080	#000000
+RVMS:	Arbejdsomraader	Renhold veje m. spor	RVMS		#53FD69
+KEB:	Arbejdsomraader	Kontrolområder, Egebjerg	KEB		#FF0000
+BYGN:	Flader	Bygning	BYGN	#708090	#000000
+PB:	Punkter	Pullertbelysning	PB	#E6F507	#E6F507
+TUVS:	Arbejdsomraader	Termisk ukrudtsbekæmpelse Veje og stier	TUVS		#B5E053
+LR:	Punkter	Legeredskab	LR	#FF006E	#FF006E
+SOGKP:	Flader	Slyng- og klatreplanter	SogKP	#A78320	#A78320
+PA:	Punkter	Pulsator	PA	#FF0000	#000000
+FDF:	Flader	Fortov	FDF	#FF0000	#FF0000
+PS:	Flader	Perlesten	PS	#72B526	#72B526
+UHV:	Arbejdsomraader	Ukrudtsbekæmpelse - Hedt vand	UHV		#D202CC
+TR:	Punkter	Træ	TR	#00FF21	#00FF21
+OS:	Punkter	oplysningsskilt	OS	#FFFFFF	#000000
+TRTE:	Flader	Træterrasse	TrTe	#CAAA8A	#000000
+VNS:	Punkter	Vejnavneskilt	VNS	#FF0000	#000000
+NGR:	Arbejdsomraader	Naturområder - Grantoftegård	NGR		#B200FF
+CYSE:	Punkter	Cykelstativ 	CYSE	#FF6A00	#FF6A00
+LB:	Linier	Låsebånd	LB	#EF5D8C	
+VVH:	Arbejdsomraader	Vinter vejområdet, håndarbejde	VVH	#AB412B	#AB412B
+BGV:	Flader	Bygværker	BGV	#E83E68	#E83E68
+NH:	Arbejdsomraader	Naturhjælperne	NH		#000000
+TS:	Linier	Trampesti	TS	#FF006E	
+NAC:	Punkter	Nedgravet affaldscontainer	NAC	#3A5F8D	#3A5F8D
+V4S:	Linier	Vej 4 spor	V4S	#FF6A00	
+PCX:	Arbejdsomraader	Plejecentre X	PCX	#B28F15	#B28F15
+HE:	Linier	Hegn	He	#FF0000	
+KLP:	Arbejdsomraader	Kontrolområder, Lautrupparken	KLP		#FF0000
+SM:	Punkter	Sportsmål	SM	#000000	
+LRF:	Flader	Legeredskab	LRF		#000000
+FDL:	Linier	Fortov	FDL	#FF0000	#646464
+OLB:	Flader	Ølandsbrud	OLB	#3F8893	#3F8893
+SUMO:	Arbejdsomraader	Summering, overordnet	SUMO	#A8C45C	#A8C45C
+137:	Linier	Vandløb	137	#ADD8E6	
+KM:	Arbejdsomraader	Kontrolområder, Måløv	KM		#FF0000
+FG2:	Flader	Fælledgræs, niveau 2	FG2	#FFD800	#000000
+FR:	Arbejdsomraader	Fejeruter	FR	#C34D33	#C34D33
+SUM1:	Arbejdsomraader	Summering (niv. 1)	SUM1	#E9B0A4	#E9B0A4
+SOBO:	Punkter	SOBO3+ målepunkt	SOBO	#00FF21	#00FF21
+FST:	Punkter	Flagstang	FST	#FF0000	#000000
+SHE:	Punkter	Shelter	She	#957756	#000000
+RPF:	Flader	Rampe	RPF	#00FF90	#00FF90
+TST:	Flader	Træsti	TST	#FF7F7F	#FF7F7F
+SK:	Arbejdsomraader	Skoler	SK		#CC99FF
+KP:	Punkter	Klatrende planter	KP	#FF0000	#000000
+FEJV1:	Arbejdsomraader	Fejning vej, niveau 1	FEJV1		#FF00FF
+FTAV:	Punkter	Færdselstavle	FTAV	#FF0000	#000000
+098:	Flader	Rørsump	098	#B8860B	#000000
+RBE:	Flader	Rosenbede	RBe	#FF69B4	#000000
+AEST:	Flader	Ærtesten	AEST	#C1A129	#C1A129
+FAGOS:	Flader	Forsøgsareal - Grubning og såning	FAGoS	#FEBD0F	#FEBD0F
+FVH:	Flader	Fritvoksende hæk	FVH	#121653	#121653
+TRM:	Linier	Terrænmur	TRM	#BE802B	
+KBS:	Arbejdsomraader	Kontrolområder, Ballerup Syd	KBS		#FF0000
+AP:	Flader	Anden plads	AP	#FF6A00	#FF6A00
+RG:	Flader	Rabatgræs	RG	#B2C981	#000000
+RV:	Linier	Rækværk	RV	#B6FF00	
+FM:	Arbejdsomraader	Fejning Materielgården	FM		#913700
+TO2:	Arbejdsomraader	Testområde2	TO2	#65BA8C	#65BA8C
+BB:	Arbejdsomraader	Boldbaner	BB		#111111
+BS:	Flader	Brosten	BS	#FF6A00	#000000
+S:	Punkter	Sten	S	#CC99FF	#000000
+FH:	Linier	Fodhegn	FH	#1E90FF	
+SFB:	Flader	Semifleksibel belægning	SFB	#863FE8	#863FE8
+VEUH:	Arbejdsomraader	Vinter ejendomme udenfor hegn	VEUH		#FF9900
+054:	Linier	Grøft	054	#87CEEB	
+MU:	Punkter	Motionsudstyr	MU	#FF6A00	#000000
+RG1:	Flader	Rabatgræs 1 x årligt	RG1	#F50B36	#F50B36
+KMS:	Arbejdsomraader	Kontrolområder, Malmparken Station	KMS		#FF0000
+FSA:	Flader	Oprindelige forsøgsarealer	FSA	#C1FEBD	#C1FEBD
+UDS:	Flader	Udstyr	UDS	#7194F2	#7194F2
+BDL:	Punkter	Brønddæksel	BDL		#F74F56
+119:	Linier	Sveller	119	#A0522D	
+GASF:	Flader	Gummiasfalt	GASF	#7D2536	#000000
+SV:	Punkter	Springvand	SV	#0000FF	#000000
+ST:	Flader	Stauder	St	#FAEAFF	#000000
+BUD:	Flader	Bunddække	BUD	#556B2F	#000000
+K:	Punkter	Kunstværk	K		#0026FF
+BT:	Flader	Beton	Bt	#E19CF9	#E19CF9
+INVE:	Linier	Interne veje	InVe	#4800FF	
+DK:	Punkter	Drikkekar	DK	#ADD8E6	#000000
+SVB:	Punkter	Spildevandsbrønd	SVB	#B8860B	#000000
+LT:	Punkter	legetårn	LT	#FF0000	#000000
+TRPL:	Linier	Trappe	TRPL	#B200FF	
+BEFL:	Flader	Betonfliser	BeFl	#A0A0A0	#A0A0A0
+SS:	Linier	Slået spor	SS	#00FF21	
+FEJF:	Arbejdsomraader	Fejning fortove	FEJF		#FF00FF
+EVR:	Arbejdsomraader	Vejrabatter	EVR		#B5E053
+KLP:	Flader	Pur	KLP	#83CF83	#000000
+TRAER:	Flader	Træer	Traer	#B4864E	#B4864E
+SMHD:	Arbejdsomraader	Samlede mængder for HedeDanmark	SMHD	#954101	#FF6A00
+KBC:	Arbejdsomraader	Kontrolområder, Ballerup Centrum	KBC		#FF0000
+FUT:	Flader	Fugletårn	FuT	#546FD8	#546FD8
+KS:	Linier	Kantsten	KS	#0094FF	
+RG2:	Flader	Rabatgræs 2 x årligt	RG2	#86F2DD	#86F2DD
+HB:	Flader	Højbed	HB	#1A3F5B	#1A3F5B
+LHK:	Flader	Levende hegn og krat	LHK	#19AF2C	#19AF2C
+GGRG:	Flader	Rabatgræs	GGRG	#B2C981	#000000
+BI:	Arbejdsomraader	Ballerup idrætsby	BI		#000000
+FG:	Flader	Fælledgræs	FG	#8F88F6	#8F88F6
+BBS:	Punkter	Borde-bænkesæt	BBS		#000000
+SUM:	Arbejdsomraader	Summering	SUM	#C27984	#C27984
+089:	Linier	Plankeværk	089	#A0522D	
+LR:	Arbejdsomraader	Legeredskaber	LR		#000000
+FG1:	Flader	Fælledgræs, niveau 1	FG1	#FF6A00	#000000
+LMU:	Punkter	Lege- og motionsudstyr	LMU	#9370DB	#000000
+AFVA:	Flader	Afvanding	AfVa	#C7DA9E	#C7DA9E
+AG:	Flader	Armeret grus	AG	#73D199	#73D199
+KMB:	Arbejdsomraader	Kontrolområder, Måløv Byvej	KMB		#FF0000
+TH:	Linier	Trådhegn	TH	#FF00DC	
+GRA:	Flader	Græsarmering	GRA	#858B78	#000000
+BU:	Flader	Busket	BU	#57CD57	#000000
+NR:	Punkter	Nedløbsrist	NR	#FF00FF	#000000
+L:	Punkter	Lysmast	L		#FFD800
+LBE:	Flader	Løs belægning	LBe	#F775B9	#F775B9
+BLS:	Punkter	Buslæskur	BLS	#0094FF	#0094FF
+TB:	Flader	Træbelægning	TB	#74D058	#74D058
+KSB:	Arbejdsomraader	Kontrolområder, Skovlunde Byvej	KSB		#FF0000
+UFK:	Arbejdsomraader	Udenfor kontrakt	UFK		#7FC9FF
+RW:	Arbejdsomraader	Rotter	RW	#E46BEF	#E46BEF
+PK:	Punkter	Plantekummer	PK	#F93DB9	#000000
+SR:	Linier	Sokkelrende	SR	#D9EB8A	
+LL:	Linier	Ledelinje	LL	#FFD800	
+FB:	Punkter	Fritvoksende buske	FB	#008000	#000000
+NOG:	Arbejdsomraader	Naturområder - Græsentreprenører	NOG		#EE624A
+PN:	Punkter	Pylon	PN	#FF6600	#000000
+BRL:	Linier	Brosten-linje	BrL	#DCB3AF	
+PST:	Flader	Pigsten	PSt	#D7F1DA	#DAFF7F
+CS:	Flader	Chaussesten	CS	#A0A0A0	#000000
+BV:	Arbejdsomraader	Beplantning veje	BV		#FF6A00
+LV:	Flader	Løgvækster	LV	#ED4E92	#000000
+BSK:	Flader	Blomster	BSK	#38B437	#38B437
+BM:	Punkter	Bom	BM	#FF8C00	#000000
+PVL:	Punkter	Prioriteret lokalitet ved kraftigt snefald	PVL	#F40C23	#F40C23
+078:	Flader	Mose	078	#D4D481	#000000
+LIA:	Linier	Linjeafvanding	LiA	#4682B4	
+KBB:	Arbejdsomraader	Kontrolområder, Ballerup Boulevard	KBB		#FF0000
+ANA1:	Flader	Anden anvendelse	ANA1	#646464	#646464
+FRI:	Flader	Færist	FRi	#8280E5	#8280E5
+V2S:	Linier	Vej 2 spor	V2S	#0094FF	
+G:	Flader	Grus	G	#D7C5BA	#D7C5BA
+PKP:	Flader	Parkeringsplads	PKP	#FF0000	#FF0000
+RPL:	Linier	Rampe	RPL	#00FF90	
+FLB:	Flader	Flisebelægning	FLB	#D5B4B4	#000000
+SK:	Flader	Skov	SK	#5C875C	#000000
+VSOI:	Arbejdsomraader	Vinter skoler og institutioner, traktor	VSoI		#FF9900
+BKS:	Linier	Betonkantsten	BKS	#EEC2A5	
+SPS:	Punkter	Slyngplantestativ	SPS	#1E90FF	#000000
+A:	Punkter	Affaldsbeholder	A	#00FFFF	#00FFFF
+J:	Flader	Jord	J	#FFB27F	#FFB27F
+SASI:	Punkter	Saltsilo	SaSi	#FFD800	#FFE97F
+FOK:	Punkter	Folderkasser	FOK	#FF0000	#000000
+PK:	Arbejdsomraader	Parker	PK		#00FF21
+GB:	Flader	Gangbro	GB	#CD853F	#000000

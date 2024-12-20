@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsPgConnections version="1.0">
+    <postgis dontResolveType="false" savePassword="true" projectsInDatabase="false" publicOnly="false" host="localhost" port="5432" database="eksamen" estimatedMetadata="false" sslmode="SslPrefer" service="" saveUsername="true" allowGeometrylessTables="true" password="ukulemy" username="postgres" geometryColumnsOnly="false" name="eksamen on localhost"/>
+</qgsPgConnections>
