@@ -1,0 +1,6727 @@
+{
+    "BORKS": {
+        "key": "BorKS",
+        "name": "Bordurkantsten",
+        "groupname": "Line",
+        "sweco": {
+            "name": "BorKS",
+            "expression": "( '[elementtypekey]' = 'BorKS')",
+            "style": {
+                "color": "255 233 127",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SC": {
+        "key": "SC",
+        "name": "Skovlunde center",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "SC",
+            "expression": "('[workareatypekey]' = 'SC')",
+            "style": {
+                "outlinecolor": "246 224 6",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SH": {
+        "key": "SH",
+        "name": "Stophane",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SH",
+            "expression": "( '[elementtypekey]' ='SH')",
+            "style": [
+                {
+                    "symbol": "diamond",
+                    "color": "106 90 205",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RV": {
+        "key": "RV",
+        "name": "R\u00e6kv\u00e6rk",
+        "groupname": "Line",
+        "sweco": {
+            "name": "RV",
+            "expression": "( '[elementtypekey]' = 'RV')",
+            "style": {
+                "color": "182 255 0",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LFUL": {
+        "key": "LFUL",
+        "name": "L\u00f8st faldunderlag",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LFUL",
+            "expression": "('[elementtypekey]' = 'LFUL')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "241 202 167",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FEJV2": {
+        "key": "FEJV2",
+        "name": "Fejning vej, niveau 2",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FEJV2",
+            "expression": "('[workareatypekey]' = 'FEJV2')",
+            "style": {
+                "outlinecolor": "255 0 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "KSS": {
+        "key": "KSS",
+        "name": "Kontrolomr\u00e5der, Skovlunde Station",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KSS",
+            "expression": "('[workareatypekey]' = 'KSS')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "V2SMR": {
+        "key": "V2SMR",
+        "name": "Vej 2 spor m. midterrabat",
+        "groupname": "Line",
+        "sweco": {
+            "name": "V2SMR",
+            "expression": "( '[elementtypekey]' = 'V2SMR')",
+            "style": {
+                "color": "127 201 255",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "HOGP": {
+        "key": "HogP",
+        "name": "H\u00e6kke og Pur",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "HogP",
+            "expression": "('[elementtypekey]' = 'HogP')",
+            "style": {
+                "color": "162 7 14",
+                "width": "4",
+                "opacity": "100"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBR": {
+        "key": "KBR",
+        "name": "Kontrolomr\u00e5der, Ballerup R\u00e5dhus",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBR",
+            "expression": "('[workareatypekey]' = 'KBR')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FAGOBOS": {
+        "key": "FAGoBoS",
+        "name": "Fors\u00f8gsareal - Grubning og br\u00e6nding og s\u00e5ning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FAGoBoS",
+            "expression": "('[elementtypekey]' = 'FAGoBoS')",
+            "style": [
+                {
+                    "color": "88 207 37",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "88 207 37",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PC": {
+        "key": "PC",
+        "name": "Plejecentre",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "PC",
+            "expression": "('[workareatypekey]' = 'PC')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "195 170 35",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "195 170 35",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "INSTPL": {
+        "key": "InStPl",
+        "name": "Intern stiplads",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "InStPl",
+            "expression": "('[elementtypekey]' = 'InStPl')",
+            "style": [
+                {
+                    "color": "204 143 228",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square",
+                    "opacity": "100"
+                },
+                {
+                    "outlinecolor": "204 143 228",
+                    "width": "1",
+                    "opacity": "100"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "IV": {
+        "key": "IV",
+        "name": "Insektvold",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "IV",
+            "expression": "('[elementtypekey]' = 'IV')",
+            "style": [
+                {
+                    "color": "224 131 20",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "224 131 20",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "CYST": {
+        "key": "CySt",
+        "name": "Cykelsti",
+        "groupname": "Line",
+        "sweco": {
+            "name": "CySt",
+            "expression": "( '[elementtypekey]' = 'CySt')",
+            "style": {
+                "color": "0 38 255",
+                "width": "2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SNS": {
+        "key": "SNS",
+        "name": "Sl\u00e5et-naturspor",
+        "groupname": "Line",
+        "sweco": {
+            "name": "SNS",
+            "expression": "( '[elementtypekey]' = 'SNS')",
+            "style": {
+                "color": "199 38 105",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FAFAG": {
+        "key": "FAFaG",
+        "name": "Fors\u00f8gsareal - Fjernelse af gr\u00e6st\u00f8rv",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FAFaG",
+            "expression": "('[elementtypekey]' = 'FAFaG')",
+            "style": [
+                {
+                    "color": "242 250 5",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "242 250 5",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BOGB": {
+        "key": "BogB",
+        "name": "B\u00e6nke og borde",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BogB",
+            "expression": "('[elementtypekey]' = 'BogB')",
+            "style": [
+                {
+                    "color": "88 44 196",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "88 44 196",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RG3": {
+        "key": "RG3",
+        "name": "Rabatgr\u00e6s 3 x \u00e5rligt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RG3",
+            "expression": "('[elementtypekey]' = 'RG3')",
+            "style": [
+                {
+                    "color": "68 25 134",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "68 25 134",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "UB": {
+        "key": "UB",
+        "name": "Udbud 2020",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "UB",
+            "expression": "('[workareatypekey]' = 'UB')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "49 108 251",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "49 108 251",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "IS": {
+        "key": "IS",
+        "name": "Idr\u00e6tsanl\u00e6g - Skoler",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "IS",
+            "expression": "('[workareatypekey]' = 'IS')",
+            "style": {
+                "outlinecolor": "255 106 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BEPL": {
+        "key": "BePl",
+        "name": "Betonplint",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BePl",
+            "expression": "( '[elementtypekey]' ='BePl')",
+            "style": [
+                {
+                    "color": "178 76 244",
+                    "size": "10",
+                    "symbol": "circle"
+                },
+                {
+                    "outlinecolor": "178 76 244",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RGB": {
+        "key": "RGB",
+        "name": "Rabatgr\u00e6s 3 i bagkant fortov/sti",
+        "groupname": "Line",
+        "sweco": {
+            "name": "RGB",
+            "expression": "( '[elementtypekey]' = 'RGB')",
+            "style": {
+                "color": "0 255 33",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBI": {
+        "key": "KBI",
+        "name": "Kontrolomr\u00e5der, Ballerup Idr\u00e6tsby",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBI",
+            "expression": "('[workareatypekey]' = 'KBI')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FEJCS": {
+        "key": "FEJCS",
+        "name": "Fejning cykelstier",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FEJCS",
+            "expression": "('[workareatypekey]' = 'FEJCS')",
+            "style": {
+                "outlinecolor": "255 0 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "NOHD": {
+        "key": "NOHD",
+        "name": "Naturomr\u00e5der - HD",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NOHD",
+            "expression": "('[workareatypekey]' = 'NOHD')",
+            "style": {
+                "outlinecolor": "127 255 142",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "B": {
+        "key": "B",
+        "name": "Blomsterkummer",
+        "groupname": "Point",
+        "sweco": {
+            "name": "B",
+            "expression": "( '[elementtypekey]' ='B')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "250 82 165",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NOGR": {
+        "key": "NOGR",
+        "name": "Naturomr\u00e5der Grantoftegaard",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NOGR",
+            "expression": "('[workareatypekey]' = 'NOGR')",
+            "style": {
+                "outlinecolor": "255 0 110",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "GV": {
+        "key": "GV",
+        "name": "Gr\u00e6ssl\u00e5ning veje",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "GV",
+            "expression": "('[workareatypekey]' = 'GV')",
+            "style": {
+                "outlinecolor": "0 148 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "NO": {
+        "key": "NO",
+        "name": "Naturomr\u00e5der",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NO",
+            "expression": "('[workareatypekey]' = 'NO')",
+            "style": {
+                "outlinecolor": "127 255 142",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "ASFOB": {
+        "key": "ASFOB",
+        "name": "OB asfalt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "ASFOB",
+            "expression": "('[elementtypekey]' = 'ASFOB')",
+            "style": {
+                "outlinecolor": "100 100 100",
+                "color": "100 100 100",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KH": {
+        "key": "KH",
+        "name": "H\u00e6k",
+        "groupname": "Line",
+        "sweco": {
+            "name": "KH",
+            "expression": "( '[elementtypekey]' = 'KH')",
+            "style": {
+                "color": "136 206 136",
+                "width": "5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FO": {
+        "key": "Fo",
+        "name": "Fold",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "Fo",
+            "expression": "('[elementtypekey]' = 'Fo')",
+            "style": {
+                "color": "191 204 163",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FUL": {
+        "key": "FUL",
+        "name": "Faldunderlag",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FUL",
+            "expression": "('[elementtypekey]' = 'FUL')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "200 236 7",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "200 236 7",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BEBS": {
+        "key": "BeBS",
+        "name": "Betonbel\u00e6gningssten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BeBS",
+            "expression": "('[elementtypekey]' = 'BeBS')",
+            "style": [
+                {
+                    "color": "236 210 192",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FGV": {
+        "key": "FGV",
+        "name": "F\u00e6lledgr\u00e6s p\u00e5 vold",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FGV",
+            "expression": "('[elementtypekey]' = 'FGV')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "color": "255 0 0",
+                "width": "0.2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PGA": {
+        "key": "PGA",
+        "name": "Pergola",
+        "groupname": "Point",
+        "sweco": {
+            "name": "PGA",
+            "expression": "( '[elementtypekey]' ='PGA')",
+            "style": [
+                {
+                    "symbol": "tent",
+                    "color": "255 0 0",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "STM": {
+        "key": "StM",
+        "name": "Stenmel",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "StM",
+            "expression": "('[elementtypekey]' = 'StM')",
+            "style": [
+                {
+                    "color": "255 178 127",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 178 127",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "STK": {
+        "key": "StK",
+        "name": "St\u00e5lkant",
+        "groupname": "Line",
+        "sweco": {
+            "name": "StK",
+            "expression": "( '[elementtypekey]' = 'StK')",
+            "style": [
+                {
+                    "color": "173 88 46",
+                    "symbol": "square"
+                },
+                {
+                    "width": "4"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BK": {
+        "key": "BK",
+        "name": "B\u00e6nk",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BK",
+            "expression": "( '[elementtypekey]' ='BK')",
+            "style": {
+                "outlinecolor": "255 216 0",
+                "width": "4",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TRPF": {
+        "key": "TRPF",
+        "name": "Trappe",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "TRPF",
+            "expression": "('[elementtypekey]' = 'TRPF')",
+            "style": [
+                {
+                    "color": "178 0 255",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "178 0 255",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "OI": {
+        "key": "OI",
+        "name": "\u00d8vrige institutioner",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "OI",
+            "expression": "('[workareatypekey]' = 'OI')",
+            "style": {
+                "outlinecolor": "255 216 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FABOS": {
+        "key": "FABoS",
+        "name": "Fors\u00f8gsareal - Br\u00e6nding og s\u00e5ning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FABoS",
+            "expression": "('[elementtypekey]' = 'FABoS')",
+            "style": [
+                {
+                    "color": "178 0 255",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "178 0 255",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "MH": {
+        "key": "MH",
+        "name": "Mindre haveanl\u00e6g",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "MH",
+            "expression": "('[workareatypekey]' = 'MH')",
+            "style": {
+                "outlinecolor": "255 0 220",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "UBF": {
+        "key": "UBF",
+        "name": "Ukrudtsb\u00f8rstning, Fortove",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "UBF",
+            "expression": "('[workareatypekey]' = 'UBF')",
+            "style": {
+                "outlinecolor": "47 41 215",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "M": {
+        "key": "M",
+        "name": "Mur",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "M",
+            "expression": "('[elementtypekey]' = 'M')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SPL": {
+        "key": "SPL",
+        "name": "Spotlys",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SPL",
+            "expression": "( '[elementtypekey]' ='SPL')",
+            "style": [
+                {
+                    "color": "39 169 209",
+                    "size": "10",
+                    "symbol": "circle"
+                },
+                {
+                    "outlinecolor": "39 169 209",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GR": {
+        "key": "GR",
+        "name": "Gr\u00e6s",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GR",
+            "expression": "('[elementtypekey]' = 'GR')",
+            "style": [
+                {
+                    "color": "57 135 19",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "57 135 19",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VT": {
+        "key": "VT",
+        "name": "Vintertjeneste",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VT",
+            "expression": "('[workareatypekey]' = 'VT')",
+            "style": {
+                "outlinecolor": "100 100 100",
+                "width": "0"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TRPB": {
+        "key": "TRPB",
+        "name": "Trappe",
+        "groupname": "Point",
+        "sweco": {
+            "name": "TRPB",
+            "expression": "( '[elementtypekey]' ='TRPB')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 255",
+                "width": "0.5",
+                "size": "20",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "CYKST": {
+        "key": "CykSt",
+        "name": "Cykelstativer",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "CykSt",
+            "expression": "('[elementtypekey]' = 'CykSt')",
+            "style": [
+                {
+                    "color": "94 25 253",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "94 25 253",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VDIH": {
+        "key": "VDIH",
+        "name": "Vinter Daginstitutioner indenfor hegn",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VDIH",
+            "expression": "('[workareatypekey]' = 'VDIH')",
+            "style": {
+                "outlinecolor": "255 0 255",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "V4SMR": {
+        "key": "V4SMR",
+        "name": "Vej 4 spor m. midterrabat",
+        "groupname": "Line",
+        "sweco": {
+            "name": "V4SMR",
+            "expression": "( '[elementtypekey]' = 'V4SMR')",
+            "style": {
+                "color": "255 178 127",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "HA": {
+        "key": "HA",
+        "name": "Helleanl\u00e6g",
+        "groupname": "Line",
+        "sweco": {
+            "name": "HA",
+            "expression": "( '[elementtypekey]' = 'HA')",
+            "style": {
+                "color": "40 230 45",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "DI": {
+        "key": "DI",
+        "name": "Daginstitutioner",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "DI",
+            "expression": "('[workareatypekey]' = 'DI')",
+            "style": {
+                "outlinecolor": "249 156 90",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "KG": {
+        "key": "KG",
+        "name": "Kunstgr\u00e6s",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "KG",
+            "expression": "('[elementtypekey]' = 'KG')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "144 238 144",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TP": {
+        "key": "TP",
+        "name": "Torve og pladser",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "TP",
+            "expression": "('[workareatypekey]' = 'TP')",
+            "style": {
+                "outlinecolor": "0 38 255",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "VR": {
+        "key": "VR",
+        "name": "Vandrende",
+        "groupname": "Line",
+        "sweco": {
+            "name": "VR",
+            "expression": "( '[elementtypekey]' = 'VR')",
+            "style": {
+                "color": "0 148 255",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "CSR": {
+        "key": "CSR",
+        "name": "Chaussestenrevir",
+        "groupname": "Line",
+        "sweco": {
+            "name": "CSR",
+            "expression": "( '[elementtypekey]' = 'CSR')",
+            "style": {
+                "color": "255 106 0",
+                "size": "2",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBBV": {
+        "key": "KBBV",
+        "name": "Kontrolomr\u00e5der, Ballerup Byvej",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBBV",
+            "expression": "('[workareatypekey]' = 'KBBV')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BR": {
+        "key": "BR",
+        "name": "B\u00e5drampe",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BR",
+            "expression": "('[elementtypekey]' = 'BR')",
+            "style": [
+                {
+                    "symbol": "square",
+                    "color": "0 38 255",
+                    "size": "8",
+                    "gap": "12"
+                },
+                {
+                    "outlinecolor": "0 38 255",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VSOIH": {
+        "key": "VSoIH",
+        "name": "Vinter skoler og institutioner, h\u00e5ndarbejde",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VSoIH",
+            "expression": "('[workareatypekey]' = 'VSoIH')",
+            "style": {
+                "outlinecolor": "255 153 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BHP": {
+        "key": "BHP",
+        "name": "Buske",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BHP",
+            "expression": "('[elementtypekey]' = 'BHP')",
+            "style": [
+                {
+                    "color": "130 14 10",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "130 14 10",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TU": {
+        "key": "TU",
+        "name": "Termisk ukrudtsbek\u00e6mpelse",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "TU",
+            "expression": "('[workareatypekey]' = 'TU')",
+            "style": {
+                "outlinecolor": "255 102 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BLS": {
+        "key": "BLS",
+        "name": "Busl\u00e6skur",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BLS",
+            "expression": "( '[elementtypekey]' ='BLS')",
+            "style": {
+                "outlinecolor": "0 148 255",
+                "color": "0 148 255",
+                "width": "2",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BD": {
+        "key": "BD",
+        "name": "Bord",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BD",
+            "expression": "( '[elementtypekey]' ='BD')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "0 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "park_bordbaenk"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SOE": {
+        "key": "SOE",
+        "name": "S\u00f8",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SOE",
+            "expression": "('[elementtypekey]' = 'SOE')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "173 216 230",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SA": {
+        "key": "SA",
+        "name": "Signalanl\u00e6g",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SA",
+            "expression": "( '[elementtypekey]' ='SA')",
+            "style": [
+                {
+                    "symbol": "triangle",
+                    "color": "255 140 0",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KL": {
+        "key": "KL",
+        "name": "K\u00f8rel\u00e5ge",
+        "groupname": "Point",
+        "sweco": {
+            "name": "KL",
+            "expression": "( '[elementtypekey]' ='KL')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "255 192 203",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NOHD1": {
+        "key": "NOHD1",
+        "name": "Naturomr\u00e5de - HD - 1",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NOHD1",
+            "expression": "('[workareatypekey]' = 'NOHD1')",
+            "style": {
+                "outlinecolor": "206 69 21",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "VTG": {
+        "key": "VTG",
+        "name": "V\u00e6rdifuld tr\u00e6gruppe",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "VTG",
+            "expression": "('[elementtypekey]' = 'VTG')",
+            "style": [
+                {
+                    "color": "146 253 246",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "146 253 246",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BB": {
+        "key": "BB",
+        "name": "Boldbaner",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "BB",
+            "expression": "('[workareatypekey]' = 'BB')",
+            "style": {
+                "outlinecolor": "17 17 17",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SP": {
+        "key": "SP",
+        "name": "Sportspl\u00e6ne",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SP",
+            "expression": "('[elementtypekey]' = 'SP')",
+            "style": {
+                "color": "193 221 138",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GFL": {
+        "key": "GFL",
+        "name": "Gummifliser",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GFL",
+            "expression": "('[elementtypekey]' = 'GFL')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SAK": {
+        "key": "SaK",
+        "name": "Sandkasse",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SaK",
+            "expression": "('[elementtypekey]' = 'SaK')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "241 202 167",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SAND": {
+        "key": "SAND",
+        "name": "Sand",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SAND",
+            "expression": "('[elementtypekey]' = 'SAND')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "245 222 179",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "IF": {
+        "key": "IF",
+        "name": "Insitufliser",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "IF",
+            "expression": "('[elementtypekey]' = 'IF')",
+            "style": [
+                {
+                    "color": "220 220 38",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "220 220 38",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "122": {
+        "key": "122",
+        "name": "Terr\u00e6nudstyr",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "122",
+            "expression": "('[elementtypekey]' = '122')",
+            "style": {
+                "color": "0 128 128",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SHB": {
+        "key": "SHB",
+        "name": "Sankt Hans B\u00e5l",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SHB",
+            "expression": "('[elementtypekey]' = 'SHB')",
+            "style": {
+                "color": "255 0 0",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GKS": {
+        "key": "GKS",
+        "name": "Granitkantsten",
+        "groupname": "Line",
+        "sweco": {
+            "name": "GKS",
+            "expression": "( '[elementtypekey]' = 'GKS')",
+            "style": {
+                "color": "0 255 255",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LFU": {
+        "key": "LFU",
+        "name": "L\u00f8st faldunderlag",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "LFU",
+            "expression": "('[workareatypekey]' = 'LFU')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "209 112 177",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "209 112 177",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SKUR": {
+        "key": "Skur",
+        "name": "Skur",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "Skur",
+            "expression": "('[elementtypekey]' = 'Skur')",
+            "style": {
+                "outlinecolor": "152 108 31",
+                "color": "152 108 31",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KS": {
+        "key": "KS",
+        "name": "Kantsten",
+        "groupname": "Line",
+        "sweco": {
+            "name": "KS",
+            "expression": "( '[elementtypekey]' = 'KS')",
+            "style": [
+                {
+                    "color": "0 148 255",
+                    "size": "2",
+                    "symbol": "square"
+                },
+                {
+                    "width": "2"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "P": {
+        "key": "P",
+        "name": "Pullert",
+        "groupname": "Point",
+        "sweco": {
+            "name": "P",
+            "expression": "( '[elementtypekey]' ='P')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "0 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "plus"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "INST": {
+        "key": "InSt",
+        "name": "Intern sti",
+        "groupname": "Line",
+        "sweco": {
+            "name": "InSt",
+            "expression": "( '[elementtypekey]' = 'InSt')",
+            "style": {
+                "color": "204 143 228",
+                "width": "6",
+                "opacity": "100"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LS": {
+        "key": "LS",
+        "name": "L\u00e6skur",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LS",
+            "expression": "('[elementtypekey]' = 'LS')",
+            "style": [
+                {
+                    "color": "87 18 150",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "87 18 150",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "IB": {
+        "key": "IB",
+        "name": "Insitubeton",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "IB",
+            "expression": "('[elementtypekey]' = 'IB')",
+            "style": [
+                {
+                    "color": "255 216 0",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 216 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TRR": {
+        "key": "TrR",
+        "name": "Tr\u00e6hulsrist",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "TrR",
+            "expression": "('[elementtypekey]' = 'TrR')",
+            "style": [
+                {
+                    "color": "251 25 117",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "251 25 117",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "ML": {
+        "key": "ML",
+        "name": "M\u00e5ler",
+        "groupname": "Point",
+        "sweco": {
+            "name": "ML",
+            "expression": "( '[elementtypekey]' ='ML')",
+            "style": [
+                {
+                    "symbol": "dot_2",
+                    "color": "0 0 255",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "077": {
+        "key": "077",
+        "name": "Markvej",
+        "groupname": "Line",
+        "sweco": {
+            "name": "077",
+            "expression": "( '[elementtypekey]' = '077')",
+            "style": {
+                "color": "255 165 0",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GRF": {
+        "key": "GRF",
+        "name": "Granitfliser",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GRF",
+            "expression": "('[elementtypekey]' = 'GRF')",
+            "style": [
+                {
+                    "color": "203 195 195",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "203 195 195",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "EUT": {
+        "key": "EUT",
+        "name": "Eludtag",
+        "groupname": "Point",
+        "sweco": {
+            "name": "EUT",
+            "expression": "( '[elementtypekey]' ='EUT')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 255",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "plus"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FBMV": {
+        "key": "FBMV",
+        "name": "Fritrumsbesk\u00e6ring mod vej m.v.",
+        "groupname": "Line",
+        "sweco": {
+            "name": "FBMV",
+            "expression": "( '[elementtypekey]' = 'FBMV')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "size": "4",
+                    "symbol": "square"
+                },
+                {
+                    "width": "10"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VEJ": {
+        "key": "VEJ",
+        "name": "Veje, stier og fortove",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "VEJ",
+            "expression": "('[elementtypekey]' = 'VEJ')",
+            "style": {
+                "color": "138 94 138",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FM": {
+        "key": "FM",
+        "name": "Fejning Materielg\u00e5rden",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FM",
+            "expression": "('[workareatypekey]' = 'FM')",
+            "style": {
+                "outlinecolor": "145 55 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FAFAGOS": {
+        "key": "FAFaGoS",
+        "name": "Fors\u00f8gsareal - Fjernelse af gr\u00e6st\u00f8rv og s\u00e5ning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FAFaGoS",
+            "expression": "('[elementtypekey]' = 'FAFaGoS')",
+            "style": [
+                {
+                    "color": "0 255 144",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 255 144",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NS": {
+        "key": "NS",
+        "name": "Natursti",
+        "groupname": "Line",
+        "sweco": {
+            "name": "NS",
+            "expression": "( '[elementtypekey]' = 'NS')",
+            "style": {
+                "symbol": "triangle",
+                "color": "255 127 127",
+                "size": "5",
+                "gap": "8"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FS": {
+        "key": "FS",
+        "name": "Fors\u00f8g",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FS",
+            "expression": "('[workareatypekey]' = 'FS')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "228 6 106",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "228 6 106",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TO": {
+        "key": "TO",
+        "name": "Testomr\u00e5de",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "TO",
+            "expression": "('[workareatypekey]' = 'TO')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "54 6 249",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "54 6 249",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "LAK": {
+        "key": "LAK",
+        "name": "Lysmast Anders Klavsen",
+        "groupname": "Point",
+        "sweco": {
+            "name": "LAK",
+            "expression": "( '[elementtypekey]' ='LAK')",
+            "style": {
+                "outlinecolor": "225 125 35",
+                "width": "1",
+                "size": "8",
+                "symbol": "dot_2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BP": {
+        "key": "BP",
+        "name": "Brugspl\u00e6ne",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BP",
+            "expression": "('[elementtypekey]' = 'BP')",
+            "style": {
+                "color": "0 255 33",
+                "outlinecolor": "0 255 33",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SNF": {
+        "key": "SNF",
+        "name": "Sl\u00e5et-naturflade",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SNF",
+            "expression": "('[elementtypekey]' = 'SNF')",
+            "style": [
+                {
+                    "color": "24 138 202",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "24 138 202",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "AV": {
+        "key": "AV",
+        "name": "Autov\u00e6rn",
+        "groupname": "Line",
+        "sweco": {
+            "name": "AV",
+            "expression": "( '[elementtypekey]' = 'AV')",
+            "style": [
+                {
+                    "color": "255 106 0",
+                    "size": "4",
+                    "symbol": "plus"
+                },
+                null
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FOH": {
+        "key": "FoH",
+        "name": "Foldhegn",
+        "groupname": "Line",
+        "sweco": {
+            "name": "FoH",
+            "expression": "( '[elementtypekey]' = 'FoH')",
+            "style": {
+                "symbol": "dashed2",
+                "color": "0 0 0",
+                "size": "1",
+                "gap": "2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BISTR": {
+        "key": "BiStr",
+        "name": "Bistribe",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BiStr",
+            "expression": "('[elementtypekey]' = 'BiStr')",
+            "style": [
+                {
+                    "color": "255 216 0",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square",
+                    "opacity": "100"
+                },
+                {
+                    "outlinecolor": "255 216 0",
+                    "width": "1",
+                    "opacity": "100"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "CYSR": {
+        "key": "CYSR",
+        "name": "Cykelstativ",
+        "groupname": "Line",
+        "sweco": {
+            "name": "CYSR",
+            "expression": "( '[elementtypekey]' = 'CYSR')",
+            "style": {
+                "color": "255 216 0",
+                "size": "10",
+                "symbol": "9_14_cykelstativ"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SFS": {
+        "key": "SFS",
+        "name": "SF-sten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SFS",
+            "expression": "('[elementtypekey]' = 'SFS')",
+            "style": [
+                {
+                    "color": "228 141 83",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "228 141 83",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RGT": {
+        "key": "RGT",
+        "name": "Rabatgr\u00e6s til tilstandskrav",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RGT",
+            "expression": "('[elementtypekey]' = 'RGT')",
+            "style": {
+                "outlinecolor": "118 133 186",
+                "color": "118 133 186",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "ASF": {
+        "key": "ASF",
+        "name": "Asfalt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "ASF",
+            "expression": "('[elementtypekey]' = 'ASF')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "211 189 207",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FAIG": {
+        "key": "FAiG",
+        "name": "Fors\u00f8gsarealer i gr\u00e6srabatter",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FAiG",
+            "expression": "('[elementtypekey]' = 'FAiG')",
+            "style": {
+                "outlinecolor": "46 247 193",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RB": {
+        "key": "RB",
+        "name": "Regnvandsbr\u00f8nd",
+        "groupname": "Point",
+        "sweco": {
+            "name": "RB",
+            "expression": "( '[elementtypekey]' ='RB')",
+            "style": [
+                {
+                    "color": "70 130 180",
+                    "size": "7",
+                    "symbol": "dot_1"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VS": {
+        "key": "VS",
+        "name": "Vejskilt",
+        "groupname": "Point",
+        "sweco": {
+            "name": "VS",
+            "expression": "( '[elementtypekey]' ='VS')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "dot_2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GABE": {
+        "key": "GaBe",
+        "name": "Gadebelysning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GaBe",
+            "expression": "('[elementtypekey]' = 'GaBe')",
+            "style": [
+                {
+                    "color": "109 161 15",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "109 161 15",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "MK": {
+        "key": "MK",
+        "name": "Mark",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "MK",
+            "expression": "('[elementtypekey]' = 'MK')",
+            "style": {
+                "color": "223 195 125",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RSKR": {
+        "key": "RSKR",
+        "name": "Rabatgr\u00e6s skr\u00e5ning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RSKR",
+            "expression": "('[elementtypekey]' = 'RSKR')",
+            "style": [
+                {
+                    "color": "63 246 60",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "63 246 60",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KPL": {
+        "key": "KPL",
+        "name": "Klapl\u00e5ge",
+        "groupname": "Point",
+        "sweco": {
+            "name": "KPL",
+            "expression": "( '[elementtypekey]' ='KPL')",
+            "style": [
+                {
+                    "symbol": "triangle",
+                    "color": "255 192 203",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SD": {
+        "key": "SD",
+        "name": "Stendige",
+        "groupname": "Line",
+        "sweco": {
+            "name": "SD",
+            "expression": "( '[elementtypekey]' = 'SD')",
+            "style": {
+                "color": "235 235 58",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VBF": {
+        "key": "VBF",
+        "name": "Vejbr\u00f8nd f\u00e6lleskloak",
+        "groupname": "Point",
+        "sweco": {
+            "name": "VBF",
+            "expression": "( '[elementtypekey]' ='VBF')",
+            "style": [
+                {
+                    "color": "255 0 255",
+                    "size": "7",
+                    "symbol": "diamond"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SF": {
+        "key": "SF",
+        "name": "Sandfang",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SF",
+            "expression": "( '[elementtypekey]' ='SF')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 178 127",
+                "width": "1",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "ROB": {
+        "key": "RoB",
+        "name": "Rodvenligt b\u00e6relag",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RoB",
+            "expression": "('[elementtypekey]' = 'RoB')",
+            "style": [
+                {
+                    "color": "164 104 121",
+                    "size": "8",
+                    "gap": "12",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "164 104 121",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "STSK": {
+        "key": "StSk",
+        "name": "St\u00f8jsk\u00e6rm",
+        "groupname": "Line",
+        "sweco": {
+            "name": "StSk",
+            "expression": "( '[elementtypekey]' = 'StSk')",
+            "style": {
+                "color": "255 216 0",
+                "width": "3"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FABE": {
+        "key": "FaBe",
+        "name": "Fast bel\u00e6gning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FaBe",
+            "expression": "('[elementtypekey]' = 'FaBe')",
+            "style": [
+                {
+                    "color": "27 35 8",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "27 35 8",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KLI": {
+        "key": "Kli",
+        "name": "Klinker",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "Kli",
+            "expression": "('[elementtypekey]' = 'Kli')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "size": "8",
+                    "gap": "12",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 0 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BLP": {
+        "key": "BLP",
+        "name": "B\u00e5lplads",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BLP",
+            "expression": "( '[elementtypekey]' ='BLP')",
+            "style": [
+                {
+                    "symbol": "tent",
+                    "color": "255 69 0",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "123": {
+        "key": "123",
+        "name": "Terr\u00e6nudstyr_l",
+        "groupname": "Line",
+        "sweco": {
+            "name": "123",
+            "expression": "( '[elementtypekey]' = '123')",
+            "style": {
+                "color": "0 128 128",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BUS": {
+        "key": "BUS",
+        "name": "Busstander",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BUS",
+            "expression": "( '[elementtypekey]' ='BUS')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 255 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RG5": {
+        "key": "RG5",
+        "name": "Rabatgr\u00e6s 5 x \u00e5rligt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RG5",
+            "expression": "('[elementtypekey]' = 'RG5')",
+            "style": [
+                {
+                    "color": "0 255 144",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 255 144",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBN": {
+        "key": "KBN",
+        "name": "Kontrolomr\u00e5der, Ballerup Nord",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBN",
+            "expression": "('[workareatypekey]' = 'KBN')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "121": {
+        "key": "121",
+        "name": "Terr\u00e6nbygv\u00e6rker",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "121",
+            "expression": "('[elementtypekey]' = '121')",
+            "style": {
+                "color": "0 128 128",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RVMS": {
+        "key": "RVMS",
+        "name": "Renhold veje m. spor",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "RVMS",
+            "expression": "('[workareatypekey]' = 'RVMS')",
+            "style": {
+                "outlinecolor": "83 253 105",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "KEB": {
+        "key": "KEB",
+        "name": "Kontrolomr\u00e5der, Egebjerg",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KEB",
+            "expression": "('[workareatypekey]' = 'KEB')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BYGN": {
+        "key": "BYGN",
+        "name": "Bygning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BYGN",
+            "expression": "('[elementtypekey]' = 'BYGN')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "112 128 144",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PB": {
+        "key": "PB",
+        "name": "Pullertbelysning",
+        "groupname": "Point",
+        "sweco": {
+            "name": "PB",
+            "expression": "( '[elementtypekey]' ='PB')",
+            "style": [
+                {
+                    "color": "230 245 7",
+                    "size": "10",
+                    "symbol": "circle"
+                },
+                {
+                    "outlinecolor": "230 245 7",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TUVS": {
+        "key": "TUVS",
+        "name": "Termisk ukrudtsbek\u00e6mpelse Veje og stier",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "TUVS",
+            "expression": "('[workareatypekey]' = 'TUVS')",
+            "style": {
+                "outlinecolor": "181 224 83",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "LR": {
+        "key": "LR",
+        "name": "Legeredskaber",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "LR",
+            "expression": "('[workareatypekey]' = 'LR')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SOGKP": {
+        "key": "SogKP",
+        "name": "Slyng- og klatreplanter",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SogKP",
+            "expression": "('[elementtypekey]' = 'SogKP')",
+            "style": [
+                {
+                    "color": "167 131 32",
+                    "size": "10",
+                    "gap": "5",
+                    "symbol": "circle",
+                    "opacity": "100"
+                },
+                {
+                    "outlinecolor": "167 131 32",
+                    "width": "1",
+                    "opacity": "100"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PA": {
+        "key": "PA",
+        "name": "Pulsator",
+        "groupname": "Point",
+        "sweco": {
+            "name": "PA",
+            "expression": "( '[elementtypekey]' ='PA')",
+            "style": [
+                {
+                    "symbol": "plus",
+                    "color": "255 0 0",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FDF": {
+        "key": "FDF",
+        "name": "Fortov",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FDF",
+            "expression": "('[elementtypekey]' = 'FDF')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PS": {
+        "key": "PS",
+        "name": "Perlesten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "PS",
+            "expression": "('[elementtypekey]' = 'PS')",
+            "style": [
+                {
+                    "color": "114 181 38",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "114 181 38",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "UHV": {
+        "key": "UHV",
+        "name": "Ukrudtsbek\u00e6mpelse - Hedt vand",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "UHV",
+            "expression": "('[workareatypekey]' = 'UHV')",
+            "style": {
+                "outlinecolor": "210 2 204",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TR": {
+        "key": "TR",
+        "name": "Tr\u00e6",
+        "groupname": "Point",
+        "sweco": {
+            "name": "TR",
+            "expression": "( '[elementtypekey]' ='TR')",
+            "style": {
+                "outlinecolor": "0 255 33",
+                "color": "0 255 33",
+                "width": "1",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "OS": {
+        "key": "OS",
+        "name": "oplysningsskilt",
+        "groupname": "Point",
+        "sweco": {
+            "name": "OS",
+            "expression": "( '[elementtypekey]' ='OS')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "255 255 255",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TRTE": {
+        "key": "TrTe",
+        "name": "Tr\u00e6terrasse",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "TrTe",
+            "expression": "('[elementtypekey]' = 'TrTe')",
+            "style": [
+                {
+                    "color": "202 170 138",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VNS": {
+        "key": "VNS",
+        "name": "Vejnavneskilt",
+        "groupname": "Point",
+        "sweco": {
+            "name": "VNS",
+            "expression": "( '[elementtypekey]' ='VNS')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "triangle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NGR": {
+        "key": "NGR",
+        "name": "Naturomr\u00e5der - Grantofteg\u00e5rd",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NGR",
+            "expression": "('[workareatypekey]' = 'NGR')",
+            "style": {
+                "outlinecolor": "178 0 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "CYSE": {
+        "key": "CYSE",
+        "name": "Cykelstativ ",
+        "groupname": "Point",
+        "sweco": {
+            "name": "CYSE",
+            "expression": "( '[elementtypekey]' ='CYSE')",
+            "style": {
+                "outlinecolor": "255 106 0",
+                "color": "255 106 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LB": {
+        "key": "LB",
+        "name": "L\u00e5seb\u00e5nd",
+        "groupname": "Line",
+        "sweco": {
+            "name": "LB",
+            "expression": "( '[elementtypekey]' = 'LB')",
+            "style": [
+                {
+                    "color": "239 93 140",
+                    "symbol": "square"
+                },
+                {
+                    "width": "4"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VVH": {
+        "key": "VVH",
+        "name": "Vinter vejomr\u00e5det, h\u00e5ndarbejde",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VVH",
+            "expression": "('[workareatypekey]' = 'VVH')",
+            "style": [
+                {
+                    "color": "171 65 43",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "171 65 43",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BGV": {
+        "key": "BGV",
+        "name": "Bygv\u00e6rker",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BGV",
+            "expression": "('[elementtypekey]' = 'BGV')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "232 62 104",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "232 62 104",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NH": {
+        "key": "NH",
+        "name": "Naturhj\u00e6lperne",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NH",
+            "expression": "('[workareatypekey]' = 'NH')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TS": {
+        "key": "TS",
+        "name": "Trampesti",
+        "groupname": "Line",
+        "sweco": {
+            "name": "TS",
+            "expression": "( '[elementtypekey]' = 'TS')",
+            "style": {
+                "color": "255 0 110"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NAC": {
+        "key": "NAC",
+        "name": "Nedgravet affaldscontainer",
+        "groupname": "Point",
+        "sweco": {
+            "name": "NAC",
+            "expression": "( '[elementtypekey]' ='NAC')",
+            "style": {
+                "outlinecolor": "58 95 141",
+                "color": "58 95 141",
+                "width": "1",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "V4S": {
+        "key": "V4S",
+        "name": "Vej 4 spor",
+        "groupname": "Line",
+        "sweco": {
+            "name": "V4S",
+            "expression": "( '[elementtypekey]' = 'V4S')",
+            "style": {
+                "color": "255 106 0",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PCX": {
+        "key": "PCX",
+        "name": "Plejecentre X",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "PCX",
+            "expression": "('[workareatypekey]' = 'PCX')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "178 143 21",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "178 143 21",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "HE": {
+        "key": "He",
+        "name": "Hegn",
+        "groupname": "Line",
+        "sweco": {
+            "name": "He",
+            "expression": "( '[elementtypekey]' = 'He')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "size": "3",
+                    "symbol": "dashed3"
+                },
+                null
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KLP": {
+        "key": "KLP",
+        "name": "Pur",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "KLP",
+            "expression": "('[elementtypekey]' = 'KLP')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "131 207 131",
+                "width": "0.2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SM": {
+        "key": "SM",
+        "name": "Sportsm\u00e5l",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SM",
+            "expression": "( '[elementtypekey]' ='SM')",
+            "style": {
+                "symbol": "9_10_maal",
+                "color": "0 0 0",
+                "size": "7",
+                "gap": "11"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LRF": {
+        "key": "LRF",
+        "name": "Legeredskab",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LRF",
+            "expression": "('[elementtypekey]' = 'LRF')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FDL": {
+        "key": "FDL",
+        "name": "Fortov",
+        "groupname": "Line",
+        "sweco": {
+            "name": "FDL",
+            "expression": "( '[elementtypekey]' = 'FDL')",
+            "style": {
+                "outlinecolor": "100 100 100",
+                "color": "255 0 0",
+                "width": "3"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "OLB": {
+        "key": "OLB",
+        "name": "\u00d8landsbrud",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "OLB",
+            "expression": "('[elementtypekey]' = 'OLB')",
+            "style": [
+                {
+                    "color": "63 136 147",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "63 136 147",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SUMO": {
+        "key": "SUMO",
+        "name": "Summering, overordnet",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "SUMO",
+            "expression": "('[workareatypekey]' = 'SUMO')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "168 196 92"
+                },
+                {
+                    "outlinecolor": "168 196 92",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "137": {
+        "key": "137",
+        "name": "Vandl\u00f8b",
+        "groupname": "Line",
+        "sweco": {
+            "name": "137",
+            "expression": "( '[elementtypekey]' = '137')",
+            "style": {
+                "color": "173 216 230",
+                "width": "2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KM": {
+        "key": "KM",
+        "name": "Kontrolomr\u00e5der, M\u00e5l\u00f8v",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KM",
+            "expression": "('[workareatypekey]' = 'KM')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FG2": {
+        "key": "FG2",
+        "name": "F\u00e6lledgr\u00e6s, niveau 2",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FG2",
+            "expression": "('[elementtypekey]' = 'FG2')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 216 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FR": {
+        "key": "FR",
+        "name": "Fejeruter",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FR",
+            "expression": "('[workareatypekey]' = 'FR')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "195 77 51",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "195 77 51",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SUM1": {
+        "key": "SUM1",
+        "name": "Summering (niv. 1)",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "SUM1",
+            "expression": "('[workareatypekey]' = 'SUM1')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "233 176 164",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "233 176 164",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SOBO": {
+        "key": "SOBO",
+        "name": "SOBO3+ m\u00e5lepunkt",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SOBO",
+            "expression": "( '[elementtypekey]' ='SOBO')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "0 255 33",
+                    "size": "10",
+                    "gap": "15"
+                },
+                {
+                    "outlinecolor": "0 255 33",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FST": {
+        "key": "FST",
+        "name": "Flagstang",
+        "groupname": "Point",
+        "sweco": {
+            "name": "FST",
+            "expression": "( '[elementtypekey]' ='FST')",
+            "style": [
+                {
+                    "color": "255 0 0",
+                    "size": "7",
+                    "symbol": "park_flag"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SHE": {
+        "key": "She",
+        "name": "Shelter",
+        "groupname": "Point",
+        "sweco": {
+            "name": "She",
+            "expression": "( '[elementtypekey]' ='She')",
+            "style": [
+                {
+                    "symbol": "tent",
+                    "color": "149 119 86",
+                    "size": "10",
+                    "gap": "15"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RPF": {
+        "key": "RPF",
+        "name": "Rampe",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RPF",
+            "expression": "('[elementtypekey]' = 'RPF')",
+            "style": [
+                {
+                    "color": "0 255 144",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 255 144",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TST": {
+        "key": "TST",
+        "name": "Tr\u00e6sti",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "TST",
+            "expression": "('[elementtypekey]' = 'TST')",
+            "style": [
+                {
+                    "color": "255 127 127",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 127 127"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SK": {
+        "key": "SK",
+        "name": "Skov",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SK",
+            "expression": "('[elementtypekey]' = 'SK')",
+            "style": {
+                "color": "92 135 92",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KP": {
+        "key": "KP",
+        "name": "Klatrende planter",
+        "groupname": "Point",
+        "sweco": {
+            "name": "KP",
+            "expression": "( '[elementtypekey]' ='KP')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "star"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FEJV1": {
+        "key": "FEJV1",
+        "name": "Fejning vej, niveau 1",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FEJV1",
+            "expression": "('[workareatypekey]' = 'FEJV1')",
+            "style": {
+                "outlinecolor": "255 0 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FTAV": {
+        "key": "FTAV",
+        "name": "F\u00e6rdselstavle",
+        "groupname": "Point",
+        "sweco": {
+            "name": "FTAV",
+            "expression": "( '[elementtypekey]' ='FTAV')",
+            "style": [
+                {
+                    "symbol": "square",
+                    "color": "255 0 0",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "098": {
+        "key": "098",
+        "name": "R\u00f8rsump",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "098",
+            "expression": "('[elementtypekey]' = '098')",
+            "style": {
+                "color": "184 134 11",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RBE": {
+        "key": "RBe",
+        "name": "Rosenbede",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RBe",
+            "expression": "('[elementtypekey]' = 'RBe')",
+            "style": {
+                "color": "255 105 180",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "AEST": {
+        "key": "AEST",
+        "name": "\u00c6rtesten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "AEST",
+            "expression": "('[elementtypekey]' = 'AEST')",
+            "style": [
+                {
+                    "color": "193 161 41",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "193 161 41",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FAGOS": {
+        "key": "FAGoS",
+        "name": "Fors\u00f8gsareal - Grubning og s\u00e5ning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FAGoS",
+            "expression": "('[elementtypekey]' = 'FAGoS')",
+            "style": [
+                {
+                    "color": "254 189 15",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "254 189 15",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FVH": {
+        "key": "FVH",
+        "name": "Fritvoksende h\u00e6k",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FVH",
+            "expression": "('[elementtypekey]' = 'FVH')",
+            "style": [
+                {
+                    "color": "18 22 83",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering",
+                    "opacity": "100"
+                },
+                {
+                    "outlinecolor": "18 22 83",
+                    "width": "1",
+                    "opacity": "100"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TRM": {
+        "key": "TRM",
+        "name": "Terr\u00e6nmur",
+        "groupname": "Line",
+        "sweco": {
+            "name": "TRM",
+            "expression": "( '[elementtypekey]' = 'TRM')",
+            "style": {
+                "color": "190 128 43",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBS": {
+        "key": "KBS",
+        "name": "Kontrolomr\u00e5der, Ballerup Syd",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBS",
+            "expression": "('[workareatypekey]' = 'KBS')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "AP": {
+        "key": "AP",
+        "name": "Anden plads",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "AP",
+            "expression": "('[elementtypekey]' = 'AP')",
+            "style": [
+                {
+                    "color": "255 106 0",
+                    "size": "5",
+                    "gap": "0",
+                    "symbol": "lodret_skravering"
+                },
+                {
+                    "outlinecolor": "255 106 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RG": {
+        "key": "RG",
+        "name": "Rabatgr\u00e6s",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RG",
+            "expression": "('[elementtypekey]' = 'RG')",
+            "style": {
+                "color": "178 201 129",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TO2": {
+        "key": "TO2",
+        "name": "Testomr\u00e5de2",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "TO2",
+            "expression": "('[workareatypekey]' = 'TO2')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "101 186 140",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "101 186 140",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BS": {
+        "key": "BS",
+        "name": "Brosten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BS",
+            "expression": "('[elementtypekey]' = 'BS')",
+            "style": [
+                {
+                    "color": "255 106 0",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "S": {
+        "key": "S",
+        "name": "Sten",
+        "groupname": "Point",
+        "sweco": {
+            "name": "S",
+            "expression": "( '[elementtypekey]' ='S')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "204 153 255",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FH": {
+        "key": "FH",
+        "name": "Fodhegn",
+        "groupname": "Line",
+        "sweco": {
+            "name": "FH",
+            "expression": "( '[elementtypekey]' = 'FH')",
+            "style": {
+                "color": "30 144 255",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SFB": {
+        "key": "SFB",
+        "name": "Semifleksibel bel\u00e6gning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "SFB",
+            "expression": "('[elementtypekey]' = 'SFB')",
+            "style": [
+                {
+                    "color": "134 63 232",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "134 63 232",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VEUH": {
+        "key": "VEUH",
+        "name": "Vinter ejendomme udenfor hegn",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VEUH",
+            "expression": "('[workareatypekey]' = 'VEUH')",
+            "style": {
+                "outlinecolor": "255 153 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "054": {
+        "key": "054",
+        "name": "Gr\u00f8ft",
+        "groupname": "Line",
+        "sweco": {
+            "name": "054",
+            "expression": "( '[elementtypekey]' = '054')",
+            "style": [
+                {
+                    "color": "135 206 235",
+                    "symbol": "square"
+                },
+                {
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "MU": {
+        "key": "MU",
+        "name": "Motionsudstyr",
+        "groupname": "Point",
+        "sweco": {
+            "name": "MU",
+            "expression": "( '[elementtypekey]' ='MU')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 106 0",
+                "width": "1",
+                "size": "10",
+                "symbol": "star"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RG1": {
+        "key": "RG1",
+        "name": "Rabatgr\u00e6s 1 x \u00e5rligt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RG1",
+            "expression": "('[elementtypekey]' = 'RG1')",
+            "style": [
+                {
+                    "color": "245 11 54",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "245 11 54",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KMS": {
+        "key": "KMS",
+        "name": "Kontrolomr\u00e5der, Malmparken Station",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KMS",
+            "expression": "('[workareatypekey]' = 'KMS')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FSA": {
+        "key": "FSA",
+        "name": "Oprindelige fors\u00f8gsarealer",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FSA",
+            "expression": "('[elementtypekey]' = 'FSA')",
+            "style": [
+                {
+                    "color": "193 254 189",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "193 254 189",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "UDS": {
+        "key": "UDS",
+        "name": "Udstyr",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "UDS",
+            "expression": "('[elementtypekey]' = 'UDS')",
+            "style": [
+                {
+                    "color": "113 148 242",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "113 148 242",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BDL": {
+        "key": "BDL",
+        "name": "Br\u00f8ndd\u00e6ksel",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BDL",
+            "expression": "( '[elementtypekey]' ='BDL')",
+            "style": {
+                "outlinecolor": "247 79 86",
+                "width": "1",
+                "size": "10",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "119": {
+        "key": "119",
+        "name": "Sveller",
+        "groupname": "Line",
+        "sweco": {
+            "name": "119",
+            "expression": "( '[elementtypekey]' = '119')",
+            "style": {
+                "color": "160 82 45",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GASF": {
+        "key": "GASF",
+        "name": "Gummiasfalt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GASF",
+            "expression": "('[elementtypekey]' = 'GASF')",
+            "style": {
+                "color": "125 37 54",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SV": {
+        "key": "SV",
+        "name": "Springvand",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SV",
+            "expression": "( '[elementtypekey]' ='SV')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "0 0 255",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "ST": {
+        "key": "St",
+        "name": "Stauder",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "St",
+            "expression": "('[elementtypekey]' = 'St')",
+            "style": {
+                "color": "250 234 255",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BUD": {
+        "key": "BUD",
+        "name": "Bundd\u00e6kke",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BUD",
+            "expression": "('[elementtypekey]' = 'BUD')",
+            "style": {
+                "color": "85 107 47",
+                "outlinecolor": "0 0 0",
+                "width": "0.2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "K": {
+        "key": "K",
+        "name": "Kunstv\u00e6rk",
+        "groupname": "Point",
+        "sweco": {
+            "name": "K",
+            "expression": "( '[elementtypekey]' ='K')",
+            "style": {
+                "outlinecolor": "0 38 255",
+                "width": "2",
+                "size": "30",
+                "symbol": "skulptur"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BT": {
+        "key": "Bt",
+        "name": "Beton",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "Bt",
+            "expression": "('[elementtypekey]' = 'Bt')",
+            "style": [
+                {
+                    "color": "225 156 249",
+                    "size": "8",
+                    "gap": "12",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "225 156 249",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "INVE": {
+        "key": "InVe",
+        "name": "Interne veje",
+        "groupname": "Line",
+        "sweco": {
+            "name": "InVe",
+            "expression": "( '[elementtypekey]' = 'InVe')",
+            "style": {
+                "color": "72 0 255",
+                "width": "3"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "DK": {
+        "key": "DK",
+        "name": "Drikkekar",
+        "groupname": "Point",
+        "sweco": {
+            "name": "DK",
+            "expression": "( '[elementtypekey]' ='DK')",
+            "style": [
+                {
+                    "symbol": "diamond",
+                    "color": "173 216 230",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SVB": {
+        "key": "SVB",
+        "name": "Spildevandsbr\u00f8nd",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SVB",
+            "expression": "( '[elementtypekey]' ='SVB')",
+            "style": [
+                {
+                    "color": "184 134 11",
+                    "size": "7",
+                    "symbol": "dot_1"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LT": {
+        "key": "LT",
+        "name": "leget\u00e5rn",
+        "groupname": "Point",
+        "sweco": {
+            "name": "LT",
+            "expression": "( '[elementtypekey]' ='LT')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "dot_3"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TRPL": {
+        "key": "TRPL",
+        "name": "Trappe",
+        "groupname": "Line",
+        "sweco": {
+            "name": "TRPL",
+            "expression": "( '[elementtypekey]' = 'TRPL')",
+            "style": {
+                "color": "178 0 255",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BEFL": {
+        "key": "BeFl",
+        "name": "Betonfliser",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BeFl",
+            "expression": "('[elementtypekey]' = 'BeFl')",
+            "style": [
+                {
+                    "color": "160 160 160",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "160 160 160",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SS": {
+        "key": "SS",
+        "name": "Sl\u00e5et spor",
+        "groupname": "Line",
+        "sweco": {
+            "name": "SS",
+            "expression": "( '[elementtypekey]' = 'SS')",
+            "style": [
+                {
+                    "color": "0 255 33",
+                    "size": "2",
+                    "symbol": "square"
+                },
+                null
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FEJF": {
+        "key": "FEJF",
+        "name": "Fejning fortove",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "FEJF",
+            "expression": "('[workareatypekey]' = 'FEJF')",
+            "style": {
+                "outlinecolor": "255 0 255",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "EVR": {
+        "key": "EVR",
+        "name": "Vejrabatter",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "EVR",
+            "expression": "('[workareatypekey]' = 'EVR')",
+            "style": {
+                "outlinecolor": "181 224 83",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TRAER": {
+        "key": "Traer",
+        "name": "Tr\u00e6er",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "Traer",
+            "expression": "('[elementtypekey]' = 'Traer')",
+            "style": [
+                {
+                    "color": "180 134 78",
+                    "size": "10",
+                    "symbol": "circle"
+                },
+                {
+                    "outlinecolor": "180 134 78",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SMHD": {
+        "key": "SMHD",
+        "name": "Samlede m\u00e6ngder for HedeDanmark",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "SMHD",
+            "expression": "('[workareatypekey]' = 'SMHD')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "149 65 1",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "255 106 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "KBC": {
+        "key": "KBC",
+        "name": "Kontrolomr\u00e5der, Ballerup Centrum",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBC",
+            "expression": "('[workareatypekey]' = 'KBC')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FUT": {
+        "key": "FuT",
+        "name": "Fuglet\u00e5rn",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FuT",
+            "expression": "('[elementtypekey]' = 'FuT')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "84 111 216",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "84 111 216",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RG2": {
+        "key": "RG2",
+        "name": "Rabatgr\u00e6s 2 x \u00e5rligt",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "RG2",
+            "expression": "('[elementtypekey]' = 'RG2')",
+            "style": {
+                "outlinecolor": "134 242 221",
+                "color": "134 242 221",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "HB": {
+        "key": "HB",
+        "name": "H\u00f8jbed",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "HB",
+            "expression": "('[elementtypekey]' = 'HB')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "26 63 91",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "26 63 91",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LHK": {
+        "key": "LHK",
+        "name": "Levende hegn og krat",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LHK",
+            "expression": "('[elementtypekey]' = 'LHK')",
+            "style": [
+                {
+                    "color": "25 175 44",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "25 175 44",
+                    "width": "0.2"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GGRG": {
+        "key": "GGRG",
+        "name": "Rabatgr\u00e6s",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GGRG",
+            "expression": "('[elementtypekey]' = 'GGRG')",
+            "style": [
+                {
+                    "color": "178 201 129",
+                    "size": "4",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BI": {
+        "key": "BI",
+        "name": "Ballerup idr\u00e6tsby",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "BI",
+            "expression": "('[workareatypekey]' = 'BI')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "FG": {
+        "key": "FG",
+        "name": "F\u00e6lledgr\u00e6s",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FG",
+            "expression": "('[elementtypekey]' = 'FG')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "143 136 246",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "143 136 246",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BBS": {
+        "key": "BBS",
+        "name": "Borde-b\u00e6nkes\u00e6t",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BBS",
+            "expression": "( '[elementtypekey]' ='BBS')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SUM": {
+        "key": "SUM",
+        "name": "Summering",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "SUM",
+            "expression": "('[workareatypekey]' = 'SUM')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "194 121 132",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "194 121 132",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "089": {
+        "key": "089",
+        "name": "Plankev\u00e6rk",
+        "groupname": "Line",
+        "sweco": {
+            "name": "089",
+            "expression": "( '[elementtypekey]' = '089')",
+            "style": {
+                "color": "160 82 45",
+                "width": "3"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FG1": {
+        "key": "FG1",
+        "name": "F\u00e6lledgr\u00e6s, niveau 1",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FG1",
+            "expression": "('[elementtypekey]' = 'FG1')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "255 106 0",
+                "width": "0.2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LMU": {
+        "key": "LMU",
+        "name": "Lege- og motionsudstyr",
+        "groupname": "Point",
+        "sweco": {
+            "name": "LMU",
+            "expression": "( '[elementtypekey]' ='LMU')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "147 112 219",
+                "width": "0.5",
+                "size": "7",
+                "symbol": "star"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "AFVA": {
+        "key": "AfVa",
+        "name": "Afvanding",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "AfVa",
+            "expression": "('[elementtypekey]' = 'AfVa')",
+            "style": [
+                {
+                    "color": "199 218 158",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "199 218 158",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "AG": {
+        "key": "AG",
+        "name": "Armeret grus",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "AG",
+            "expression": "('[elementtypekey]' = 'AG')",
+            "style": [
+                {
+                    "color": "115 209 153",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "115 209 153",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KMB": {
+        "key": "KMB",
+        "name": "Kontrolomr\u00e5der, M\u00e5l\u00f8v Byvej",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KMB",
+            "expression": "('[workareatypekey]' = 'KMB')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "TH": {
+        "key": "TH",
+        "name": "Tr\u00e5dhegn",
+        "groupname": "Line",
+        "sweco": {
+            "name": "TH",
+            "expression": "( '[elementtypekey]' = 'TH')",
+            "style": {
+                "symbol": "cross",
+                "color": "255 0 220",
+                "size": "4",
+                "gap": "6"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GRA": {
+        "key": "GRA",
+        "name": "Gr\u00e6sarmering",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GRA",
+            "expression": "('[elementtypekey]' = 'GRA')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "133 139 120",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BU": {
+        "key": "BU",
+        "name": "Busket",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BU",
+            "expression": "('[elementtypekey]' = 'BU')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "87 205 87",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NR": {
+        "key": "NR",
+        "name": "Nedl\u00f8bsrist",
+        "groupname": "Point",
+        "sweco": {
+            "name": "NR",
+            "expression": "( '[elementtypekey]' ='NR')",
+            "style": [
+                {
+                    "color": "255 0 255",
+                    "size": "7",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "L": {
+        "key": "L",
+        "name": "Lysmast",
+        "groupname": "Point",
+        "sweco": {
+            "name": "L",
+            "expression": "( '[elementtypekey]' ='L')",
+            "style": {
+                "outlinecolor": "255 216 0",
+                "width": "2",
+                "size": "4",
+                "symbol": "trekant"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LBE": {
+        "key": "LBe",
+        "name": "L\u00f8s bel\u00e6gning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LBe",
+            "expression": "('[elementtypekey]' = 'LBe')",
+            "style": [
+                {
+                    "color": "247 117 185",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "247 117 185",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "TB": {
+        "key": "TB",
+        "name": "Tr\u00e6bel\u00e6gning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "TB",
+            "expression": "('[elementtypekey]' = 'TB')",
+            "style": [
+                {
+                    "color": "116 208 88",
+                    "size": "8",
+                    "gap": "0",
+                    "symbol": "skravering"
+                },
+                {
+                    "outlinecolor": "116 208 88",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KSB": {
+        "key": "KSB",
+        "name": "Kontrolomr\u00e5der, Skovlunde Byvej",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KSB",
+            "expression": "('[workareatypekey]' = 'KSB')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "UFK": {
+        "key": "UFK",
+        "name": "Udenfor kontrakt",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "UFK",
+            "expression": "('[workareatypekey]' = 'UFK')",
+            "style": {
+                "outlinecolor": "127 201 255",
+                "width": "4"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "RW": {
+        "key": "RW",
+        "name": "Rotter",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "RW",
+            "expression": "('[workareatypekey]' = 'RW')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "228 107 239",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "228 107 239",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "PK": {
+        "key": "PK",
+        "name": "Parker",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "PK",
+            "expression": "('[workareatypekey]' = 'PK')",
+            "style": {
+                "outlinecolor": "0 255 33",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "SR": {
+        "key": "SR",
+        "name": "Sokkelrende",
+        "groupname": "Line",
+        "sweco": {
+            "name": "SR",
+            "expression": "( '[elementtypekey]' = 'SR')",
+            "style": {
+                "color": "217 235 138",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LL": {
+        "key": "LL",
+        "name": "Ledelinje",
+        "groupname": "Line",
+        "sweco": {
+            "name": "LL",
+            "expression": "( '[elementtypekey]' = 'LL')",
+            "style": [
+                {
+                    "color": "255 216 0",
+                    "size": "4",
+                    "symbol": "square"
+                },
+                {
+                    "width": "10"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FB": {
+        "key": "FB",
+        "name": "Fritvoksende buske",
+        "groupname": "Point",
+        "sweco": {
+            "name": "FB",
+            "expression": "( '[elementtypekey]' ='FB')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "0 128 0",
+                "width": "1",
+                "size": "15",
+                "symbol": "sonderborg_solitaer_busk"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "NOG": {
+        "key": "NOG",
+        "name": "Naturomr\u00e5der - Gr\u00e6sentrepren\u00f8rer",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "NOG",
+            "expression": "('[workareatypekey]' = 'NOG')",
+            "style": {
+                "outlinecolor": "238 98 74",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "PN": {
+        "key": "PN",
+        "name": "Pylon",
+        "groupname": "Point",
+        "sweco": {
+            "name": "PN",
+            "expression": "( '[elementtypekey]' ='PN')",
+            "style": [
+                {
+                    "symbol": "park_skilt",
+                    "color": "255 102 0",
+                    "size": "15",
+                    "gap": "23"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BRL": {
+        "key": "BrL",
+        "name": "Brosten-linje",
+        "groupname": "Line",
+        "sweco": {
+            "name": "BrL",
+            "expression": "( '[elementtypekey]' = 'BrL')",
+            "style": {
+                "color": "220 179 175",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PST": {
+        "key": "PSt",
+        "name": "Pigsten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "PSt",
+            "expression": "('[elementtypekey]' = 'PSt')",
+            "style": [
+                {
+                    "color": "215 241 218",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "lodret_skravering"
+                },
+                {
+                    "outlinecolor": "218 255 127",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "CS": {
+        "key": "CS",
+        "name": "Chaussesten",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "CS",
+            "expression": "('[elementtypekey]' = 'CS')",
+            "style": [
+                {
+                    "color": "160 160 160",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BV": {
+        "key": "BV",
+        "name": "Beplantning veje",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "BV",
+            "expression": "('[workareatypekey]' = 'BV')",
+            "style": {
+                "outlinecolor": "255 106 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "LV": {
+        "key": "LV",
+        "name": "L\u00f8gv\u00e6kster",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "LV",
+            "expression": "('[elementtypekey]' = 'LV')",
+            "style": [
+                {
+                    "color": "237 78 146",
+                    "size": "4",
+                    "gap": "6",
+                    "symbol": "flower"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.2"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BSK": {
+        "key": "BSK",
+        "name": "Blomster",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "BSK",
+            "expression": "('[elementtypekey]' = 'BSK')",
+            "style": [
+                {
+                    "color": "56 180 55",
+                    "size": "8",
+                    "gap": "4",
+                    "symbol": "skravering",
+                    "opacity": "100"
+                },
+                {
+                    "outlinecolor": "56 180 55",
+                    "width": "1",
+                    "opacity": "100"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "BM": {
+        "key": "BM",
+        "name": "Bom",
+        "groupname": "Point",
+        "sweco": {
+            "name": "BM",
+            "expression": "( '[elementtypekey]' ='BM')",
+            "style": [
+                {
+                    "symbol": "9_12_bom",
+                    "color": "255 140 0",
+                    "size": "30",
+                    "gap": "45"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "2"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PVL": {
+        "key": "PVL",
+        "name": "Prioriteret lokalitet ved kraftigt snefald",
+        "groupname": "Point",
+        "sweco": {
+            "name": "PVL",
+            "expression": "( '[elementtypekey]' ='PVL')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "244 12 35",
+                    "size": "10",
+                    "gap": "15"
+                },
+                {
+                    "outlinecolor": "244 12 35",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "078": {
+        "key": "078",
+        "name": "Mose",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "078",
+            "expression": "('[elementtypekey]' = '078')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "212 212 129",
+                "width": "0.2"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "LIA": {
+        "key": "LiA",
+        "name": "Linjeafvanding",
+        "groupname": "Line",
+        "sweco": {
+            "name": "LiA",
+            "expression": "( '[elementtypekey]' = 'LiA')",
+            "style": {
+                "color": "70 130 180",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "KBB": {
+        "key": "KBB",
+        "name": "Kontrolomr\u00e5der, Ballerup Boulevard",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "KBB",
+            "expression": "('[workareatypekey]' = 'KBB')",
+            "style": {
+                "outlinecolor": "255 0 0",
+                "width": "1"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "ANA1": {
+        "key": "ANA1",
+        "name": "Anden anvendelse",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "ANA1",
+            "expression": "('[elementtypekey]' = 'ANA1')",
+            "style": {
+                "outlinecolor": "100 100 100",
+                "color": "100 100 100",
+                "width": "1"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FRI": {
+        "key": "FRi",
+        "name": "F\u00e6rist",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FRi",
+            "expression": "('[elementtypekey]' = 'FRi')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "130 128 229",
+                    "size": "8",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "130 128 229",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "V2S": {
+        "key": "V2S",
+        "name": "Vej 2 spor",
+        "groupname": "Line",
+        "sweco": {
+            "name": "V2S",
+            "expression": "( '[elementtypekey]' = 'V2S')",
+            "style": {
+                "color": "0 148 255",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "G": {
+        "key": "G",
+        "name": "Grus",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "G",
+            "expression": "('[elementtypekey]' = 'G')",
+            "style": [
+                {
+                    "color": "215 197 186",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "215 197 186",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "PKP": {
+        "key": "PKP",
+        "name": "Parkeringsplads",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "PKP",
+            "expression": "('[elementtypekey]' = 'PKP')",
+            "style": [
+                {
+                    "symbol": "skravering",
+                    "color": "255 0 0",
+                    "size": "5",
+                    "gap": "0"
+                },
+                {
+                    "outlinecolor": "255 0 0",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "RPL": {
+        "key": "RPL",
+        "name": "Rampe",
+        "groupname": "Line",
+        "sweco": {
+            "name": "RPL",
+            "expression": "( '[elementtypekey]' = 'RPL')",
+            "style": {
+                "color": "0 255 144",
+                "width": "4"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FLB": {
+        "key": "FLB",
+        "name": "Flisebel\u00e6gning",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "FLB",
+            "expression": "('[elementtypekey]' = 'FLB')",
+            "style": {
+                "outlinecolor": "0 0 0",
+                "color": "213 180 180",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "VSOI": {
+        "key": "VSoI",
+        "name": "Vinter skoler og institutioner, traktor",
+        "groupname": "Workarea",
+        "sweco": {
+            "name": "VSoI",
+            "expression": "('[workareatypekey]' = 'VSoI')",
+            "style": {
+                "outlinecolor": "255 153 0",
+                "width": "2"
+            },
+            "label": {
+                "FORCE": "true",
+                "MAXLENGTH": "10",
+                "wrap": "\" \"",
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "10",
+                "ALIGN": "center"
+            }
+        }
+    },
+    "BKS": {
+        "key": "BKS",
+        "name": "Betonkantsten",
+        "groupname": "Line",
+        "sweco": {
+            "name": "BKS",
+            "expression": "( '[elementtypekey]' = 'BKS')",
+            "style": {
+                "color": "238 194 165",
+                "symbol": "square"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SPS": {
+        "key": "SPS",
+        "name": "Slyngplantestativ",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SPS",
+            "expression": "( '[elementtypekey]' ='SPS')",
+            "style": [
+                {
+                    "symbol": "cross",
+                    "color": "30 144 255",
+                    "size": "7",
+                    "gap": "11"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "A": {
+        "key": "A",
+        "name": "Affaldsbeholder",
+        "groupname": "Point",
+        "sweco": {
+            "name": "A",
+            "expression": "( '[elementtypekey]' ='A')",
+            "style": {
+                "outlinecolor": "0 255 255",
+                "color": "0 255 255",
+                "width": "1",
+                "size": "8",
+                "symbol": "circle"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "J": {
+        "key": "J",
+        "name": "Jord",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "J",
+            "expression": "('[elementtypekey]' = 'J')",
+            "style": [
+                {
+                    "color": "255 178 127",
+                    "size": "8",
+                    "gap": "12",
+                    "symbol": "square"
+                },
+                {
+                    "outlinecolor": "255 178 127",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "SASI": {
+        "key": "SaSi",
+        "name": "Saltsilo",
+        "groupname": "Point",
+        "sweco": {
+            "name": "SaSi",
+            "expression": "( '[elementtypekey]' ='SaSi')",
+            "style": [
+                {
+                    "symbol": "circle",
+                    "color": "255 216 0",
+                    "size": "10",
+                    "gap": "15"
+                },
+                {
+                    "outlinecolor": "255 233 127",
+                    "width": "1"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "FOK": {
+        "key": "FOK",
+        "name": "Folderkasser",
+        "groupname": "Point",
+        "sweco": {
+            "name": "FOK",
+            "expression": "( '[elementtypekey]' ='FOK')",
+            "style": [
+                {
+                    "symbol": "diamond",
+                    "color": "255 0 0",
+                    "size": "6",
+                    "gap": "9"
+                },
+                {
+                    "outlinecolor": "0 0 0",
+                    "width": "0.5"
+                }
+            ],
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    },
+    "GB": {
+        "key": "GB",
+        "name": "Gangbro",
+        "groupname": "Polygon",
+        "sweco": {
+            "name": "GB",
+            "expression": "('[elementtypekey]' = 'GB')",
+            "style": {
+                "color": "205 133 63",
+                "outlinecolor": "0 0 0",
+                "width": "0.5"
+            },
+            "label": {
+                "color": "100 100 100",
+                "outlinecolor": "255 255 255",
+                "font": "arial",
+                "type": "truetype",
+                "size": "8"
+            }
+        }
+    }
+}

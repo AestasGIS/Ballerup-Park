@@ -1,0 +1,902 @@
+Active code page: 65001
+
+C:\github\Ballerup-Park>ogrinfo WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" 
+INFO: Open of `WFS:https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows'
+      using driver `WFS' successful.
+Metadata:
+  PROVIDER_NAME=Sweco Danmark A/S
+1: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workareas
+2: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk1.2 (title: 2 spor Vintervejklasse I)
+3: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk1.2m (title: 2 spor Vintervejklasse I m. midterrabat)
+4: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk1.4 (title: 4 spor Vintervejklasse I)
+5: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk1.4m (title: 4 spor Vintervejklasse I m. midterrabat)
+6: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:a (title: Affaldsbeholder)
+7: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ana1 (title: Anden anvendelse)
+8: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ap (title: Anden plads)
+9: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ag (title: Armeret grus)
+10: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:asf (title: Asfalt)
+11: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:hd24 (title: Asfalt )
+12: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:av (title: Autoværn)
+13: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_bi (title: Ballerup idrætsby)
+14: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_bv (title: Beplantning veje)
+15: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bt (title: Beton)
+16: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bebs (title: Betonbelægningssten)
+17: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:befl (title: Betonfliser)
+18: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bks (title: Betonkantsten)
+19: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bepl (title: Betonplint)
+20: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bistr (title: Bistribe)
+21: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bist (title: Bistriber)
+22: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:be (title: Blomstereng)
+23: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:b (title: Blomsterkummer)
+24: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_bb (title: Boldbaner)
+25: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bm (title: Bom)
+26: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bd (title: Bord)
+27: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bbs (title: Borde-bænkesæt)
+28: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:borks (title: Bordurkantsten)
+29: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bs (title: Brosten)
+30: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:brl (title: Brosten-linje)
+31: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bp (title: Brugsplæne)
+32: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bdl (title: Brønddæksel)
+33: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bud (title: Bunddække)
+34: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bb (title: Bunddækkende Buske)
+35: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bu (title: Busket)
+36: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bls (title: Buslæskur)
+37: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bus (title: Busstander)
+38: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bygn (title: Bygning)
+39: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_bls (title: Bynære lege- og sundhedspladser)
+40: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:br (title: Bådrampe)
+41: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:blp (title: Bålplads)
+42: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:bk (title: Bænk)
+43: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:cs (title: Chaussesten)
+44: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:csr (title: Chaussestenrevir)
+45: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:cysr (title: Cykelstativ)
+46: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:cyse (title: Cykelstativ )
+47: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:cyst (title: Cykelsti)
+48: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:cykelsti_vinterklasse_i_028 (title: Cykelsti Vinterklasse I)
+49: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_di (title: Daginstitutioner)
+50: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:dk (title: Drikkekar)
+51: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:eut (title: Eludtag)
+52: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ful (title: Faldunderlag)
+53: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ful (title: Faldunderlag)
+54: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fr (title: Fejeruter)
+55: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fm (title: Fejning Materielgården)
+56: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fejcs (title: Fejning cykelstier)
+57: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fejf (title: Fejning fortove)
+58: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fejv1 (title: Fejning vej, niveau 1)
+59: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fejv2 (title: Fejning vej, niveau 2)
+60: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fst (title: Flagstang)
+61: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:flb (title: Flisebelægning)
+62: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fh (title: Fodhegn)
+63: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fo (title: Fold)
+64: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fok (title: Folderkasser)
+65: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:foh (title: Foldhegn)
+66: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_fs (title: Forsøg)
+67: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fabos (title: Forsøgsareal - Brænding og såning)
+68: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fafag (title: Forsøgsareal - Fjernelse af græstørv)
+69: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fafagos (title: Forsøgsareal - Fjernelse af græstørv og såning)
+70: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fagobos (title: Forsøgsareal - Grubning og brænding og såning)
+71: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fagos (title: Forsøgsareal - Grubning og såning)
+72: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fdf (title: Fortov)
+73: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fdl (title: Fortov)
+74: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vfdldobbelt (title: Fortov i drift)
+75: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fbmv (title: Fritrumsbeskæring mod vej m.v.)
+76: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fm (title: Fritstående mur)
+77: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fb (title: Fritvoksende buske)
+78: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fvh (title: Fritvoksende hæk)
+79: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fut (title: Fugletårn)
+80: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fg (title: Fælledgræs)
+81: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fgg (title: Fælledgræs - Grantoftegaard)
+82: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fgv (title: Fælledgræs på vold)
+83: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fgvno (title: Fælledgræs på vold)
+84: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fg1 (title: Fælledgræs, niveau 1)
+85: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fg1no (title: Fælledgræs, niveau 1)
+86: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fg2 (title: Fælledgræs, niveau 2)
+87: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fg2no (title: Fælledgræs, niveau 2 )
+88: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ftav (title: Færdselstavle)
+89: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fri (title: Færist)
+90: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:gb (title: Gangbro)
+91: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:grf (title: Granitfliser)
+92: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:gks (title: Granitkantsten)
+93: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:g (title: Grus)
+94: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:gra (title: Græsarmering)
+95: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_gv (title: Græsslåning veje)
+96: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:groeft_054 (title: Grøft)
+97: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:gasf (title: Gummiasfalt)
+98: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:gfl (title: Gummifliser)
+99: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:havelod_057 (title: HaveLod)
+100: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:he (title: Hegn)
+101: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ha (title: Helleanlæg)
+102: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kh (title: Hæk)
+103: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:hb (title: Højbed)
+104: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_is (title: Idrætsanlæg - Skoler)
+105: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:iv (title: Insektvold)
+106: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ib (title: Insitubeton)
+107: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:if (title: Insitufliser)
+108: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:inst (title: Intern sti)
+109: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:instpl (title: Intern stiplads)
+110: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:inve (title: Interne veje)
+111: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:j (title: Jord)
+112: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ks (title: Kantsten)
+113: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kpl (title: Klaplåge)
+114: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kp (title: Klatrende planter)
+115: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kli (title: Klinker)
+116: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kps (title: Komposit)
+117: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbb (title: Kontrolområder, Ballerup Boulevard)
+118: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbbv (title: Kontrolområder, Ballerup Byvej)
+119: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbc (title: Kontrolområder, Ballerup Centrum)
+120: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbi (title: Kontrolområder, Ballerup Idrætsby)
+121: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbn (title: Kontrolområder, Ballerup Nord)
+122: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbr (title: Kontrolområder, Ballerup Rådhus)
+123: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kbs (title: Kontrolområder, Ballerup Syd)
+124: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_keb (title: Kontrolområder, Egebjerg)
+125: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_klp (title: Kontrolområder, Lautrupparken)
+126: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kms (title: Kontrolområder, Malmparken Station)
+127: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_km (title: Kontrolområder, Måløv)
+128: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kmb (title: Kontrolområder, Måløv Byvej)
+129: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ks (title: Kontrolområder, Skovlunde)
+130: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ksb (title: Kontrolområder, Skovlunde Byvej)
+131: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_kss (title: Kontrolområder, Skovlunde Station)
+132: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kg (title: Kunstgræs)
+133: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:k (title: Kunstværk)
+134: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:kl (title: Kørelåge)
+135: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ll (title: Ledelinje)
+136: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lmu (title: Lege- og motionsudstyr)
+137: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lr (title: Legeredskab)
+138: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lrf (title: Legeredskab)
+139: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_lr (title: Legeredskaber)
+140: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lhk (title: Levende hegn og krat)
+141: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lia (title: Linjeafvanding)
+142: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:l (title: Lysmast)
+143: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lak (title: Lysmast Anders Klavsen)
+144: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lb (title: Låsebånd)
+145: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ls (title: Læskur)
+146: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lv (title: Løgvækster)
+147: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lful (title: Løst faldunderlag)
+148: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_lfu (title: Løst faldunderlag)
+149: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:mk (title: Mark)
+150: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:markvej_077 (title: Markvej)
+151: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:me (title: Metal)
+152: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_mh (title: Mindre haveanlæg)
+153: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:mose_078 (title: Mose)
+154: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:mu (title: Motionsudstyr)
+155: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:m (title: Mur)
+156: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ml (title: Måler)
+157: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ng (title: Naturgræs)
+158: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_nh (title: Naturhjælperne)
+159: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_nohd1 (title: Naturområde - HD - 1)
+160: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_no (title: Naturområder)
+161: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ngr (title: Naturområder - Grantoftegård)
+162: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_nog (title: Naturområder - Græsentreprenører)
+163: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_nohd (title: Naturområder - HD)
+164: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_nogr (title: Naturområder Grantoftegaard)
+165: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ns (title: Natursti)
+166: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:nac (title: Nedgravet affaldscontainer)
+167: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:nr (title: Nedløbsrist)
+168: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:asfob (title: OB asfalt)
+169: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:fsa (title: Oprindelige forsøgsarealer)
+170: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_pk (title: Parker)
+171: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk3p (title: Parkering Vintervejklasse III)
+172: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pkp (title: Parkeringsplads)
+173: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pga (title: Pergola)
+174: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ps (title: Perlesten)
+175: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pst (title: Pigsten)
+176: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:plankevaerk_089 (title: Plankeværk)
+177: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pk (title: Plantekummer)
+178: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_pc (title: Plejecentre)
+179: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_pcx (title: Plejecentre X)
+180: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pvl (title: Prioriteret lokalitet ved kraftigt snefald)
+181: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:p (title: Pullert)
+182: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pb (title: Pullertbelysning)
+183: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pa (title: Pulsator)
+184: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:klp (title: Pur)
+185: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:pn (title: Pylon)
+186: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ggrg (title: Rabatgræs)
+187: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rg (title: Rabatgræs)
+188: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rg1 (title: Rabatgræs 1 x årligt)
+189: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rg2 (title: Rabatgræs 2 x årligt)
+190: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rgb (title: Rabatgræs 3 i bagkant fortov/sti)
+191: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rg3 (title: Rabatgræs 3 x årligt)
+192: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rg5 (title: Rabatgræs 5 x årligt)
+193: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rskr (title: Rabatgræs skråning)
+194: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rgt (title: Rabatgræs til tilstandskrav)
+195: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rpf (title: Rampe)
+196: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rpl (title: Rampe)
+197: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rb (title: Regnvandsbrønd)
+198: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_rv (title: Renhold veje)
+199: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_rvms (title: Renhold veje m. spor)
+200: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rob (title: Rodvenligt bærelag)
+201: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rbe (title: Rosenbede)
+202: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_rw (title: Rotter)
+203: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:rv (title: Rækværk)
+204: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:roersump_098 (title: Rørsump)
+205: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sfs (title: SF-sten)
+206: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sobo (title: SOBO3+ målepunkt)
+207: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sasi (title: Saltsilo)
+208: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_smhd (title: Samlede mængder for HedeDanmark)
+209: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sand (title: Sand)
+210: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sf (title: Sandfang)
+211: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sak (title: Sandkasse)
+212: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:shb (title: Sankt Hans Bål)
+213: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sfb (title: Semifleksibel belægning)
+214: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:she (title: Shelter)
+215: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sa (title: Signalanlæg)
+216: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_sk (title: Skoler)
+217: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sk (title: Skov)
+218: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_sc (title: Skovlunde center)
+219: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:skur (title: Skur)
+220: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sps (title: Slyngplantestativ)
+221: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ss (title: Slået spor)
+222: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:snf (title: Slået-naturflade)
+223: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sns (title: Slået-naturspor)
+224: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sr (title: Sokkelrende)
+225: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:svb (title: Spildevandsbrønd)
+226: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sm (title: Sportsmål)
+227: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sp (title: Sportsplæne)
+228: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:spl (title: Spotlys)
+229: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sv (title: Springvand)
+230: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:st (title: Stauder)
+231: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:s (title: Sten)
+232: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sd (title: Stendige)
+233: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:stm (title: Stenmel)
+234: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sh (title: Stophane)
+235: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:stk (title: Stålkant)
+236: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:stsk (title: Støjskærm)
+237: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_sum (title: Summering)
+238: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_sum1 (title: Summering (niv. 1))
+239: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_sumo (title: Summering, overordnet)
+240: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:sveller_119 (title: Sveller)
+241: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:soe (title: Sø)
+242: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_tu (title: Termisk ukrudtsbekæmpelse)
+243: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_tuvs (title: Termisk ukrudtsbekæmpelse Veje og stier)
+244: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:terraenbygvaerker_121 (title: Terrænbygværker)
+245: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trm (title: Terrænmur)
+246: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:terraenudstyr_122 (title: Terrænudstyr)
+247: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:terraenudstyr_l_123 (title: Terrænudstyr_l)
+248: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:tu (title: Terrænudstyr_p)
+249: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_to (title: Testområde)
+250: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_to2 (title: Testområde2)
+251: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_tp (title: Torve og pladser)
+252: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:ts (title: Trampesti)
+253: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trpb (title: Trappe)
+254: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trpf (title: Trappe)
+255: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trpl (title: Trappe)
+256: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:th (title: Trådhegn)
+257: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:tr (title: Træ)
+258: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:tb (title: Træbelægning)
+259: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trr (title: Træhulsrist)
+260: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:tst (title: Træsti)
+261: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:trte (title: Træterrasse)
+262: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ub (title: Udbud 2020)
+263: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ufk (title: Udenfor kontrakt)
+264: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_uhv (title: Ukrudtsbekæmpelse - Hedt vand)
+265: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_ubf (title: Ukrudtsbørstning, Fortove)
+266: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vandloeb_137 (title: Vandløb)
+267: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vr (title: Vandrende)
+268: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:v2s (title: Vej 2 spor)
+269: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:v2smr (title: Vej 2 spor m. midterrabat)
+270: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:v4s (title: Vej 4 spor)
+271: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:v4smr (title: Vej 4 spor m. midterrabat)
+272: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vbf (title: Vejbrønd fælleskloak)
+273: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vns (title: Vejnavneskilt)
+274: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_evr (title: Vejrabatter)
+275: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vs (title: Vejskilt)
+276: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_vdih (title: Vinter Daginstitutioner indenfor hegn)
+277: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_veuh (title: Vinter ejendomme udenfor hegn)
+278: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_vsoih (title: Vinter skoler og institutioner, håndarbejde)
+279: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_vsoi (title: Vinter skoler og institutioner, traktor)
+280: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_vvh (title: Vinter vejområdet, håndarbejde)
+281: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_vt (title: Vintertjeneste)
+282: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vvk2f (title: Vintervejklasse II)
+283: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:vtg (title: Værdifuld trægruppe)
+284: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:lt (title: legetårn)
+285: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:os (title: oplysningsskilt)
+286: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:aest (title: Ærtesten)
+287: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:olb (title: Ølandsbrud)
+288: ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c:workarea_oi (title: Øvrige institutioner)
+
+C:\github\Ballerup-Park>set pgacc= -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workareas"                             -nln "workareas"                      -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON      
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk1.2"                                -nln "vvk1_2"                         -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk1.2m"                               -nln "vvk1_2m"                        -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk1.4"                                -nln "vvk1_4"                         -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk1.4m"                               -nln "vvk1_4m"                        -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "a"                                     -nln "a"                                                    -nlt POINT  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ana1"                                  -nln "ana1"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ap"                                    -nln "ap"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ag"                                    -nln "ag"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "asf"                                   -nln "asf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "hd24"                                  -nln "hd24"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "av"                                    -nln "av"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_bi"                           -nln "workarea_bi"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_bv"                           -nln "workarea_bv"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bt"                                    -nln "bt"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bebs"                                  -nln "bebs"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "befl"                                  -nln "befl"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bks"                                   -nln "bks"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bepl"                                  -nln "bepl"                                                 -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bistr"                                 -nln "bistr"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bist"                                  -nln "bist"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "be"                                    -nln "be"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "b"                                     -nln "b"                                                    -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_bb"                           -nln "workarea_bb"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bm"                                    -nln "bm"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bd"                                    -nln "bd"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bbs"                                   -nln "bbs"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "borks"                                 -nln "borks"                          -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bs"                                    -nln "bs"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "brl"                                   -nln "brl"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bp"                                    -nln "bp"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bdl"                                   -nln "bdl"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bud"                                   -nln "bud"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bb"                                    -nln "bb"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bu"                                    -nln "bu"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bls"                                   -nln "bls"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bus"                                   -nln "bus"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bygn"                                  -nln "bygn"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_bls"                          -nln "workarea_bls"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "br"                                    -nln "br"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "blp"                                   -nln "blp"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "bk"                                    -nln "bk"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "cs"                                    -nln "cs"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "csr"                                   -nln "csr"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "cysr"                                  -nln "cysr"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "cyse"                                  -nln "cyse"                                                 -nlt POINT         
+Warning 1: Geometry to be inserted is of type 3D Line String, whereas the layer geometry type is Point.
+Insertion is likely to fail
+ERROR 1: COPY statement failed.
+ERROR:  Geometry type (LineString) does not match column type (Point)
+CONTEXT:  COPY cyse, line 1, column geom: "0102000020E864000003000000FCED7BF067BC2541390F8D725E965741E03C48C066BC2541AB5D53FF5E965741E03C48C066..."
+
+ERROR 1: Transaction not established
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "cyst"                                  -nln "cyst"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "cykelsti_vinterklasse_i_028"           -nln "cykelsti_vinterklasse_i_028"    -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_di"                           -nln "workarea_di"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "dk"                                    -nln "dk"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "eut"                                   -nln "eut"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ful"                                   -nln "ful"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ful"                          -nln "workarea_ful"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fr"                           -nln "workarea_fr"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fm"                           -nln "workarea_fm"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fejcs"                        -nln "workarea_fejcs"                 -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fejf"                         -nln "workarea_fejf"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fejv1"                        -nln "workarea_fejv1"                 -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fejv2"                        -nln "workarea_fejv2"                 -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fst"                                   -nln "fst"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "flb"                                   -nln "flb"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fh"                                    -nln "fh"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fo"                                    -nln "fo"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fok"                                   -nln "fok"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "foh"                                   -nln "foh"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_fs"                           -nln "workarea_fs"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fabos"                                 -nln "fabos"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fafag"                                 -nln "fafag"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fafagos"                               -nln "fafagos"                        -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fagobos"                               -nln "fagobos"                        -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fagos"                                 -nln "fagos"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fdf"                                   -nln "fdf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fdl"                                   -nln "fdl"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vfdldobbelt"                           -nln "vfdldobbelt"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fbmv"                                  -nln "fbmv"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fm"                                    -nln "fm"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fb"                                    -nln "fb"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fvh"                                   -nln "fvh"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fut"                                   -nln "fut"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fg"                                    -nln "fg"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fgg"                                   -nln "fgg"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fgv"                                   -nln "fgv"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fgvno"                                 -nln "fgvno"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fg1"                                   -nln "fg1"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fg1no"                                 -nln "fg1no"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fg2"                                   -nln "fg2"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fg2no"                                 -nln "fg2no"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ftav"                                  -nln "ftav"                                                 -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fri"                                   -nln "fri"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "gb"                                    -nln "gb"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "grf"                                   -nln "grf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "gks"                                   -nln "gks"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "g"                                     -nln "g"                              -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "gra"                                   -nln "gra"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_gv"                           -nln "workarea_gv"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "groeft_054"                            -nln "groeft_054"                     -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "gasf"                                  -nln "gasf"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "gfl"                                   -nln "gfl"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "havelod_057"                           -nln "havelod_057"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "he"                                    -nln "he"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ha"                                    -nln "ha"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kh"                                    -nln "kh"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "hb"                                    -nln "hb"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_is"                           -nln "workarea_is"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "iv"                                    -nln "iv"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ib"                                    -nln "ib"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+ERROR 1: HTTP error code : 400
+ERROR 1: Error returned by server : HTTP error code : 400 (0)
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "if"                                    -nln "if"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+ERROR 1: HTTP error code : 400
+ERROR 1: Error returned by server : HTTP error code : 400 (0)
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "inst"                                  -nln "inst"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "instpl"                                -nln "instpl"                         -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "inve"                                  -nln "inve"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "j"                                     -nln "j"                              -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ks"                                    -nln "ks"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kpl"                                   -nln "kpl"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kp"                                    -nln "kp"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kli"                                   -nln "kli"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kps"                                   -nln "kps"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbb"                          -nln "workarea_kbb"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbbv"                         -nln "workarea_kbbv"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbc"                          -nln "workarea_kbc"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbi"                          -nln "workarea_kbi"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbn"                          -nln "workarea_kbn"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbr"                          -nln "workarea_kbr"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kbs"                          -nln "workarea_kbs"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_keb"                          -nln "workarea_keb"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_klp"                          -nln "workarea_klp"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kms"                          -nln "workarea_kms"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_km"                           -nln "workarea_km"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kmb"                          -nln "workarea_kmb"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ks"                           -nln "workarea_ks"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ksb"                          -nln "workarea_ksb"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_kss"                          -nln "workarea_kss"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kg"                                    -nln "kg"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "k"                                     -nln "k"                                                    -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "kl"                                    -nln "kl"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ll"                                    -nln "ll"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lmu"                                   -nln "lmu"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lr"                                    -nln "lr"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lrf"                                   -nln "lrf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_lr"                           -nln "workarea_lr"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lhk"                                   -nln "lhk"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lia"                                   -nln "lia"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "l"                                     -nln "l"                                                    -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lak"                                   -nln "lak"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lb"                                    -nln "lb"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ls"                                    -nln "ls"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lv"                                    -nln "lv"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lful"                                  -nln "lful"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_lfu"                          -nln "workarea_lfu"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "mk"                                    -nln "mk"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "markvej_077"                           -nln "markvej_077"                    -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "me"                                    -nln "me"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_mh"                           -nln "workarea_mh"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "mose_078"                              -nln "mose_078"                       -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "mu"                                    -nln "mu"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "m"                                     -nln "m"                              -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ml"                                    -nln "ml"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ng"                                    -nln "ng"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_nh"                           -nln "workarea_nh"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_nohd1"                        -nln "workarea_nohd1"                 -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_no"                           -nln "workarea_no"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ngr"                          -nln "workarea_ngr"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_nog"                          -nln "workarea_nog"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_nohd"                         -nln "workarea_nohd"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_nogr"                         -nln "workarea_nogr"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ns"                                    -nln "ns"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "nac"                                   -nln "nac"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "nr"                                    -nln "nr"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "asfob"                                 -nln "asfob"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "fsa"                                   -nln "fsa"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_pk"                           -nln "workarea_pk"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk3p"                                 -nln "vvk3p"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pkp"                                   -nln "pkp"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pga"                                   -nln "pga"                                                  -nlt POINT         
+Warning 1: The layer name should not begin by 'pg' as it is a reserved prefix
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ps"                                    -nln "ps"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pst"                                   -nln "pst"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "plankevaerk_089"                       -nln "plankevaerk_089"                -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pk"                                    -nln "pk"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_pc"                           -nln "workarea_pc"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_pcx"                          -nln "workarea_pcx"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pvl"                                   -nln "pvl"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "p"                                     -nln "p"                                                    -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pb"                                    -nln "pb"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pa"                                    -nln "pa"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "klp"                                   -nln "klp"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "pn"                                    -nln "pn"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ggrg"                                  -nln "ggrg"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rg"                                    -nln "rg"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rg1"                                   -nln "rg1"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rg2"                                   -nln "rg2"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rgb"                                   -nln "rgb"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rg3"                                   -nln "rg3"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rg5"                                   -nln "rg5"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rskr"                                  -nln "rskr"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rgt"                                   -nln "rgt"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rpf"                                   -nln "rpf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rpl"                                   -nln "rpl"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rb"                                    -nln "rb"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_rv"                           -nln "workarea_rv"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_rvms"                         -nln "workarea_rvms"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rob"                                   -nln "rob"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rbe"                                   -nln "rbe"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_rw"                           -nln "workarea_rw"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "rv"                                    -nln "rv"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "roersump_098"                          -nln "roersump_098"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sfs"                                   -nln "sfs"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sobo"                                  -nln "sobo"                                                 -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sasi"                                  -nln "sasi"                                                 -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_smhd"                         -nln "workarea_smhd"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sand"                                  -nln "sand"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sf"                                    -nln "sf"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sak"                                   -nln "sak"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "shb"                                   -nln "shb"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sfb"                                   -nln "sfb"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "she"                                   -nln "she"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sa"                                    -nln "sa"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_sk"                           -nln "workarea_sk"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sk"                                    -nln "sk"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_sc"                           -nln "workarea_sc"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "skur"                                  -nln "skur"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sps"                                   -nln "sps"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ss"                                    -nln "ss"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "snf"                                   -nln "snf"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sns"                                   -nln "sns"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sr"                                    -nln "sr"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "svb"                                   -nln "svb"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sm"                                    -nln "sm"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sp"                                    -nln "sp"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "spl"                                   -nln "spl"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sv"                                    -nln "sv"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "st"                                    -nln "st"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "s"                                     -nln "s"                                                    -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sd"                                    -nln "sd"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "stm"                                   -nln "stm"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sh"                                    -nln "sh"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "stk"                                   -nln "stk"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "stsk"                                  -nln "stsk"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_sum"                          -nln "workarea_sum"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_sum1"                         -nln "workarea_sum1"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_sumo"                         -nln "workarea_sumo"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "sveller_119"                           -nln "sveller_119"                    -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "soe"                                   -nln "soe"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_tu"                           -nln "workarea_tu"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_tuvs"                         -nln "workarea_tuvs"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "terraenbygvaerker_121"                 -nln "terraenbygvaerker_121"          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trm"                                   -nln "trm"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "terraenudstyr_122"                     -nln "terraenudstyr_122"              -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "terraenudstyr_l_123"                   -nln "terraenudstyr_l_123"            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "tu"                                    -nln "tu"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_to"                           -nln "workarea_to"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_to2"                          -nln "workarea_to2"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_tp"                           -nln "workarea_tp"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "ts"                                    -nln "ts"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trpb"                                  -nln "trpb"                                                 -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trpf"                                  -nln "trpf"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trpl"                                  -nln "trpl"                           -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "th"                                    -nln "th"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "tr"                                    -nln "tr"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "tb"                                    -nln "tb"                             -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trr"                                   -nln "trr"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "tst"                                   -nln "tst"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "trte"                                  -nln "trte"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ub"                           -nln "workarea_ub"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ufk"                          -nln "workarea_ufk"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_uhv"                          -nln "workarea_uhv"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_ubf"                          -nln "workarea_ubf"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vandloeb_137"                          -nln "vandloeb_137"                   -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vr"                                    -nln "vr"                             -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "v2s"                                   -nln "v2s"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "v2smr"                                 -nln "v2smr"                          -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "v4s"                                   -nln "v4s"                            -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "v4smr"                                 -nln "v4smr"                          -nlt PROMOTE_TO_MULTI -nlt MULTILINESTRING 
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vbf"                                   -nln "vbf"                                                  -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vns"                                   -nln "vns"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_evr"                          -nln "workarea_evr"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vs"                                    -nln "vs"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_vdih"                         -nln "workarea_vdih"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_veuh"                         -nln "workarea_veuh"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_vsoih"                        -nln "workarea_vsoih"                 -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_vsoi"                         -nln "workarea_vsoi"                  -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_vvh"                          -nln "workarea_vvh"                   -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_vt"                           -nln "workarea_vt"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vvk2f"                                 -nln "vvk2f"                          -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "vtg"                                   -nln "vtg"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "lt"                                    -nln "lt"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "os"                                    -nln "os"                                                   -nlt POINT         
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "aest"                                  -nln "aest"                           -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "olb"                                   -nln "olb"                            -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>ogr2ogr  -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_park password=ukulemy active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  WFS:"https://wfs-ext.gmpark.dk/geoserver/ws_22e14f95-7397-4d9a-b347-b0f4e56dd45c/ows" "workarea_oi"                           -nln "workarea_oi"                    -nlt PROMOTE_TO_MULTI -nlt MULTIPOLYGON  
+
+C:\github\Ballerup-Park>pause
+Press any key to continue . . . 
+
+C:\github\Ballerup-Park>REM set pgacc= --config GML_SKIP_CORRUPTED_FEATURES=TRUE -f "PostgreSQL" PG:"host=localhost user=postgres dbname=ballerup_oktober2 password=ukulemy active_schema=sweco2 port=5433" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
+
+C:\github\Ballerup-Park>REM set pgacc= -f "GPKG" d:\temp\data123456.gpkg  
+
+C:\github\Ballerup-Park>REM set pgacc= -makevalid  --config GML_SKIP_CORRUPTED_FEATURES=TRUE -update -f "GPKG" data.gpkg  
+
+C:\github\Ballerup-Park>REM set pgacc= -s_srs EPSG:4326 -t_srs EPSG:25832 --config OGR_PG_ENABLE_METADATA=FALSE  -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=sweco2 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
+
+C:\github\Ballerup-Park>REM set pgacc= -skipfailures --config GML_SKIP_CORRUPTED_FEATURES=TRUE -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=sweco5 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
+
+C:\github\Ballerup-Park>REM set pgacc= -skipfailures -lco DIM=2 -lco GEOMETRY_NAME=geom -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=common-db.gc2.io user=ballerup_park dbname=ballerup_park password=gaker9jI active_schema=driftweb port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
+
+C:\github\Ballerup-Park>REM set pgacc= -s_srs EPSG:4326 -t_srs EPSG:25832  -f "PostgreSQL" PG:"host=localhost dbname=ballerup_park user=postgres password=ukulemy active_schema=sweco2 port=5432" -lco EXTRACT_SCHEMA_FROM_LAYER_NAME=FALSE  
