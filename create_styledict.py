@@ -27,10 +27,29 @@ def cnv2hex(ind):
     hex = '#' + "0x%0.2X" % int(val[0]) +"0x%0.2X" % int(val[1]) +"0x%0.2X" % int(val[2]) 
     return hex.replace ('0x','')
 
-def cnv2mp(template, values):
-    val = ind.split(' ')
-    hex = '#' + "0x%0.2X" % int(val[0]) +"0x%0.2X" % int(val[1]) +"0x%0.2X" % int(val[2]) 
-    return hex.replace ('0x','')
+def sweco2mp(template, val):
+    txt = template
+    name = val.get('name', ""))
+    color = val.get('color', ""))
+        for dgs in dd.geoclass.style:
+            try:
+                if d['color'] == '': d['color']=cnv2hex(dgs.color.cdata)
+            except:
+                pass
+            try:
+                if d['ocolor'] == '': d['ocolor']=cnv2hex(dgs.outlinecolor.cdata)
+            except:
+                pass
+        d['symbol']='circle'
+        d['size']='8'
+        d['width']='2'
+                
+    
+    
+    
+
+    
+    return txt
 
 # Connection to DB
 conn = psycopg2.connect(database=database, host=db_host, user=db_user, password=db_pass, port=db_port)
@@ -62,11 +81,7 @@ for r in rows:
                         
             # Find and convert values from SWECO class
             values = {}
-
-            # values udfyldes
-
-            # Generate MapCentia class
-            d['mapcentia'] = cnv2mp(template_dict[d['groupname']], values)
+            d['mapcentia'] = sweco2mp(template_dict[d['groupname']], d['sweco'])
     
             # Save style under key value in styles dict.  
             styles[d['key'].upper()] = d
