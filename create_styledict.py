@@ -8,12 +8,6 @@ db_port="5432"
 db_styletable="sweco_jsondata.styleinfo"    
 resultfile = 'd:/projekter/ballerup/ballerup_style.json'
 
-template_dict = {
-    'Point'   :'[{Point{"sortid":10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":""}}]',
-    'Line'    :'[{{"sorLinetid":10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":""}}]',
-    'Polygon' :'[{{"sortid"Polygon:10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":false,"id":0,"class_minscaledenom":"","class_maxscaledenom":"","leader":false,"leader_gridstep":"","leader_maxdistance":"","leader_color":"","pattern":"","linecap":"","geomtransform":"","minsize":"","maxsize":"","style_offsetx":"","style_offsety":"","style_polaroffsetr":"","style_polaroffsetd":"","overlaypattern":"","overlaylinecap":"","overlayangle":"","overlaygeomtransform":"","overlayminsize":"","overlaymaxsize":"","overlaystyle_offsetx":"","overlaystyle_offsety":"","overlaystyle_polaroffsetr":"","overlaystyle_polaroffsetd":"","label_minscaledenom":"","label_maxscaledenom":"","label_outlinecolor":"","label_buffer":"","label_repeatdistance":"","label_backgroundpadding":"","label_offsetx":"","label_offsety":"","label_expression":"","label_maxsize":"","label_minfeaturesize":"","label2":false,"label2_text":"","label2_force":false,"label2_minscaledenom":"","label2_maxscaledenom":"","label2_position":"","label2_size":"","label2_font":"","label2_fontweight":"","label2_color":"","label2_outlinecolor":"","label2_buffer":"","label2_repeatdistance":"","label2_angle":"","label2_backgroundcolor":"","label2_backgroundpadding":"","label2_offsetx":"","label2_offsety":"","label2_expression":"","label2_maxsize":"","label2_minfeaturesize":""}}]',  
-    'Workarea':'[{{"sortid"Polygon:10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":false,"id":0,"class_minscaledenom":"","class_maxscaledenom":"","leader":false,"leader_gridstep":"","leader_maxdistance":"","leader_color":"","pattern":"","linecap":"","geomtransform":"","minsize":"","maxsize":"","style_offsetx":"","style_offsety":"","style_polaroffsetr":"","style_polaroffsetd":"","overlaypattern":"","overlaylinecap":"","overlayangle":"","overlaygeomtransform":"","overlayminsize":"","overlaymaxsize":"","overlaystyle_offsetx":"","overlaystyle_offsety":"","overlaystyle_polaroffsetr":"","overlaystyle_polaroffsetd":"","label_minscaledenom":"","label_maxscaledenom":"","label_outlinecolor":"","label_buffer":"","label_repeatdistance":"","label_backgroundpadding":"","label_offsetx":"","label_offsety":"","label_expression":"","label_maxsize":"","label_minfeaturesize":"","label2":false,"label2_text":"","label2_force":false,"label2_minscaledenom":"","label2_maxscaledenom":"","label2_position":"","label2_size":"","label2_font":"","label2_fontweight":"","label2_color":"","label2_outlinecolor":"","label2_buffer":"","label2_repeatdistance":"","label2_angle":"","label2_backgroundcolor":"","label2_backgroundpadding":"","label2_offsetx":"","label2_offsety":"","label2_expression":"","label2_maxsize":"","label2_minfeaturesize":""}}]'  
-}
 
 # Imports
 import xmltodict
@@ -22,34 +16,93 @@ import json
 import psycopg2
 
 # functions
-def cnv2hex(ind):
-    val = ind.split(' ')
-    hex = '#' + "0x%0.2X" % int(val[0]) +"0x%0.2X" % int(val[1]) +"0x%0.2X" % int(val[2]) 
-    return hex.replace ('0x','')
+def cnv2color(ind):
+    if ind and ind != '':
+        val = ind.split(' ')
+        hex = '#' + "0x%0.2X" % int(val[0]) +"0x%0.2X" % int(val[1]) +"0x%0.2X" % int(val[2]) 
+        return hex.replace ('0x','')
+    return ''
 
-def sweco2mp(template, val):
-    txt = template
-    name = val.get('name', ""))
-    color = val.get('color', ""))
-        for dgs in dd.geoclass.style:
-            try:
-                if d['color'] == '': d['color']=cnv2hex(dgs.color.cdata)
-            except:
-                pass
-            try:
-                if d['ocolor'] == '': d['ocolor']=cnv2hex(dgs.outlinecolor.cdata)
-            except:
-                pass
-        d['symbol']='circle'
-        d['size']='8'
-        d['width']='2'
-                
+def cnv2symbol(ind):
+    return ''
     
+def cnv2size(ind):
+    return ''
     
+def cnv2width(ind):
+    return ''
     
+def cnv2gap(ind):
+    return ''
 
+def cnv2opacity(ind):
+    return ''
+
+def cnv2type(ind):
+    return ''
+
+def cnv2wrap(ind):
+    return ''
+
+def cnv2font(ind):
+    return ''
+
+def cnv2align(ind):
+    return ''
+
+def cnv2force(ind):
+    return ''
+
+def cnv2maxlength(ind):
+    return ''
     
-    return txt
+def sweco2mp(val):
+    mp = {}
+    if 'name' in val: mp["name"] = val['name']
+    if 'expression' in val: mp["expression"] = val['expression']
+
+    if type(val["style"]) is list: 
+        stl = val["style"][0]                
+        if 'color' in stl: mp ["color"] = cnv2color(stl['color'])
+        if 'outlinecolor' in stl: mp ["outlinecolor"] = cnv2color(stl['outlinecolor'])
+        if 'symbol' in stl: mp ["symbol"] = cnv2symbol(stl[['symbol'])
+        if 'size' in stl: mp ["size"] = cnv2size(stl[['size'])
+        if 'gap' in stl: mp ["gap"] = cnv2size(stl[['gap'])
+        if 'width' in stl: mp ["width"] = cnv2width(stl[['width'])
+        if 'opacity' in stl: mp ["opacity"] = cnv2width(stl[['opacity'])
+
+        stl = val["style"][1]                
+        if 'color' in stl and 'color' not in mp: mp ["color"] = cnv2color (stl['color'])
+        if 'outlinecolor' in stl and 'outlinecolor' not in mp: mp ["outlinecolor"] = cnv2color (stl['outlinecolor'])
+        if 'symbol' in stl and 'symbol' not in mp: mp ["symbol"] = cnv2symbol(stl[['symbol'])
+        if 'size' in stl and 'size' not in mp: mp ["size"] = cnv2size(stl[['size'])
+        if 'gap' in stl and 'gap' not in mp: mp ["gap"] = cnv2gap(stl[['gap'])
+        if 'width' in stl and 'width' not in mp: mp ["width"] = cnv2width(stl[['width'])
+        if 'opacity' in stl and 'opacity' not in mp: mp ["opacity"] = cnv2opacity(stl[['opacity'])
+   
+    else:  
+        stl = val["style"]                
+        if 'color'        in stl: mp ["color"] =        cnv2color (stl['color'])
+        if 'outlinecolor' in stl: mp ["outlinecolor"] = cnv2color (stl['outlinecolor'])
+        if 'symbol'       in stl: mp ["symbol"] =       cnv2symbol(stl[['symbol'])
+        if 'size'         in stl: mp ["size"] =         cnv2size  (stl[['size'])
+        if 'gap'          in stl: mp ["gap"] =          cnv2gap   (stl[['gap'])
+        if 'width'        in stl: mp ["width"] =        cnv2width (stl[['width'])
+        if 'opacity'      in stl: mp ["opacity"] =      cnv2opacity(stl[['opacity'])
+    
+    lbl = val['label']
+    if 'color'        in lbl: mp ["color"] =        cnv2color (lbl['color'])
+    if 'outlinecolor' in lbl: mp ["outlinecolor"] = cnv2color (lbl['outlinecolor'])
+    if 'size'         in lbl: mp ["size"] =         cnv2size  (lbl[['size'])
+    if 'type'         in lbl: mp ["type"] =         cnv2type  (lbl[['type'])
+    if 'font'         in lbl: mp ["font"] =         cnv2font  (lbl[['font'])
+    if 'wrap'         in lbl: mp ["wrap"] =         cnv2wrap(lbl[['wrap'])
+    if "FORCE"        in lbl: mp ["FORCE"] =        cnv2force (lbl["FORCE"])
+    if "MAXLENGTH"    in lbl: mp ["MAXLENGTH"] =    cnv2maxlength(lbl[["MAXLENGTH"])
+    if 'ALIGN'        in lbl: mp ["ALIGN"] =        cnv2align (lbl[["ALIGN"])
+    
+    return mp
+
 
 # Connection to DB
 conn = psycopg2.connect(database=database, host=db_host, user=db_user, password=db_pass, port=db_port)
@@ -81,7 +134,7 @@ for r in rows:
                         
             # Find and convert values from SWECO class
             values = {}
-            d['mapcentia'] = sweco2mp(template_dict[d['groupname']], d['sweco'])
+            d['mapcentia'] = sweco2mp(d['sweco'])
     
             # Save style under key value in styles dict.  
             styles[d['key'].upper()] = d
@@ -174,4 +227,95 @@ out_file.close()
 
 
 
+#    "sortid": 10,
+#    "name": "AEST",
+#    "expression": "",
+#    "label": false,
+#    "label_size": "",
+#    "label_color": "",
+#    "color": "#C1A129",
+#    "outlinecolor": "#C1A129",
+#    "symbol": "circle",
+#    "angle": "",
+#    "size": "8",
+#    "width": "2",
+#    "overlaycolor": "",
+#    "overlayoutlinecolor": "",
+#    "overlaysymbol": "",
+#    "overlaysize": "",
+#    "overlaywidth": "",
+#    "label_text": "",
+#    "label_position": "",
+#    "label_font": "",
+#    "label_fontweight": "",
+#    "label_angle": "",
+#    "label_backgroundcolor": "",
+#    "style_opacity": "",
+#    "overlaystyle_opacity": "",
+#    "label_force": false,
+#    "id": 0,
+#    "class_minscaledenom": "",
+#    "class_maxscaledenom": "",
+#    "leader": false,
+#    "leader_gridstep": "",
+#    "leader_maxdistance": "",
+#    "leader_color": "",
+#    "pattern": "",
+#    "linecap": "",
+#    "geomtransform": "",
+#    "minsize": "",
+#    "maxsize": "",
+#    "style_offsetx": "",
+#    "style_offsety": "",
+#    "style_polaroffsetr": "",
+#    "style_polaroffsetd": "",
+#    "overlaypattern": "",
+#    "overlaylinecap": "",
+#    "overlayangle": "",
+#    "overlaygeomtransform": "",
+#    "overlayminsize": "",
+#    "overlaymaxsize": "",
+#    "overlaystyle_offsetx": "",
+#    "overlaystyle_offsety": "",
+#    "overlaystyle_polaroffsetr": "",
+#    "overlaystyle_polaroffsetd": "",
+#    "label_minscaledenom": "",
+#    "label_maxscaledenom": "",
+#    "label_outlinecolor": "",
+#    "label_buffer": "",
+#    "label_repeatdistance": "",
+#    "label_backgroundpadding": "",
+#    "label_offsetx": "",
+#    "label_offsety": "",
+#    "label_expression": "",
+#    "label_maxsize": "",
+#    "label_minfeaturesize": "",
+#    "label2": false,
+#    "label2_text": "",
+#    "label2_force": false,
+#    "label2_minscaledenom": "",
+#    "label2_maxscaledenom": "",
+#    "label2_position": "",
+#    "label2_size": "",
+#    "label2_font": "",
+#    "label2_fontweight": "",
+#    "label2_color": "",
+#    "label2_outlinecolor": "",
+#    "label2_buffer": "",
+#    "label2_repeatdistance": "",
+#    "label2_angle": "",
+#    "label2_backgroundcolor": "",
+#    "label2_backgroundpadding": "",
+#    "label2_offsetx": "",
+#    "label2_offsety": "",
+#    "label2_expression": "",
+#    "label2_maxsize": "",
+#    "label2_minfeaturesize": ""
+#    
 
+#template_dict = {
+#    'Point'   :'[{Point{"sortid":10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":""}}]',
+#    'Line'    :'[{{"sorLinetid":10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":""}}]',
+#    'Polygon' :'[{{"sortid"Polygon:10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":false,"id":0,"class_minscaledenom":"","class_maxscaledenom":"","leader":false,"leader_gridstep":"","leader_maxdistance":"","leader_color":"","pattern":"","linecap":"","geomtransform":"","minsize":"","maxsize":"","style_offsetx":"","style_offsety":"","style_polaroffsetr":"","style_polaroffsetd":"","overlaypattern":"","overlaylinecap":"","overlayangle":"","overlaygeomtransform":"","overlayminsize":"","overlaymaxsize":"","overlaystyle_offsetx":"","overlaystyle_offsety":"","overlaystyle_polaroffsetr":"","overlaystyle_polaroffsetd":"","label_minscaledenom":"","label_maxscaledenom":"","label_outlinecolor":"","label_buffer":"","label_repeatdistance":"","label_backgroundpadding":"","label_offsetx":"","label_offsety":"","label_expression":"","label_maxsize":"","label_minfeaturesize":"","label2":false,"label2_text":"","label2_force":false,"label2_minscaledenom":"","label2_maxscaledenom":"","label2_position":"","label2_size":"","label2_font":"","label2_fontweight":"","label2_color":"","label2_outlinecolor":"","label2_buffer":"","label2_repeatdistance":"","label2_angle":"","label2_backgroundcolor":"","label2_backgroundpadding":"","label2_offsetx":"","label2_offsety":"","label2_expression":"","label2_maxsize":"","label2_minfeaturesize":""}}]',  
+#    'Workarea':'[{{"sortid"Polygon:10,"name":"{name}","expression":"","label":false,"label_size":"","label_color":"","color":"{color}","outlinecolor":"{ocolor}","symbol":"{symbol}","angle":"","size":"{size}","width":"{width}","overlaycolor":"","overlayoutlinecolor":"","overlaysymbol":"","overlaysize":"","overlaywidth":"","label_text":"","label_position":"","label_font":"","label_fontweight":"","label_angle":"","label_backgroundcolor":"","style_opacity":"","overlaystyle_opacity":"","label_force":false,"id":0,"class_minscaledenom":"","class_maxscaledenom":"","leader":false,"leader_gridstep":"","leader_maxdistance":"","leader_color":"","pattern":"","linecap":"","geomtransform":"","minsize":"","maxsize":"","style_offsetx":"","style_offsety":"","style_polaroffsetr":"","style_polaroffsetd":"","overlaypattern":"","overlaylinecap":"","overlayangle":"","overlaygeomtransform":"","overlayminsize":"","overlaymaxsize":"","overlaystyle_offsetx":"","overlaystyle_offsety":"","overlaystyle_polaroffsetr":"","overlaystyle_polaroffsetd":"","label_minscaledenom":"","label_maxscaledenom":"","label_outlinecolor":"","label_buffer":"","label_repeatdistance":"","label_backgroundpadding":"","label_offsetx":"","label_offsety":"","label_expression":"","label_maxsize":"","label_minfeaturesize":"","label2":false,"label2_text":"","label2_force":false,"label2_minscaledenom":"","label2_maxscaledenom":"","label2_position":"","label2_size":"","label2_font":"","label2_fontweight":"","label2_color":"","label2_outlinecolor":"","label2_buffer":"","label2_repeatdistance":"","label2_angle":"","label2_backgroundcolor":"","label2_backgroundpadding":"","label2_offsetx":"","label2_offsety":"","label2_expression":"","label2_maxsize":"","label2_minfeaturesize":""}}]'  
+#}

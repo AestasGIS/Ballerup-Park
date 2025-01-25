@@ -4,8 +4,8 @@
         "name": "Bordurkantsten",
         "groupname": "Line",
         "sweco": {
-            "name": "BorKS",
-            "expression": "( '[elementtypekey]' = 'BorKS')",
+-            "name": "BorKS",
+-            "expression": "( '[elementtypekey]' = 'BorKS')",
             "style": {
                 "color": "255 233 127",
                 "symbol": "square"
