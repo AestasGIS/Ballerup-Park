@@ -27,34 +27,34 @@ def cnv2symbol(ind):
     return ''
     
 def cnv2size(ind):
-    return ''
+    return ind
     
 def cnv2width(ind):
-    return ''
+    return ind
     
 def cnv2gap(ind):
-    return ''
+    return ind
 
 def cnv2opacity(ind):
-    return ''
+    return ind
 
 def cnv2type(ind):
-    return ''
+    return ind
 
 def cnv2wrap(ind):
-    return ''
+    return ind
 
 def cnv2font(ind):
-    return ''
+    return ind
 
 def cnv2align(ind):
-    return ''
+    return ind
 
 def cnv2force(ind):
-    return ''
+    return ind
 
 def cnv2maxlength(ind):
-    return ''
+    return ind
     
 def sweco2mp(val):
     mp = {}
