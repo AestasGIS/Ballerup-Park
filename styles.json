@@ -4,8 +4,8 @@
         "name": "Bordurkantsten",
         "groupname": "Line",
         "sweco": {
--            "name": "BorKS",
--            "expression": "( '[elementtypekey]' = 'BorKS')",
+            "name": "BorKS",
+            "expression": "( '[elementtypekey]' = 'BorKS')",
             "style": {
                 "color": "255 233 127",
                 "symbol": "square"
@@ -17,6 +17,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Bordurkantsten",
+            "expression": "( '[elementtypekey]' = 'BorKS')",
+            "color": "#FFE97F",
+            "symbol": "square",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SC": {
@@ -41,6 +52,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Skovlunde center",
+            "expression": "('[workareatypekey]' = 'SC')",
+            "outlinecolor": "#F6E006",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SH": {
@@ -69,6 +92,21 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Stophane",
+            "expression": "( '[elementtypekey]' ='SH')",
+            "color": "#6A5ACD",
+            "symbol": "square",
+            "angle": 45,
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RV": {
@@ -89,6 +127,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "R\u00e6kv\u00e6rk",
+            "expression": "( '[elementtypekey]' = 'RV')",
+            "color": "#B6FF00",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LFUL": {
@@ -110,6 +159,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "L\u00f8st faldunderlag",
+            "expression": "('[elementtypekey]' = 'LFUL')",
+            "color": "#F1CAA7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FEJV2": {
@@ -134,6 +195,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejning vej, niveau 2",
+            "expression": "('[workareatypekey]' = 'FEJV2')",
+            "outlinecolor": "#FF00FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "KSS": {
@@ -158,6 +231,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Skovlunde Station",
+            "expression": "('[workareatypekey]' = 'KSS')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "V2SMR": {
@@ -178,6 +263,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vej 2 spor m. midterrabat",
+            "expression": "( '[elementtypekey]' = 'V2SMR')",
+            "color": "#7FC9FF",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "HOGP": {
@@ -199,6 +295,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "H\u00e6kke og Pur",
+            "expression": "('[elementtypekey]' = 'HogP')",
+            "color": "#A2070E",
+            "width": "4",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBR": {
@@ -223,6 +331,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup R\u00e5dhus",
+            "expression": "('[workareatypekey]' = 'KBR')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FAGOBOS": {
@@ -251,6 +371,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsareal - Grubning og br\u00e6nding og s\u00e5ning",
+            "expression": "('[elementtypekey]' = 'FAGoBoS')",
+            "color": "#58CF25",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#58CF25",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PC": {
@@ -283,6 +417,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Plejecentre",
+            "expression": "('[workareatypekey]' = 'PC')",
+            "color": "#C3AA23",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#C3AA23",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "INSTPL": {
@@ -313,6 +462,22 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Intern stiplads",
+            "expression": "('[elementtypekey]' = 'InStPl')",
+            "color": "#CC8FE4",
+            "symbol": "square",
+            "size": "8",
+            "style_opacity": "100",
+            "outlinecolor": "#CC8FE4",
+            "width": "1",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "IV": {
@@ -341,6 +506,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Insektvold",
+            "expression": "('[elementtypekey]' = 'IV')",
+            "color": "#E08314",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#E08314",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "CYST": {
@@ -361,6 +540,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Cykelsti",
+            "expression": "( '[elementtypekey]' = 'CySt')",
+            "color": "#0026FF",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SNS": {
@@ -381,6 +571,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Sl\u00e5et-naturspor",
+            "expression": "( '[elementtypekey]' = 'SNS')",
+            "color": "#C72669",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FAFAG": {
@@ -409,6 +610,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsareal - Fjernelse af gr\u00e6st\u00f8rv",
+            "expression": "('[elementtypekey]' = 'FAFaG')",
+            "color": "#F2FA05",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#F2FA05",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BOGB": {
@@ -437,6 +652,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "B\u00e6nke og borde",
+            "expression": "('[elementtypekey]' = 'BogB')",
+            "color": "#582CC4",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#582CC4",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RG3": {
@@ -463,6 +692,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s 3 x \u00e5rligt",
+            "expression": "('[elementtypekey]' = 'RG3')",
+            "color": "#441986",
+            "symbol": "square",
+            "outlinecolor": "#441986",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "UB": {
@@ -495,6 +737,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Udbud 2020",
+            "expression": "('[workareatypekey]' = 'UB')",
+            "color": "#316CFB",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#316CFB",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "IS": {
@@ -519,6 +776,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Idr\u00e6tsanl\u00e6g - Skoler",
+            "expression": "('[workareatypekey]' = 'IS')",
+            "outlinecolor": "#FF6A00",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BEPL": {
@@ -546,6 +815,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Betonplint",
+            "expression": "( '[elementtypekey]' ='BePl')",
+            "color": "#B24CF4",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#B24CF4",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RGB": {
@@ -566,6 +849,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Rabatgr\u00e6s 3 i bagkant fortov/sti",
+            "expression": "( '[elementtypekey]' = 'RGB')",
+            "color": "#00FF21",
+            "symbol": "square",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBI": {
@@ -590,6 +884,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Idr\u00e6tsby",
+            "expression": "('[workareatypekey]' = 'KBI')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FEJCS": {
@@ -614,6 +920,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejning cykelstier",
+            "expression": "('[workareatypekey]' = 'FEJCS')",
+            "outlinecolor": "#FF00FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "NOHD": {
@@ -638,6 +956,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5der - HD",
+            "expression": "('[workareatypekey]' = 'NOHD')",
+            "outlinecolor": "#7FFF8E",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "B": {
@@ -666,6 +996,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Blomsterkummer",
+            "expression": "( '[elementtypekey]' ='B')",
+            "color": "#FA52A5",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NOGR": {
@@ -690,6 +1034,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5der Grantoftegaard",
+            "expression": "('[workareatypekey]' = 'NOGR')",
+            "outlinecolor": "#FF006E",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "GV": {
@@ -714,6 +1070,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gr\u00e6ssl\u00e5ning veje",
+            "expression": "('[workareatypekey]' = 'GV')",
+            "outlinecolor": "#0094FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "NO": {
@@ -738,6 +1106,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5der",
+            "expression": "('[workareatypekey]' = 'NO')",
+            "outlinecolor": "#7FFF8E",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "ASFOB": {
@@ -759,6 +1139,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "OB asfalt",
+            "expression": "('[elementtypekey]' = 'ASFOB')",
+            "color": "#646464",
+            "outlinecolor": "#646464",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KH": {
@@ -779,6 +1171,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "H\u00e6k",
+            "expression": "( '[elementtypekey]' = 'KH')",
+            "color": "#88CE88",
+            "width": "5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FO": {
@@ -800,6 +1203,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fold",
+            "expression": "('[elementtypekey]' = 'Fo')",
+            "color": "#BFCCA3",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FUL": {
@@ -828,6 +1243,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Faldunderlag",
+            "expression": "('[elementtypekey]' = 'FUL')",
+            "color": "#C8EC07",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#C8EC07",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BEBS": {
@@ -854,6 +1283,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Betonbel\u00e6gningssten",
+            "expression": "('[elementtypekey]' = 'BeBS')",
+            "color": "#ECD2C0",
+            "symbol": "square",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FGV": {
@@ -875,6 +1317,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "F\u00e6lledgr\u00e6s p\u00e5 vold",
+            "expression": "('[elementtypekey]' = 'FGV')",
+            "color": "#FF0000",
+            "outlinecolor": "#FF0000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PGA": {
@@ -903,6 +1357,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Pergola",
+            "expression": "( '[elementtypekey]' ='PGA')",
+            "color": "#FF0000",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "STM": {
@@ -929,6 +1397,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Stenmel",
+            "expression": "('[elementtypekey]' = 'StM')",
+            "color": "#FFB27F",
+            "symbol": "square",
+            "outlinecolor": "#FFB27F",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "STK": {
@@ -954,6 +1435,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "St\u00e5lkant",
+            "expression": "( '[elementtypekey]' = 'StK')",
+            "color": "#AD582E",
+            "symbol": "square",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BK": {
@@ -976,6 +1469,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "B\u00e6nk",
+            "expression": "( '[elementtypekey]' ='BK')",
+            "outlinecolor": "#FFD800",
+            "symbol": "circle",
+            "size": "10",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TRPF": {
@@ -1002,6 +1508,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Trappe",
+            "expression": "('[elementtypekey]' = 'TRPF')",
+            "color": "#B200FF",
+            "symbol": "square",
+            "outlinecolor": "#B200FF",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "OI": {
@@ -1026,6 +1545,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "\u00d8vrige institutioner",
+            "expression": "('[workareatypekey]' = 'OI')",
+            "outlinecolor": "#FFD800",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FABOS": {
@@ -1054,6 +1585,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsareal - Br\u00e6nding og s\u00e5ning",
+            "expression": "('[elementtypekey]' = 'FABoS')",
+            "color": "#B200FF",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#B200FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "MH": {
@@ -1078,6 +1623,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Mindre haveanl\u00e6g",
+            "expression": "('[workareatypekey]' = 'MH')",
+            "outlinecolor": "#FF00DC",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "UBF": {
@@ -1102,6 +1659,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Ukrudtsb\u00f8rstning, Fortove",
+            "expression": "('[workareatypekey]' = 'UBF')",
+            "outlinecolor": "#2F29D7",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "M": {
@@ -1128,6 +1697,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Mur",
+            "expression": "('[elementtypekey]' = 'M')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "outlinecolor": "#FF0000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SPL": {
@@ -1155,6 +1737,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Spotlys",
+            "expression": "( '[elementtypekey]' ='SPL')",
+            "color": "#27A9D1",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#27A9D1",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GR": {
@@ -1183,6 +1779,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gr\u00e6s",
+            "expression": "('[elementtypekey]' = 'GR')",
+            "color": "#398713",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#398713",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VT": {
@@ -1207,6 +1817,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vintertjeneste",
+            "expression": "('[workareatypekey]' = 'VT')",
+            "outlinecolor": "#646464",
+            "width": "0",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TRPB": {
@@ -1230,6 +1852,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Trappe",
+            "expression": "( '[elementtypekey]' ='TRPB')",
+            "color": "#FF00FF",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "20",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "CYKST": {
@@ -1258,6 +1894,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Cykelstativer",
+            "expression": "('[elementtypekey]' = 'CykSt')",
+            "color": "#5E19FD",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#5E19FD",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VDIH": {
@@ -1282,6 +1932,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vinter Daginstitutioner indenfor hegn",
+            "expression": "('[workareatypekey]' = 'VDIH')",
+            "outlinecolor": "#FF00FF",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "V4SMR": {
@@ -1302,6 +1964,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vej 4 spor m. midterrabat",
+            "expression": "( '[elementtypekey]' = 'V4SMR')",
+            "color": "#FFB27F",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "HA": {
@@ -1322,6 +1995,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Helleanl\u00e6g",
+            "expression": "( '[elementtypekey]' = 'HA')",
+            "color": "#28E62D",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "DI": {
@@ -1346,6 +2030,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Daginstitutioner",
+            "expression": "('[workareatypekey]' = 'DI')",
+            "outlinecolor": "#F99C5A",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "KG": {
@@ -1367,6 +2063,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kunstgr\u00e6s",
+            "expression": "('[elementtypekey]' = 'KG')",
+            "color": "#90EE90",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TP": {
@@ -1391,6 +2099,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Torve og pladser",
+            "expression": "('[workareatypekey]' = 'TP')",
+            "outlinecolor": "#0026FF",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "VR": {
@@ -1411,6 +2131,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vandrende",
+            "expression": "( '[elementtypekey]' = 'VR')",
+            "color": "#0094FF",
+            "symbol": "square",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "CSR": {
@@ -1432,6 +2163,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Chaussestenrevir",
+            "expression": "( '[elementtypekey]' = 'CSR')",
+            "color": "#FF6A00",
+            "symbol": "square",
+            "size": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBBV": {
@@ -1456,6 +2199,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Byvej",
+            "expression": "('[workareatypekey]' = 'KBBV')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BR": {
@@ -1484,6 +2239,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "B\u00e5drampe",
+            "expression": "('[elementtypekey]' = 'BR')",
+            "color": "#0026FF",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#0026FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VSOIH": {
@@ -1508,6 +2277,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vinter skoler og institutioner, h\u00e5ndarbejde",
+            "expression": "('[workareatypekey]' = 'VSoIH')",
+            "outlinecolor": "#FF9900",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BHP": {
@@ -1536,6 +2317,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Buske",
+            "expression": "('[elementtypekey]' = 'BHP')",
+            "color": "#820E0A",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#820E0A",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TU": {
@@ -1560,6 +2355,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Termisk ukrudtsbek\u00e6mpelse",
+            "expression": "('[workareatypekey]' = 'TU')",
+            "outlinecolor": "#FF6600",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BLS": {
@@ -1583,6 +2390,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Busl\u00e6skur",
+            "expression": "( '[elementtypekey]' ='BLS')",
+            "color": "#0094FF",
+            "outlinecolor": "#0094FF",
+            "symbol": "circle",
+            "size": "10",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BD": {
@@ -1606,6 +2427,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Bord",
+            "expression": "( '[elementtypekey]' ='BD')",
+            "color": "#000000",
+            "outlinecolor": "#000000",
+            "symbol": "square",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SOE": {
@@ -1627,6 +2462,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "S\u00f8",
+            "expression": "('[elementtypekey]' = 'SOE')",
+            "color": "#ADD8E6",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SA": {
@@ -1655,6 +2502,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Signalanl\u00e6g",
+            "expression": "( '[elementtypekey]' ='SA')",
+            "color": "#FF8C00",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KL": {
@@ -1683,6 +2544,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "K\u00f8rel\u00e5ge",
+            "expression": "( '[elementtypekey]' ='KL')",
+            "color": "#FFC0CB",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NOHD1": {
@@ -1707,6 +2582,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5de - HD - 1",
+            "expression": "('[workareatypekey]' = 'NOHD1')",
+            "outlinecolor": "#CE4515",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "VTG": {
@@ -1735,6 +2622,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "V\u00e6rdifuld tr\u00e6gruppe",
+            "expression": "('[elementtypekey]' = 'VTG')",
+            "color": "#92FDF6",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#92FDF6",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BB": {
@@ -1759,6 +2660,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Boldbaner",
+            "expression": "('[workareatypekey]' = 'BB')",
+            "outlinecolor": "#111111",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SP": {
@@ -1780,6 +2693,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Sportspl\u00e6ne",
+            "expression": "('[elementtypekey]' = 'SP')",
+            "color": "#C1DD8A",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GFL": {
@@ -1800,6 +2725,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gummifliser",
+            "expression": "('[elementtypekey]' = 'GFL')",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SAK": {
@@ -1821,6 +2757,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Sandkasse",
+            "expression": "('[elementtypekey]' = 'SaK')",
+            "color": "#F1CAA7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SAND": {
@@ -1842,6 +2790,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Sand",
+            "expression": "('[elementtypekey]' = 'SAND')",
+            "color": "#F5DEB3",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "IF": {
@@ -1868,6 +2828,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Insitufliser",
+            "expression": "('[elementtypekey]' = 'IF')",
+            "color": "#DCDC26",
+            "symbol": "square",
+            "outlinecolor": "#DCDC26",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "122": {
@@ -1889,6 +2862,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Terr\u00e6nudstyr",
+            "expression": "('[elementtypekey]' = '122')",
+            "color": "#008080",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SHB": {
@@ -1910,6 +2895,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Sankt Hans B\u00e5l",
+            "expression": "('[elementtypekey]' = 'SHB')",
+            "color": "#FF0000",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GKS": {
@@ -1930,6 +2927,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Granitkantsten",
+            "expression": "( '[elementtypekey]' = 'GKS')",
+            "color": "#00FFFF",
+            "symbol": "square",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LFU": {
@@ -1962,6 +2970,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "L\u00f8st faldunderlag",
+            "expression": "('[workareatypekey]' = 'LFU')",
+            "color": "#D170B1",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#D170B1",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SKUR": {
@@ -1983,6 +3006,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Skur",
+            "expression": "('[elementtypekey]' = 'Skur')",
+            "color": "#986C1F",
+            "outlinecolor": "#986C1F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KS": {
@@ -2009,6 +3044,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Kantsten",
+            "expression": "( '[elementtypekey]' = 'KS')",
+            "color": "#0094FF",
+            "symbol": "square",
+            "size": "2",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "P": {
@@ -2032,6 +3080,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Pullert",
+            "expression": "( '[elementtypekey]' ='P')",
+            "color": "#000000",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "INST": {
@@ -2053,6 +3115,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Intern sti",
+            "expression": "( '[elementtypekey]' = 'InSt')",
+            "color": "#CC8FE4",
+            "width": "6",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LS": {
@@ -2081,6 +3155,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "L\u00e6skur",
+            "expression": "('[elementtypekey]' = 'LS')",
+            "color": "#571296",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#571296",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "IB": {
@@ -2107,6 +3195,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Insitubeton",
+            "expression": "('[elementtypekey]' = 'IB')",
+            "color": "#FFD800",
+            "symbol": "square",
+            "outlinecolor": "#FFD800",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TRR": {
@@ -2135,6 +3236,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Tr\u00e6hulsrist",
+            "expression": "('[elementtypekey]' = 'TrR')",
+            "color": "#FB1975",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#FB1975",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "ML": {
@@ -2163,6 +3278,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "M\u00e5ler",
+            "expression": "( '[elementtypekey]' ='ML')",
+            "color": "#0000FF",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "077": {
@@ -2183,6 +3312,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Markvej",
+            "expression": "( '[elementtypekey]' = '077')",
+            "color": "#FFA500",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GRF": {
@@ -2209,6 +3349,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Granitfliser",
+            "expression": "('[elementtypekey]' = 'GRF')",
+            "color": "#CBC3C3",
+            "symbol": "square",
+            "outlinecolor": "#CBC3C3",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "EUT": {
@@ -2232,6 +3385,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Eludtag",
+            "expression": "( '[elementtypekey]' ='EUT')",
+            "color": "#FF00FF",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FBMV": {
@@ -2258,6 +3425,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Fritrumsbesk\u00e6ring mod vej m.v.",
+            "expression": "( '[elementtypekey]' = 'FBMV')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "size": "4",
+            "width": "10",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VEJ": {
@@ -2278,6 +3458,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Veje, stier og fortove",
+            "expression": "('[elementtypekey]' = 'VEJ')",
+            "color": "#8A5E8A",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FM": {
@@ -2302,6 +3493,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejning Materielg\u00e5rden",
+            "expression": "('[workareatypekey]' = 'FM')",
+            "outlinecolor": "#913700",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FAFAGOS": {
@@ -2330,6 +3533,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsareal - Fjernelse af gr\u00e6st\u00f8rv og s\u00e5ning",
+            "expression": "('[elementtypekey]' = 'FAFaGoS')",
+            "color": "#00FF90",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#00FF90",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NS": {
@@ -2352,6 +3569,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Natursti",
+            "expression": "( '[elementtypekey]' = 'NS')",
+            "color": "#FF7F7F",
+            "symbol": "triangle",
+            "size": "5",
+            "gap": "8",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FS": {
@@ -2384,6 +3614,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8g",
+            "expression": "('[workareatypekey]' = 'FS')",
+            "color": "#E4066A",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#E4066A",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TO": {
@@ -2416,6 +3661,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Testomr\u00e5de",
+            "expression": "('[workareatypekey]' = 'TO')",
+            "color": "#3606F9",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#3606F9",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "LAK": {
@@ -2438,6 +3698,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Lysmast Anders Klavsen",
+            "expression": "( '[elementtypekey]' ='LAK')",
+            "outlinecolor": "#E17D23",
+            "symbol": "circle",
+            "size": "8",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BP": {
@@ -2459,6 +3732,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Brugspl\u00e6ne",
+            "expression": "('[elementtypekey]' = 'BP')",
+            "color": "#00FF21",
+            "outlinecolor": "#00FF21",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SNF": {
@@ -2487,6 +3772,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Sl\u00e5et-naturflade",
+            "expression": "('[elementtypekey]' = 'SNF')",
+            "color": "#188ACA",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#188ACA",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "AV": {
@@ -2511,6 +3810,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Autov\u00e6rn",
+            "expression": "( '[elementtypekey]' = 'AV')",
+            "color": "#FF6A00",
+            "symbol": "circle",
+            "size": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FOH": {
@@ -2533,6 +3844,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Foldhegn",
+            "expression": "( '[elementtypekey]' = 'FoH')",
+            "color": "#000000",
+            "symbol": "dashed1",
+            "size": "1",
+            "gap": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BISTR": {
@@ -2563,6 +3887,22 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Bistribe",
+            "expression": "('[elementtypekey]' = 'BiStr')",
+            "color": "#FFD800",
+            "symbol": "square",
+            "size": "8",
+            "style_opacity": "100",
+            "outlinecolor": "#FFD800",
+            "width": "1",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "CYSR": {
@@ -2584,6 +3924,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Cykelstativ",
+            "expression": "( '[elementtypekey]' = 'CYSR')",
+            "color": "#FFD800",
+            "symbol": "square",
+            "size": "10",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SFS": {
@@ -2610,6 +3962,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "SF-sten",
+            "expression": "('[elementtypekey]' = 'SFS')",
+            "color": "#E48D53",
+            "symbol": "square",
+            "outlinecolor": "#E48D53",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RGT": {
@@ -2631,6 +3996,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s til tilstandskrav",
+            "expression": "('[elementtypekey]' = 'RGT')",
+            "color": "#7685BA",
+            "outlinecolor": "#7685BA",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "ASF": {
@@ -2652,6 +4029,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Asfalt",
+            "expression": "('[elementtypekey]' = 'ASF')",
+            "color": "#D3BDCF",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FAIG": {
@@ -2672,6 +4061,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsarealer i gr\u00e6srabatter",
+            "expression": "('[elementtypekey]' = 'FAiG')",
+            "outlinecolor": "#2EF7C1",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RB": {
@@ -2699,6 +4099,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Regnvandsbr\u00f8nd",
+            "expression": "( '[elementtypekey]' ='RB')",
+            "color": "#4682B4",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VS": {
@@ -2722,6 +4136,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Vejskilt",
+            "expression": "( '[elementtypekey]' ='VS')",
+            "color": "#FF0000",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GABE": {
@@ -2750,6 +4178,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gadebelysning",
+            "expression": "('[elementtypekey]' = 'GaBe')",
+            "color": "#6DA10F",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#6DA10F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "MK": {
@@ -2771,6 +4213,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Mark",
+            "expression": "('[elementtypekey]' = 'MK')",
+            "color": "#DFC37D",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RSKR": {
@@ -2799,6 +4253,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s skr\u00e5ning",
+            "expression": "('[elementtypekey]' = 'RSKR')",
+            "color": "#3FF63C",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#3FF63C",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KPL": {
@@ -2827,6 +4295,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Klapl\u00e5ge",
+            "expression": "( '[elementtypekey]' ='KPL')",
+            "color": "#FFC0CB",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SD": {
@@ -2847,6 +4329,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Stendige",
+            "expression": "( '[elementtypekey]' = 'SD')",
+            "color": "#EBEB3A",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VBF": {
@@ -2874,6 +4367,21 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Vejbr\u00f8nd f\u00e6lleskloak",
+            "expression": "( '[elementtypekey]' ='VBF')",
+            "color": "#FF00FF",
+            "symbol": "square",
+            "angle": 45,
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SF": {
@@ -2897,6 +4405,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Sandfang",
+            "expression": "( '[elementtypekey]' ='SF')",
+            "color": "#FFB27F",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "10",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "ROB": {
@@ -2925,6 +4447,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rodvenligt b\u00e6relag",
+            "expression": "('[elementtypekey]' = 'RoB')",
+            "color": "#A46879",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#A46879",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "STSK": {
@@ -2945,6 +4481,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "St\u00f8jsk\u00e6rm",
+            "expression": "( '[elementtypekey]' = 'StSk')",
+            "color": "#FFD800",
+            "width": "3",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FABE": {
@@ -2973,6 +4520,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fast bel\u00e6gning",
+            "expression": "('[elementtypekey]' = 'FaBe')",
+            "color": "#1B2308",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#1B2308",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KLI": {
@@ -3001,6 +4562,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Klinker",
+            "expression": "('[elementtypekey]' = 'Kli')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BLP": {
@@ -3029,6 +4604,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "B\u00e5lplads",
+            "expression": "( '[elementtypekey]' ='BLP')",
+            "color": "#FF4500",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "123": {
@@ -3049,6 +4638,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Terr\u00e6nudstyr_l",
+            "expression": "( '[elementtypekey]' = '123')",
+            "color": "#008080",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BUS": {
@@ -3072,6 +4672,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Busstander",
+            "expression": "( '[elementtypekey]' ='BUS')",
+            "color": "#FFFF00",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RG5": {
@@ -3098,6 +4712,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s 5 x \u00e5rligt",
+            "expression": "('[elementtypekey]' = 'RG5')",
+            "color": "#00FF90",
+            "symbol": "square",
+            "outlinecolor": "#00FF90",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBN": {
@@ -3122,6 +4749,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Nord",
+            "expression": "('[workareatypekey]' = 'KBN')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "121": {
@@ -3143,6 +4782,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Terr\u00e6nbygv\u00e6rker",
+            "expression": "('[elementtypekey]' = '121')",
+            "color": "#008080",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RVMS": {
@@ -3167,6 +4818,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Renhold veje m. spor",
+            "expression": "('[workareatypekey]' = 'RVMS')",
+            "outlinecolor": "#53FD69",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "KEB": {
@@ -3191,6 +4854,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Egebjerg",
+            "expression": "('[workareatypekey]' = 'KEB')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BYGN": {
@@ -3212,6 +4887,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Bygning",
+            "expression": "('[elementtypekey]' = 'BYGN')",
+            "color": "#708090",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PB": {
@@ -3239,6 +4926,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Pullertbelysning",
+            "expression": "( '[elementtypekey]' ='PB')",
+            "color": "#E6F507",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#E6F507",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TUVS": {
@@ -3263,6 +4964,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Termisk ukrudtsbek\u00e6mpelse Veje og stier",
+            "expression": "('[workareatypekey]' = 'TUVS')",
+            "outlinecolor": "#B5E053",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "LR": {
@@ -3287,6 +5000,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Legeredskaber",
+            "expression": "('[workareatypekey]' = 'LR')",
+            "outlinecolor": "#000000",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SOGKP": {
@@ -3317,6 +5042,22 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Slyng- og klatreplanter",
+            "expression": "('[elementtypekey]' = 'SogKP')",
+            "color": "#A78320",
+            "symbol": "circle",
+            "size": "10",
+            "style_opacity": "100",
+            "outlinecolor": "#A78320",
+            "width": "1",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PA": {
@@ -3345,6 +5086,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Pulsator",
+            "expression": "( '[elementtypekey]' ='PA')",
+            "color": "#FF0000",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FDF": {
@@ -3371,6 +5126,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fortov",
+            "expression": "('[elementtypekey]' = 'FDF')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "outlinecolor": "#FF0000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PS": {
@@ -3397,6 +5165,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Perlesten",
+            "expression": "('[elementtypekey]' = 'PS')",
+            "color": "#72B526",
+            "symbol": "square",
+            "outlinecolor": "#72B526",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "UHV": {
@@ -3421,6 +5202,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Ukrudtsbek\u00e6mpelse - Hedt vand",
+            "expression": "('[workareatypekey]' = 'UHV')",
+            "outlinecolor": "#D202CC",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TR": {
@@ -3444,6 +5237,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Tr\u00e6",
+            "expression": "( '[elementtypekey]' ='TR')",
+            "color": "#00FF21",
+            "outlinecolor": "#00FF21",
+            "symbol": "circle",
+            "size": "10",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "OS": {
@@ -3472,6 +5279,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "oplysningsskilt",
+            "expression": "( '[elementtypekey]' ='OS')",
+            "color": "#FFFFFF",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TRTE": {
@@ -3498,6 +5319,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Tr\u00e6terrasse",
+            "expression": "('[elementtypekey]' = 'TrTe')",
+            "color": "#CAAA8A",
+            "symbol": "square",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VNS": {
@@ -3521,6 +5355,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Vejnavneskilt",
+            "expression": "( '[elementtypekey]' ='VNS')",
+            "color": "#FF0000",
+            "outlinecolor": "#000000",
+            "symbol": "triangle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NGR": {
@@ -3545,6 +5393,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5der - Grantofteg\u00e5rd",
+            "expression": "('[workareatypekey]' = 'NGR')",
+            "outlinecolor": "#B200FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "CYSE": {
@@ -3568,6 +5428,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Cykelstativ ",
+            "expression": "( '[elementtypekey]' ='CYSE')",
+            "color": "#FF6A00",
+            "outlinecolor": "#FF6A00",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LB": {
@@ -3593,6 +5467,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "L\u00e5seb\u00e5nd",
+            "expression": "( '[elementtypekey]' = 'LB')",
+            "color": "#EF5D8C",
+            "symbol": "square",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VVH": {
@@ -3625,6 +5511,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vinter vejomr\u00e5det, h\u00e5ndarbejde",
+            "expression": "('[workareatypekey]' = 'VVH')",
+            "color": "#AB412B",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#AB412B",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BGV": {
@@ -3653,6 +5554,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Bygv\u00e6rker",
+            "expression": "('[elementtypekey]' = 'BGV')",
+            "color": "#E83E68",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#E83E68",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NH": {
@@ -3677,6 +5592,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturhj\u00e6lperne",
+            "expression": "('[workareatypekey]' = 'NH')",
+            "outlinecolor": "#000000",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TS": {
@@ -3696,6 +5623,16 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Trampesti",
+            "expression": "( '[elementtypekey]' = 'TS')",
+            "color": "#FF006E",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NAC": {
@@ -3719,6 +5656,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Nedgravet affaldscontainer",
+            "expression": "( '[elementtypekey]' ='NAC')",
+            "color": "#3A5F8D",
+            "outlinecolor": "#3A5F8D",
+            "symbol": "circle",
+            "size": "10",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "V4S": {
@@ -3739,6 +5690,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vej 4 spor",
+            "expression": "( '[elementtypekey]' = 'V4S')",
+            "color": "#FF6A00",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PCX": {
@@ -3771,6 +5733,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Plejecentre X",
+            "expression": "('[workareatypekey]' = 'PCX')",
+            "color": "#B28F15",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#B28F15",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "HE": {
@@ -3795,6 +5772,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Hegn",
+            "expression": "( '[elementtypekey]' = 'He')",
+            "color": "#FF0000",
+            "symbol": "dashed3",
+            "size": "3",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KLP": {
@@ -3816,6 +5805,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Pur",
+            "expression": "('[elementtypekey]' = 'KLP')",
+            "color": "#83CF83",
+            "outlinecolor": "#000000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SM": {
@@ -3838,6 +5839,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Sportsm\u00e5l",
+            "expression": "( '[elementtypekey]' ='SM')",
+            "color": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "gap": "11",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LRF": {
@@ -3858,6 +5872,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Legeredskab",
+            "expression": "('[elementtypekey]' = 'LRF')",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FDL": {
@@ -3879,6 +5904,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Fortov",
+            "expression": "( '[elementtypekey]' = 'FDL')",
+            "color": "#FF0000",
+            "outlinecolor": "#646464",
+            "width": "3",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "OLB": {
@@ -3907,6 +5944,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "\u00d8landsbrud",
+            "expression": "('[elementtypekey]' = 'OLB')",
+            "color": "#3F8893",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#3F8893",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SUMO": {
@@ -3937,6 +5988,20 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Summering, overordnet",
+            "expression": "('[workareatypekey]' = 'SUMO')",
+            "color": "#A8C45C",
+            "symbol": "hatch1",
+            "outlinecolor": "#A8C45C",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "137": {
@@ -3957,6 +6022,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vandl\u00f8b",
+            "expression": "( '[elementtypekey]' = '137')",
+            "color": "#ADD8E6",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KM": {
@@ -3981,6 +6057,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, M\u00e5l\u00f8v",
+            "expression": "('[workareatypekey]' = 'KM')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FG2": {
@@ -4002,6 +6090,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "F\u00e6lledgr\u00e6s, niveau 2",
+            "expression": "('[elementtypekey]' = 'FG2')",
+            "color": "#FFD800",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FR": {
@@ -4034,6 +6134,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejeruter",
+            "expression": "('[workareatypekey]' = 'FR')",
+            "color": "#C34D33",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#C34D33",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SUM1": {
@@ -4066,6 +6181,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Summering (niv. 1)",
+            "expression": "('[workareatypekey]' = 'SUM1')",
+            "color": "#E9B0A4",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#E9B0A4",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SOBO": {
@@ -4094,6 +6224,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "SOBO3+ m\u00e5lepunkt",
+            "expression": "( '[elementtypekey]' ='SOBO')",
+            "color": "#00FF21",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#00FF21",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FST": {
@@ -4121,6 +6265,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Flagstang",
+            "expression": "( '[elementtypekey]' ='FST')",
+            "color": "#FF0000",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SHE": {
@@ -4149,6 +6307,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Shelter",
+            "expression": "( '[elementtypekey]' ='She')",
+            "color": "#957756",
+            "symbol": "triangle",
+            "size": "10",
+            "outlinecolor": "#000000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RPF": {
@@ -4175,6 +6347,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rampe",
+            "expression": "('[elementtypekey]' = 'RPF')",
+            "color": "#00FF90",
+            "symbol": "square",
+            "outlinecolor": "#00FF90",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TST": {
@@ -4202,6 +6387,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Tr\u00e6sti",
+            "expression": "('[elementtypekey]' = 'TST')",
+            "color": "#FF7F7F",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#FF7F7F",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SK": {
@@ -4223,6 +6421,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Skov",
+            "expression": "('[elementtypekey]' = 'SK')",
+            "color": "#5C875C",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KP": {
@@ -4246,6 +6456,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Klatrende planter",
+            "expression": "( '[elementtypekey]' ='KP')",
+            "color": "#FF0000",
+            "outlinecolor": "#000000",
+            "symbol": "triangle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FEJV1": {
@@ -4270,6 +6494,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejning vej, niveau 1",
+            "expression": "('[workareatypekey]' = 'FEJV1')",
+            "outlinecolor": "#FF00FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FTAV": {
@@ -4298,6 +6534,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "F\u00e6rdselstavle",
+            "expression": "( '[elementtypekey]' ='FTAV')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "098": {
@@ -4319,6 +6569,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "R\u00f8rsump",
+            "expression": "('[elementtypekey]' = '098')",
+            "color": "#B8860B",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RBE": {
@@ -4340,6 +6602,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rosenbede",
+            "expression": "('[elementtypekey]' = 'RBe')",
+            "color": "#FF69B4",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "AEST": {
@@ -4366,6 +6640,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "\u00c6rtesten",
+            "expression": "('[elementtypekey]' = 'AEST')",
+            "color": "#C1A129",
+            "symbol": "square",
+            "outlinecolor": "#C1A129",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FAGOS": {
@@ -4394,6 +6681,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fors\u00f8gsareal - Grubning og s\u00e5ning",
+            "expression": "('[elementtypekey]' = 'FAGoS')",
+            "color": "#FEBD0F",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#FEBD0F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FVH": {
@@ -4424,6 +6725,22 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fritvoksende h\u00e6k",
+            "expression": "('[elementtypekey]' = 'FVH')",
+            "color": "#121653",
+            "symbol": "hatch1",
+            "size": "8",
+            "style_opacity": "100",
+            "outlinecolor": "#121653",
+            "width": "1",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TRM": {
@@ -4444,6 +6761,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Terr\u00e6nmur",
+            "expression": "( '[elementtypekey]' = 'TRM')",
+            "color": "#BE802B",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBS": {
@@ -4468,6 +6796,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Syd",
+            "expression": "('[workareatypekey]' = 'KBS')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "AP": {
@@ -4496,6 +6836,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Anden plads",
+            "expression": "('[elementtypekey]' = 'AP')",
+            "color": "#FF6A00",
+            "symbol": "hatch1",
+            "size": "5",
+            "outlinecolor": "#FF6A00",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RG": {
@@ -4517,6 +6871,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s",
+            "expression": "('[elementtypekey]' = 'RG')",
+            "color": "#B2C981",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TO2": {
@@ -4549,6 +6915,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Testomr\u00e5de2",
+            "expression": "('[workareatypekey]' = 'TO2')",
+            "color": "#65BA8C",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#65BA8C",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BS": {
@@ -4575,6 +6956,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Brosten",
+            "expression": "('[elementtypekey]' = 'BS')",
+            "color": "#FF6A00",
+            "symbol": "square",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "S": {
@@ -4603,6 +6997,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Sten",
+            "expression": "( '[elementtypekey]' ='S')",
+            "color": "#CC99FF",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FH": {
@@ -4623,6 +7031,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Fodhegn",
+            "expression": "( '[elementtypekey]' = 'FH')",
+            "color": "#1E90FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SFB": {
@@ -4651,6 +7070,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Semifleksibel bel\u00e6gning",
+            "expression": "('[elementtypekey]' = 'SFB')",
+            "color": "#863FE8",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#863FE8",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VEUH": {
@@ -4675,6 +7108,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vinter ejendomme udenfor hegn",
+            "expression": "('[workareatypekey]' = 'VEUH')",
+            "outlinecolor": "#FF9900",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "054": {
@@ -4700,6 +7145,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Gr\u00f8ft",
+            "expression": "( '[elementtypekey]' = '054')",
+            "color": "#87CEEB",
+            "symbol": "square",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "MU": {
@@ -4723,6 +7180,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Motionsudstyr",
+            "expression": "( '[elementtypekey]' ='MU')",
+            "color": "#FF6A00",
+            "outlinecolor": "#000000",
+            "symbol": "triangle",
+            "size": "10",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RG1": {
@@ -4749,6 +7220,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s 1 x \u00e5rligt",
+            "expression": "('[elementtypekey]' = 'RG1')",
+            "color": "#F50B36",
+            "symbol": "square",
+            "outlinecolor": "#F50B36",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KMS": {
@@ -4773,6 +7257,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Malmparken Station",
+            "expression": "('[workareatypekey]' = 'KMS')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FSA": {
@@ -4799,6 +7295,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Oprindelige fors\u00f8gsarealer",
+            "expression": "('[elementtypekey]' = 'FSA')",
+            "color": "#C1FEBD",
+            "symbol": "square",
+            "outlinecolor": "#C1FEBD",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "UDS": {
@@ -4827,6 +7336,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Udstyr",
+            "expression": "('[elementtypekey]' = 'UDS')",
+            "color": "#7194F2",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#7194F2",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BDL": {
@@ -4849,6 +7372,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Br\u00f8ndd\u00e6ksel",
+            "expression": "( '[elementtypekey]' ='BDL')",
+            "outlinecolor": "#F74F56",
+            "symbol": "circle",
+            "size": "10",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "119": {
@@ -4869,6 +7405,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Sveller",
+            "expression": "( '[elementtypekey]' = '119')",
+            "color": "#A0522D",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GASF": {
@@ -4890,6 +7437,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gummiasfalt",
+            "expression": "('[elementtypekey]' = 'GASF')",
+            "color": "#7D2536",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SV": {
@@ -4913,6 +7472,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Springvand",
+            "expression": "( '[elementtypekey]' ='SV')",
+            "color": "#0000FF",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "ST": {
@@ -4934,6 +7507,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Stauder",
+            "expression": "('[elementtypekey]' = 'St')",
+            "color": "#FAEAFF",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BUD": {
@@ -4955,6 +7540,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Bundd\u00e6kke",
+            "expression": "('[elementtypekey]' = 'BUD')",
+            "color": "#556B2F",
+            "outlinecolor": "#000000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "K": {
@@ -4977,6 +7574,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Kunstv\u00e6rk",
+            "expression": "( '[elementtypekey]' ='K')",
+            "outlinecolor": "#0026FF",
+            "symbol": "triangle",
+            "size": "30",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BT": {
@@ -5005,6 +7615,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Beton",
+            "expression": "('[elementtypekey]' = 'Bt')",
+            "color": "#E19CF9",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#E19CF9",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "INVE": {
@@ -5025,6 +7649,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Interne veje",
+            "expression": "( '[elementtypekey]' = 'InVe')",
+            "color": "#4800FF",
+            "width": "3",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "DK": {
@@ -5053,6 +7688,21 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Drikkekar",
+            "expression": "( '[elementtypekey]' ='DK')",
+            "color": "#ADD8E6",
+            "symbol": "square",
+            "angle": 45,
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SVB": {
@@ -5080,6 +7730,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Spildevandsbr\u00f8nd",
+            "expression": "( '[elementtypekey]' ='SVB')",
+            "color": "#B8860B",
+            "symbol": "circle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LT": {
@@ -5103,6 +7767,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "leget\u00e5rn",
+            "expression": "( '[elementtypekey]' ='LT')",
+            "color": "#FF0000",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TRPL": {
@@ -5123,6 +7801,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Trappe",
+            "expression": "( '[elementtypekey]' = 'TRPL')",
+            "color": "#B200FF",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BEFL": {
@@ -5151,6 +7840,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Betonfliser",
+            "expression": "('[elementtypekey]' = 'BeFl')",
+            "color": "#A0A0A0",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#A0A0A0",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SS": {
@@ -5175,6 +7878,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Sl\u00e5et spor",
+            "expression": "( '[elementtypekey]' = 'SS')",
+            "color": "#00FF21",
+            "symbol": "square",
+            "size": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FEJF": {
@@ -5199,6 +7914,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fejning fortove",
+            "expression": "('[workareatypekey]' = 'FEJF')",
+            "outlinecolor": "#FF00FF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "EVR": {
@@ -5223,6 +7950,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vejrabatter",
+            "expression": "('[workareatypekey]' = 'EVR')",
+            "outlinecolor": "#B5E053",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TRAER": {
@@ -5250,6 +7989,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Tr\u00e6er",
+            "expression": "('[elementtypekey]' = 'Traer')",
+            "color": "#B4864E",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#B4864E",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SMHD": {
@@ -5282,6 +8035,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Samlede m\u00e6ngder for HedeDanmark",
+            "expression": "('[workareatypekey]' = 'SMHD')",
+            "color": "#954101",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#FF6A00",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "KBC": {
@@ -5306,6 +8074,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Centrum",
+            "expression": "('[workareatypekey]' = 'KBC')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FUT": {
@@ -5334,6 +8114,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Fuglet\u00e5rn",
+            "expression": "('[elementtypekey]' = 'FuT')",
+            "color": "#546FD8",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#546FD8",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RG2": {
@@ -5355,6 +8149,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s 2 x \u00e5rligt",
+            "expression": "('[elementtypekey]' = 'RG2')",
+            "color": "#86F2DD",
+            "outlinecolor": "#86F2DD",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "HB": {
@@ -5383,6 +8189,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "H\u00f8jbed",
+            "expression": "('[elementtypekey]' = 'HB')",
+            "color": "#1A3F5B",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#1A3F5B",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LHK": {
@@ -5409,6 +8229,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Levende hegn og krat",
+            "expression": "('[elementtypekey]' = 'LHK')",
+            "color": "#19AF2C",
+            "symbol": "square",
+            "outlinecolor": "#19AF2C",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GGRG": {
@@ -5437,6 +8270,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rabatgr\u00e6s",
+            "expression": "('[elementtypekey]' = 'GGRG')",
+            "color": "#B2C981",
+            "symbol": "hatch1",
+            "size": "4",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BI": {
@@ -5461,6 +8308,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Ballerup idr\u00e6tsby",
+            "expression": "('[workareatypekey]' = 'BI')",
+            "outlinecolor": "#000000",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "FG": {
@@ -5489,6 +8348,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "F\u00e6lledgr\u00e6s",
+            "expression": "('[elementtypekey]' = 'FG')",
+            "color": "#8F88F6",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#8F88F6",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BBS": {
@@ -5511,6 +8384,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Borde-b\u00e6nkes\u00e6t",
+            "expression": "( '[elementtypekey]' ='BBS')",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SUM": {
@@ -5543,6 +8429,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Summering",
+            "expression": "('[workareatypekey]' = 'SUM')",
+            "color": "#C27984",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#C27984",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "089": {
@@ -5563,6 +8464,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Plankev\u00e6rk",
+            "expression": "( '[elementtypekey]' = '089')",
+            "color": "#A0522D",
+            "width": "3",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FG1": {
@@ -5584,6 +8496,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "F\u00e6lledgr\u00e6s, niveau 1",
+            "expression": "('[elementtypekey]' = 'FG1')",
+            "color": "#FF6A00",
+            "outlinecolor": "#000000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LMU": {
@@ -5607,6 +8531,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Lege- og motionsudstyr",
+            "expression": "( '[elementtypekey]' ='LMU')",
+            "color": "#9370DB",
+            "outlinecolor": "#000000",
+            "symbol": "triangle",
+            "size": "7",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "AFVA": {
@@ -5635,6 +8573,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Afvanding",
+            "expression": "('[elementtypekey]' = 'AfVa')",
+            "color": "#C7DA9E",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#C7DA9E",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "AG": {
@@ -5663,6 +8615,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Armeret grus",
+            "expression": "('[elementtypekey]' = 'AG')",
+            "color": "#73D199",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#73D199",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KMB": {
@@ -5687,6 +8653,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, M\u00e5l\u00f8v Byvej",
+            "expression": "('[workareatypekey]' = 'KMB')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "TH": {
@@ -5709,6 +8687,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Tr\u00e5dhegn",
+            "expression": "( '[elementtypekey]' = 'TH')",
+            "color": "#FF00DC",
+            "symbol": "triangle",
+            "size": "4",
+            "gap": "6",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GRA": {
@@ -5730,6 +8721,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gr\u00e6sarmering",
+            "expression": "('[elementtypekey]' = 'GRA')",
+            "color": "#858B78",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BU": {
@@ -5751,6 +8754,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Busket",
+            "expression": "('[elementtypekey]' = 'BU')",
+            "color": "#57CD57",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NR": {
@@ -5778,6 +8793,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Nedl\u00f8bsrist",
+            "expression": "( '[elementtypekey]' ='NR')",
+            "color": "#FF00FF",
+            "symbol": "square",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "L": {
@@ -5800,6 +8829,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Lysmast",
+            "expression": "( '[elementtypekey]' ='L')",
+            "outlinecolor": "#FFD800",
+            "symbol": "triangle",
+            "size": "4",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LBE": {
@@ -5828,6 +8870,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "L\u00f8s bel\u00e6gning",
+            "expression": "('[elementtypekey]' = 'LBe')",
+            "color": "#F775B9",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#F775B9",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "TB": {
@@ -5856,6 +8912,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Tr\u00e6bel\u00e6gning",
+            "expression": "('[elementtypekey]' = 'TB')",
+            "color": "#74D058",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#74D058",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KSB": {
@@ -5880,6 +8950,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Skovlunde Byvej",
+            "expression": "('[workareatypekey]' = 'KSB')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "UFK": {
@@ -5904,6 +8986,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Udenfor kontrakt",
+            "expression": "('[workareatypekey]' = 'UFK')",
+            "outlinecolor": "#7FC9FF",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "RW": {
@@ -5936,6 +9030,21 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Rotter",
+            "expression": "('[workareatypekey]' = 'RW')",
+            "color": "#E46BEF",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#E46BEF",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "PK": {
@@ -5960,6 +9069,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Parker",
+            "expression": "('[workareatypekey]' = 'PK')",
+            "outlinecolor": "#00FF21",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "SR": {
@@ -5980,6 +9101,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Sokkelrende",
+            "expression": "( '[elementtypekey]' = 'SR')",
+            "color": "#D9EB8A",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LL": {
@@ -6006,6 +9138,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Ledelinje",
+            "expression": "( '[elementtypekey]' = 'LL')",
+            "color": "#FFD800",
+            "symbol": "square",
+            "size": "4",
+            "width": "10",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FB": {
@@ -6029,6 +9174,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Fritvoksende buske",
+            "expression": "( '[elementtypekey]' ='FB')",
+            "color": "#008000",
+            "outlinecolor": "#000000",
+            "symbol": "circle",
+            "size": "15",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "NOG": {
@@ -6053,6 +9212,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Naturomr\u00e5der - Gr\u00e6sentrepren\u00f8rer",
+            "expression": "('[workareatypekey]' = 'NOG')",
+            "outlinecolor": "#EE624A",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "PN": {
@@ -6081,6 +9252,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Pylon",
+            "expression": "( '[elementtypekey]' ='PN')",
+            "color": "#FF6600",
+            "symbol": "circle",
+            "size": "15",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BRL": {
@@ -6101,6 +9286,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Brosten-linje",
+            "expression": "( '[elementtypekey]' = 'BrL')",
+            "color": "#DCB3AF",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PST": {
@@ -6129,6 +9325,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Pigsten",
+            "expression": "('[elementtypekey]' = 'PSt')",
+            "color": "#D7F1DA",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#DAFF7F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "CS": {
@@ -6155,6 +9365,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Chaussesten",
+            "expression": "('[elementtypekey]' = 'CS')",
+            "color": "#A0A0A0",
+            "symbol": "square",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BV": {
@@ -6179,6 +9402,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Beplantning veje",
+            "expression": "('[workareatypekey]' = 'BV')",
+            "outlinecolor": "#FF6A00",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "LV": {
@@ -6207,6 +9442,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "L\u00f8gv\u00e6kster",
+            "expression": "('[elementtypekey]' = 'LV')",
+            "color": "#ED4E92",
+            "symbol": "triangle",
+            "size": "4",
+            "outlinecolor": "#000000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BSK": {
@@ -6237,6 +9486,22 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Blomster",
+            "expression": "('[elementtypekey]' = 'BSK')",
+            "color": "#38B437",
+            "symbol": "hatch1",
+            "size": "8",
+            "style_opacity": "100",
+            "outlinecolor": "#38B437",
+            "width": "1",
+            "opacity": "100",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "BM": {
@@ -6265,6 +9530,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Bom",
+            "expression": "( '[elementtypekey]' ='BM')",
+            "color": "#FF8C00",
+            "symbol": "circle",
+            "size": "30",
+            "outlinecolor": "#000000",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PVL": {
@@ -6293,6 +9572,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Prioriteret lokalitet ved kraftigt snefald",
+            "expression": "( '[elementtypekey]' ='PVL')",
+            "color": "#F40C23",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#F40C23",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "078": {
@@ -6314,6 +9607,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Mose",
+            "expression": "('[elementtypekey]' = '078')",
+            "color": "#D4D481",
+            "outlinecolor": "#000000",
+            "width": "0.2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "LIA": {
@@ -6334,6 +9639,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Linjeafvanding",
+            "expression": "( '[elementtypekey]' = 'LiA')",
+            "color": "#4682B4",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "KBB": {
@@ -6358,6 +9674,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Kontrolomr\u00e5der, Ballerup Boulevard",
+            "expression": "('[workareatypekey]' = 'KBB')",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "ANA1": {
@@ -6379,6 +9707,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Anden anvendelse",
+            "expression": "('[elementtypekey]' = 'ANA1')",
+            "color": "#646464",
+            "outlinecolor": "#646464",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FRI": {
@@ -6407,6 +9747,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "F\u00e6rist",
+            "expression": "('[elementtypekey]' = 'FRi')",
+            "color": "#8280E5",
+            "symbol": "hatch1",
+            "size": "8",
+            "outlinecolor": "#8280E5",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "V2S": {
@@ -6427,6 +9781,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Vej 2 spor",
+            "expression": "( '[elementtypekey]' = 'V2S')",
+            "color": "#0094FF",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "G": {
@@ -6453,6 +9818,19 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Grus",
+            "expression": "('[elementtypekey]' = 'G')",
+            "color": "#D7C5BA",
+            "symbol": "square",
+            "outlinecolor": "#D7C5BA",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "PKP": {
@@ -6481,6 +9859,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Parkeringsplads",
+            "expression": "('[elementtypekey]' = 'PKP')",
+            "color": "#FF0000",
+            "symbol": "hatch1",
+            "size": "5",
+            "outlinecolor": "#FF0000",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "RPL": {
@@ -6501,6 +9893,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Rampe",
+            "expression": "( '[elementtypekey]' = 'RPL')",
+            "color": "#00FF90",
+            "width": "4",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FLB": {
@@ -6522,6 +9925,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Flisebel\u00e6gning",
+            "expression": "('[elementtypekey]' = 'FLB')",
+            "color": "#D5B4B4",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "VSOI": {
@@ -6546,6 +9961,18 @@
                 "size": "10",
                 "ALIGN": "center"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Vinter skoler og institutioner, traktor",
+            "expression": "('[workareatypekey]' = 'VSoI')",
+            "outlinecolor": "#FF9900",
+            "width": "2",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "10",
+            "label_font": "arial",
+            "label_position": "cc"
         }
     },
     "BKS": {
@@ -6566,6 +9993,17 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 20,
+            "name": "Betonkantsten",
+            "expression": "( '[elementtypekey]' = 'BKS')",
+            "color": "#EEC2A5",
+            "symbol": "square",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SPS": {
@@ -6594,6 +10032,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Slyngplantestativ",
+            "expression": "( '[elementtypekey]' ='SPS')",
+            "color": "#1E90FF",
+            "symbol": "triangle",
+            "size": "7",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "A": {
@@ -6617,6 +10069,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Affaldsbeholder",
+            "expression": "( '[elementtypekey]' ='A')",
+            "color": "#00FFFF",
+            "outlinecolor": "#00FFFF",
+            "symbol": "circle",
+            "size": "8",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "J": {
@@ -6645,6 +10111,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Jord",
+            "expression": "('[elementtypekey]' = 'J')",
+            "color": "#FFB27F",
+            "symbol": "square",
+            "size": "8",
+            "outlinecolor": "#FFB27F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "SASI": {
@@ -6673,6 +10153,20 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Saltsilo",
+            "expression": "( '[elementtypekey]' ='SaSi')",
+            "color": "#FFD800",
+            "symbol": "circle",
+            "size": "10",
+            "outlinecolor": "#FFE97F",
+            "width": "1",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "FOK": {
@@ -6701,6 +10195,21 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 10,
+            "name": "Folderkasser",
+            "expression": "( '[elementtypekey]' ='FOK')",
+            "color": "#FF0000",
+            "symbol": "square",
+            "angle": 45,
+            "size": "6",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     },
     "GB": {
@@ -6722,6 +10231,18 @@
                 "type": "truetype",
                 "size": "8"
             }
+        },
+        "mapcentia": {
+            "sortid": 30,
+            "name": "Gangbro",
+            "expression": "('[elementtypekey]' = 'GB')",
+            "color": "#CD853F",
+            "outlinecolor": "#000000",
+            "width": "0.5",
+            "label_color": "#646464",
+            "label_outlinecolor": "#FFFFFF",
+            "label_size": "8",
+            "label_font": "arial"
         }
     }
 }
