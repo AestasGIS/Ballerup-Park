@@ -140,10 +140,11 @@ CREATE VIEW vt_vintertjeneste.vt_vejrute_3_inve AS SELECT ogc_fid AS gid, * FROM
 CREATE VIEW vt_vintertjeneste.vt_vejrute_3_v2s  AS SELECT ogc_fid AS gid, * FROM driftweb.v2s  WHERE level_1_workareas::text ~~ '%VT Vejrute 3,  Stor traktor 1 - Vintervejklasse I og II%';
                                                                                                                                  
 -- Arbejdsomaade VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)
-CREATE VIEW vt_vintertjeneste.vt_vejrute_4_ap   AS SELECT ogc_fid AS gid, * FROM driftweb.ap   WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
-CREATE VIEW vt_vintertjeneste.vt_vejrute_4_pkp  AS SELECT ogc_fid AS gid, * FROM driftweb.pkp  WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
-CREATE VIEW vt_vintertjeneste.vt_vejrute_4_inve AS SELECT ogc_fid AS gid, * FROM driftweb.inve WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
-CREATE VIEW vt_vintertjeneste.vt_vejrute_4_v2s  AS SELECT ogc_fid AS gid, * FROM driftweb.v2s  WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
+CREATE VIEW vt_vintertjeneste.vt_vejrute_4_ap    AS SELECT ogc_fid AS gid, * FROM driftweb.ap    WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
+CREATE VIEW vt_vintertjeneste.vt_vejrute_4_pkp   AS SELECT ogc_fid AS gid, * FROM driftweb.pkp   WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
+CREATE VIEW vt_vintertjeneste.vt_vejrute_4_inve  AS SELECT ogc_fid AS gid, * FROM driftweb.inve  WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
+CREATE VIEW vt_vintertjeneste.vt_vejrute_4_v2s   AS SELECT ogc_fid AS gid, * FROM driftweb.v2s   WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
+CREATE VIEW vt_vintertjeneste.vt_vejrute_4_v2smr AS SELECT ogc_fid AS gid, * FROM driftweb.v2smr WHERE level_1_workareas::text ~~ '%VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)%';
                                                                                                                                   
 -- Arbejdsomaade VT Vejrute 5, Lastbil 1 - Vintervejklasse III
 CREATE VIEW vt_vintertjeneste.vt_vejrute_5_ap    AS SELECT ogc_fid AS gid, * FROM driftweb.ap    WHERE level_1_workareas::text ~~ '%VT Vejrute 5, Lastbil 1 - Vintervejklasse III%';
