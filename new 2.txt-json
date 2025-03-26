@@ -1,0 +1,1648 @@
+{
+  "FS": "",
+  "KT": "",
+  "MR": "",
+  "SN": "",
+  "UE": "11",
+  "VL": "",
+  "HBR": "",
+  "TUR": "1",
+  "UEF": "",
+  "UER": "",
+  "UKB": "",
+  "VTj": "",
+  "VVK": "",
+  "AOT1": "8",
+  "GFBM": "",
+  "Kval": "",
+  "VTJx": "",
+  "ViRuH": "",
+  "ViRuV": "",
+  "ViRuSF": ""
+}
+
+{
+  "Id": "032ed611-8ee4-4fab-8eb1-73534830b244",
+  "Key": 762385,
+  "Name": "G-00565",
+  "Origin": "office",
+  "Address": "",
+  "Measure": 165.61126585577227,
+  "Distance": 0,
+  "Perimeter": 62.684954933392,
+  "Activities": [],
+  "Attachments": [],
+  "Description": "",
+  "GeometryWkt": "POLYGON((712475.5138483965 6179308.174373397,712497.8798799533 6179297.052035937,712496.3418276095 6179292.70332318,712496.3411375834 6179292.703602749,712473.2230921744 6179299.464275341,712475.5138483965 6179308.174373397))",
+  "GeometryType": "Polygon",
+  "ElementTypeId": "648c83f6-324a-47ee-89c7-493a708acccb",
+  "ElementTypeKey": "G",
+  "ElementTypeName": "Grus",
+  "ElementAttributes": [
+    {
+      "Id": "c8c8f89e-722d-4ecc-b521-108392c28b89",
+      "Key": "TUR",
+      "Name": "Termisk ukrudtsbekæmpelsesrute",
+      "Unit": "",
+      "Value": "1",
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 1,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "95ba177d-8f5a-46fd-9953-d9660d8971a0",
+          "Key": "3",
+          "Name": "Damp",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "724b01d6-dd5a-4bf1-9c6e-c65003ad2688",
+          "Key": "2",
+          "Name": "Skoler",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "6ed47fff-fbea-4abd-88fd-a1c141fb03bd",
+          "Key": "1",
+          "Name": "Termisk ukrudtsbekæmpelse vej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "f4c34376-6f43-4834-9cfb-caa4eb7444c1",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "UEF",
+      "Name": "Udførende entreprenør på forsøg",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 2,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "91803e68-ab44-4223-8ceb-a7f04aa42ad6",
+          "Key": "3",
+          "Name": "Care4Nature",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "545f79ed-bbdd-4be7-90de-c8ee71e78766",
+          "Key": "1",
+          "Name": "Gartneren i byen",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "3f538bb2-9b7b-4df8-a283-d11b4ac78dab",
+          "Key": "2",
+          "Name": "Lotus haver",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "8194de84-39bf-461d-a97e-005ff8986bee",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "FS",
+      "Name": "Forsøg",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "Arealer eller elementer, hvor der udføres forsøg",
+      "DefaultValue": "",
+      "DisplayOrder": 3,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "457af239-4d6a-471b-a606-9d5d1b0b6741",
+          "Key": "3",
+          "Name": "Forsøgsareal KU",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Forsøgsarealer i samarbejde med Københavns Universitet"
+        },
+        {
+          "Id": "5c83b4c8-4238-4f2a-a000-c52ac691e258",
+          "Key": "1",
+          "Name": "Grus",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Forsøg med ukrudtsbekæmpelse på grusarealer"
+        },
+        {
+          "Id": "d257d4e7-f6ff-4962-b1d7-dfa8f5df853f",
+          "Key": "2",
+          "Name": "Rabatgræs 1",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Forsøg med behandling af jorden, for at fremme vilde blomster"
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "571d6bf2-ea1c-4e99-8fdc-a369533d9f43",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "5da2336e-1266-4b0f-8bfa-3489116595d8",
+      "Key": "AOT1",
+      "Name": "Arbejdsområdetype 1",
+      "Unit": "",
+      "Value": "8",
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "Angiver hvilken arbejdsområdetype elementet hører ind under",
+      "DefaultValue": "",
+      "DisplayOrder": 4,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "40129224-6c39-434c-9f18-d77654064dad",
+          "Key": "11",
+          "Name": "Ballerup Idrætsby",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "4ddbedc2-f270-4a2e-ba9a-ca4e656fa50b",
+          "Key": "15",
+          "Name": "Boldbaner",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "96aa84b9-4eed-4614-8610-50b461f344a5",
+          "Key": "2",
+          "Name": "Daginstitutioner",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a73054c4-e998-4fb6-89dd-1090b1e7a9de",
+          "Key": "10",
+          "Name": "Fejeruter",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "de848d0c-a927-4e5a-a2d6-d46c45565c93",
+          "Key": "12",
+          "Name": "Grantoftegård",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e6d8a837-d781-4ca8-9ec5-74a3064ea998",
+          "Key": "18",
+          "Name": "Greehill",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f1c34dac-2d70-45f1-8355-b4365b610c16",
+          "Key": "3",
+          "Name": "Idrætsanlæg på skoler",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "5bbd4fcd-095c-4f69-b8dd-349481905620",
+          "Key": "16",
+          "Name": "Kontrol",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "858c7c8a-f10b-4585-9c2b-9130315f9df9",
+          "Key": "7",
+          "Name": "Mindre haveanlæg",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "6f3b288f-84b0-4387-abb6-02ad3f99ef9f",
+          "Key": "8",
+          "Name": "Naturarealer",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "71b50822-1668-4009-a003-9e242e28c423",
+          "Key": "13",
+          "Name": "Naturhjælperne",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "613e8821-51b1-40ce-a5f5-5d50c7a301b6",
+          "Key": "5",
+          "Name": "Øvrige institutioner",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "98193de0-49e3-40d7-8152-6d0c98dbc51b",
+          "Key": "6",
+          "Name": "Parker",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f3897dc9-fe83-41fa-ae7c-15c81abe463f",
+          "Key": "19",
+          "Name": "Privat areal",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "551dcc7b-9286-4b8d-a3bd-03901ab00a17",
+          "Key": "4",
+          "Name": "Skoler",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "4e6d766e-20de-491d-a4e9-c8d7c77e07aa",
+          "Key": "1",
+          "Name": "Torve og pladser",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8f2f177c-ebb9-4674-aa0d-0911412a5e87",
+          "Key": "14",
+          "Name": "Udenfor kontrakt",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "35b23bd0-8de9-4223-8871-bc9094675517",
+          "Key": "9",
+          "Name": "Vejrabatter",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "9c1ea772-d06a-419c-a84c-8e76db3f1ae3",
+          "Key": "17",
+          "Name": "Vintertjeneste",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "07e092d3-3766-4e46-9619-d1a742e37c75",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "VL",
+      "Name": "Varm luft",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 5,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "dfe69164-672a-40e2-999b-bb228b7ec540",
+          "Key": "1",
+          "Name": "Ja",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b6ad5205-7226-4190-ac14-5abcf48cb7ad",
+          "Key": "2",
+          "Name": "Nej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "cd703eb7-c2ca-45d4-a3f7-03bb68550641",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "MR",
+      "Name": "Miljørive",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 6,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "874077c9-0144-4f71-9888-4a928796ac8e",
+          "Key": "1",
+          "Name": "Ja",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "ebb0e3f4-6fa2-4aea-b4de-fe7eb76c5277",
+          "Key": "2",
+          "Name": "Nej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "036020db-33f2-493e-9a31-f789a4f8aa3a",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "SN",
+      "Name": "Slæbenet",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 7,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "87a688ce-12e9-4a33-83a7-8e3f106b3262",
+          "Key": "1",
+          "Name": "Ja",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e3e2043e-d5c7-4c0e-9850-8e6e13ea1cd1",
+          "Key": "2",
+          "Name": "Nej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "b045ab38-d4e7-4bb3-8c8a-220d71cef228",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "HBR",
+      "Name": "Håndbrænding",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 8,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "7957cb92-6483-4a05-ba62-91cd80b12050",
+          "Key": "1",
+          "Name": "Ja",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "35c8eaa4-39f4-45b5-a474-480fd353202c",
+          "Key": "2",
+          "Name": "Nej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "2b453a40-83f4-4a54-bd37-c13f35e2dd81",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "b76ad071-b2a2-4489-b886-1b05b3189aa1",
+      "Key": "UE",
+      "Name": "Udførende entreprenør",
+      "Unit": "",
+      "Value": "11",
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 9,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "27040caa-326e-443e-87f7-5fac372fea1c",
+          "Key": "8",
+          "Name": "Ballerup Idrætsby",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8df3edb2-e94c-445b-b54d-dcf9f1735297",
+          "Key": "6",
+          "Name": "Boldbaneudbud",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a6573acc-aefc-4195-8901-11bef02692f3",
+          "Key": "1",
+          "Name": "Care4Nature",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "3d9b70a6-b70c-4451-97eb-83140095808b",
+          "Key": "10",
+          "Name": "Gartneren i byen",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "9200a570-0d42-4742-a24d-b00c107d8906",
+          "Key": "3",
+          "Name": "Grantoftegaard",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a26b6e18-cecb-473b-a372-20ebfa242382",
+          "Key": "0",
+          "Name": "HedeDanmark",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "af40d658-9201-4790-bbd2-bfe672bb0294",
+          "Key": "2",
+          "Name": "HedeDanmark NVP",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "6f7bef58-8c0a-48c9-9170-e5e39a55a15d",
+          "Key": "5",
+          "Name": "Ikke i drift",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "ae4e1ba6-7b64-42f0-9e21-c01960a85acf",
+          "Key": "15",
+          "Name": "KHH Anlæg APS",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8629d9aa-09de-4697-836a-5bb162f8af52",
+          "Key": "9",
+          "Name": "Lotus Haver",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "3c7833a9-c690-4c41-a8aa-b86b2fff4f93",
+          "Key": "7",
+          "Name": "Materielgården",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8cc8d9c5-14e6-42f8-9b51-9890f984f07d",
+          "Key": "4",
+          "Name": "Naturhjælperne",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "2a4c731b-0ab5-4eff-bc3a-027e35eaebb3",
+          "Key": "13",
+          "Name": "OKNygaard",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "ae28ca72-3027-45a7-a316-885a8a945f83",
+          "Key": "12",
+          "Name": "TL Ejendomsservice",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "437b8463-b22b-47cc-ba8d-b421ba4a937b",
+          "Key": "11",
+          "Name": "Udbud 2021",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "93bec3a7-2357-41a6-98e0-dc412c2d0415",
+          "Key": "14",
+          "Name": "Udbud 2023",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "3e86ca2a-173d-4e41-88d4-95af0a3cbf44",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "ViRuV",
+      "Name": "Vinterrute veje",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 10,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "9c56991c-018b-48da-afe9-0b0b5b4a4335",
+          "Key": "9",
+          "Name": "Rute 12 Alternativt tømiddel",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "35982917-5265-41d3-a309-8262e936f57b",
+          "Key": "10",
+          "Name": "Snerydning",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Som udgangspunkt kun snerydning"
+        },
+        {
+          "Id": "04540285-18b0-4adb-9beb-21d45ab43549",
+          "Key": "3",
+          "Name": "Stor traktor 3 - Vintervejklasse I og II",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b9b4987e-d84f-4041-ac42-6358446f4688",
+          "Key": "1",
+          "Name": "VT Vejrute 1, Lastbil 1 - Vintervejklasse I og II",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "93c49f7e-3f2f-4db6-a566-6629e70c05cc",
+          "Key": "2",
+          "Name": "VT Vejrute 2, Lastbil 2 - Vintervejklasse I og II",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "4395d581-b47d-49fd-b2c1-dfa24f1db748",
+          "Key": "4",
+          "Name": "VT Vejrute 3, Stor traktor 1 - Vintervejklasse I og II",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "16a34ec0-a437-4622-8032-58eaf3c2f480",
+          "Key": "11",
+          "Name": "VT Vejrute 4, Stor traktor 2 - Vintervejklasse I og II (P-pladser m.m.)",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "777d8995-8a2d-4530-b0d5-5c344f3dc467",
+          "Key": "5",
+          "Name": "VT Vejrute 5, Lastbil 1 - Vintervejklasse III",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "87be17ae-a98c-4a2c-9c43-97b7e08be886",
+          "Key": "6",
+          "Name": "VT Vejrute 6, Lastbil 2 - Vintervejklasse III",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b055ced2-ec07-42bc-aec1-1a26c7ad766b",
+          "Key": "7",
+          "Name": "VT Vejrute 7, Stor traktor 3 - Vintervejklasse III",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "84efd7f9-4283-4e5b-acc7-617970056a51",
+          "Key": "8",
+          "Name": "VT Vejrute 8, Stor traktor 1 - Vintervejklasse III",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "42f4f15b-dfb4-4f9e-87af-24b18da02285",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "ViRuSF",
+      "Name": "Vinterrute stier/fortove",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 11,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "76887b49-3cdf-4569-9790-60aad25b05fb",
+          "Key": "1",
+          "Name": "Rute 1",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "617cb9bc-2380-44dd-a3d3-cc3aa7d95fce",
+          "Key": "10",
+          "Name": "Rute 10",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8a3b9c05-ba3f-4917-b99e-320382326504",
+          "Key": "11",
+          "Name": "Rute 11",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "4befb715-6115-49c5-bd38-65ebec7b5e44",
+          "Key": "12",
+          "Name": "Rute 12 Alternativt tømiddel",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Alternativt tømiddel"
+        },
+        {
+          "Id": "c03806a8-c94e-4271-93c9-f7a75f1c2f74",
+          "Key": "2",
+          "Name": "Rute 2",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "bb53db42-777c-4fce-8812-883f374cc939",
+          "Key": "3",
+          "Name": "Rute 3",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f54d4436-f818-498b-90e1-fd1434de5376",
+          "Key": "4",
+          "Name": "Rute 4",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "0e597dbc-d810-4a6a-84f1-50ede71da749",
+          "Key": "5",
+          "Name": "Rute 5",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "5baec85d-1753-4e81-8ac3-7410ddaa89f7",
+          "Key": "6",
+          "Name": "Rute 6",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "d7c40197-0eff-4f49-b2ff-93b966d30705",
+          "Key": "7",
+          "Name": "Rute 7",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "ec79a1f3-a1af-4aa5-bead-a98f0d98a8ee",
+          "Key": "8",
+          "Name": "Rute 8",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "94e0aa09-a1b3-4370-a317-9e95d550452a",
+          "Key": "9",
+          "Name": "Rute 9",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "bd060fc1-e46b-4b18-8ebc-06f697a4d672",
+          "Key": "13",
+          "Name": "VT Stirute 1, Stor traktor 3 (gennemgående cykelstier)",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "6249646c-5c13-4482-b3be-7911495e6464",
+          "Key": "14",
+          "Name": "VT Stirute 2, Ballerup",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "7d209963-4496-43d2-bdfb-d1cd94af15b8",
+          "Key": "15",
+          "Name": "VT Stirute 3, Egebjerg, Lautrup og Skovlunde",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "89d2203b-1477-4bcd-927e-714d7a371747",
+          "Key": "16",
+          "Name": "VT Stirute 4, Måløv",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "46991649-3a86-4004-af7c-672f42e81ff4",
+          "Key": "17",
+          "Name": "VT Stirute 5, fortove og interne stier syd",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "91943197-bfef-4e50-99e9-87233973edba",
+          "Key": "18",
+          "Name": "VT Stirute 6, fortove og interne stier nord",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "1f821973-b767-43d8-9b2b-6302bf1b5972",
+          "Key": "19",
+          "Name": "VT Stirute 7",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "aba763db-473e-4ba3-a936-54d168b07294",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "ViRuH",
+      "Name": "Vinterrute håndarbejde",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 12,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "648a3fca-9cbc-4f7f-8091-a4b6f370e25c",
+          "Key": "4",
+          "Name": "Daginstitutioner",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e201d3c1-c7cb-4b2b-93bd-c7fd0ad72279",
+          "Key": "1",
+          "Name": "Rute 1",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "2a14929d-0d0e-4fbe-b50a-4dc1f745d7ba",
+          "Key": "2",
+          "Name": "Rute 2",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "d82b971b-2088-429c-9be7-5837fe608e15",
+          "Key": "3",
+          "Name": "Rute 3",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "26ee0a0e-ca12-4781-a5e9-d08783d86620",
+          "Key": "5",
+          "Name": "Rute 4",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "9cd4a522-3881-474f-b8a6-2e8340fbb530",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "VVK",
+      "Name": "Vintervejklasse",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "Angiver hvilken Vintervejklasse belægningen glatførebekæmpes efter",
+      "DefaultValue": "",
+      "DisplayOrder": 13,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "a2d505ca-dba9-44ee-a4fd-807dd835b9a4",
+          "Key": "1",
+          "Name": "Cykelsi",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "ace1c750-4415-48e0-83a1-359ddf570e34",
+          "Key": "2",
+          "Name": "Fortov",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a9944301-3fac-4fc5-8282-360a746b0aa6",
+          "Key": "3",
+          "Name": "Håndarbejde",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Steder, som hvor glatførebekæmpelsen ikke kan udføres med maskine"
+        },
+        {
+          "Id": "9b65100b-9811-48b1-948e-e55981fcc151",
+          "Key": "8",
+          "Name": "Parkeringsplads",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "60b42310-59a7-4697-8fb5-eae442080b7c",
+          "Key": "4",
+          "Name": "Trappe",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a382a589-3301-4ba4-8ba2-0a084f2aa0de",
+          "Key": "5",
+          "Name": "Vintervejklasse I",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "c852ddac-00c9-4a21-98d3-8413eee28dfa",
+          "Key": "6",
+          "Name": "Vintervejklasse II",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "6bfc764d-a1f4-4a14-9103-2f230b596112",
+          "Key": "7",
+          "Name": "Vintervejklasse III",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "dc3e6f2c-392b-4415-a73e-f730ceb41108",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "UER",
+      "Name": "Udførende entreprenører",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "multipleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 14,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "ec4570ec-becb-4114-b978-3437adf77770",
+          "Key": "19",
+          "Name": "Ballerup Idrætsby",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "122242d1-3836-4d53-ac26-f4d9d7dccfc6",
+          "Key": "9",
+          "Name": "Bjoern Soerensen",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "9900f0e6-e15c-4ace-b140-0a8cdbb25932",
+          "Key": "16",
+          "Name": "BS Landskabspleje A/S",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "7c687ec3-d7f3-431c-aa8d-55000f42707d",
+          "Key": "14",
+          "Name": "Care4Nature",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "1900085e-efbd-4684-a1e9-e1c0b2567c77",
+          "Key": "10",
+          "Name": "Eget vedligehold",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Skoler, daginstitutioner m.v. står selv for driften"
+        },
+        {
+          "Id": "1cc2022c-bde6-4521-bbd2-c444614abe69",
+          "Key": "1",
+          "Name": "Fritrumsbeskæring",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Fritrumsbeskæring ved Parker m.v."
+        },
+        {
+          "Id": "cf6dbbdb-1bd8-40c0-af73-620b53a02b60",
+          "Key": "11",
+          "Name": "Gartneren i Byen",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f2fd3776-fdf3-4811-9668-83aa03f57db2",
+          "Key": "17",
+          "Name": "Grantoftegaard",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f1994f83-cea2-47d6-9333-e948469ae267",
+          "Key": "18",
+          "Name": "Grøn Vækst A/S",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e610a442-44b2-422e-9202-48d9301134ed",
+          "Key": "8",
+          "Name": "Jens H. Jensen ApS",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e75df749-fd0d-42b6-9b80-8b82041d3fbf",
+          "Key": "5",
+          "Name": "KEM Service",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "0ad4d44d-f249-4ecb-8668-b6bec743f60e",
+          "Key": "21",
+          "Name": "KHH Anlæg APS",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "cff38c5b-a94b-4d9a-8115-22372ab07db2",
+          "Key": "20",
+          "Name": "KS Tree Care A/S",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "71b223aa-8352-447b-a6ae-f72c7ad16ad3",
+          "Key": "3",
+          "Name": "Materielgården",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "fe418cde-d19e-43b4-9fc2-b0eabba9a2dd",
+          "Key": "2",
+          "Name": "OKNygaard",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "4d2edcab-899d-4513-a125-eb51bdfc3dec",
+          "Key": "13",
+          "Name": "Privat",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Privat ejer står for vedligehold"
+        },
+        {
+          "Id": "b022229c-72f3-4268-8100-f52ef0f8291d",
+          "Key": "15",
+          "Name": "Skovrødderne",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Skovrødderne"
+        },
+        {
+          "Id": "8c05d34a-269e-404e-88a0-e323c05cc346",
+          "Key": "4",
+          "Name": "Større plæner",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "8c08648e-827b-494c-ac78-0a82b3a72396",
+          "Key": "7",
+          "Name": "TL Ejendomsservice",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b9d0110f-37b8-4c72-a5d0-1c03933c9bea",
+          "Key": "6",
+          "Name": "Udbud 2021",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "7c4cbc43-bf63-473c-a1c4-88a2438e6480",
+          "Key": "12",
+          "Name": "Virksomheds- og tilbudsservice",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Intern virksomhed under Center for Arbejdsmarked"
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "3b8ed132-8125-4f45-ac09-855b4fd06263",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "GFBM",
+      "Name": "Glatførebekæmpelsesmiddel",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "singleselect",
+      "ReadOnly": false,
+      "Mandatory": true,
+      "Description": "",
+      "DefaultValue": "1",
+      "DisplayOrder": 15,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "cc9cdd93-457a-46cf-8223-ef81f40a5df0",
+          "Key": "2",
+          "Name": "Alternativt tømiddel",
+          "Default": false,
+          "ParentId": null,
+          "Description": "Urea"
+        },
+        {
+          "Id": "e143c25e-c73e-4e03-8bee-5bca886b9082",
+          "Key": "4",
+          "Name": "Glatførebekæmpes ikke",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "09eb28fb-6611-4c1a-ab67-1b0fa272d42c",
+          "Key": "3",
+          "Name": "Grus",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "c1bd7e45-6b90-4904-ad78-139d4c405104",
+          "Key": "5",
+          "Name": "Kun snerydning",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "d339043f-342a-4c71-917e-b6d4a9e7ab60",
+          "Key": "1",
+          "Name": "Salt",
+          "Default": true,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "b9221413-81df-473a-b85d-5ee5dc753a11",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "UKB",
+      "Name": "Ukrudtsbekæmpelse",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "multipleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 16,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "f85d6e2f-4abf-4a2c-88fe-577083152c96",
+          "Key": "2",
+          "Name": "Damp",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "e23d5246-8c7b-4042-9e72-8051664070e7",
+          "Key": "1",
+          "Name": "Gasbrænding, maskine",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "687a1a55-b3a0-4fbb-9c1b-f6486df62d7d",
+          "Key": "9",
+          "Name": "Håndbrænding",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "96d45a33-0316-4ba9-b1f2-5fd5918f7aeb",
+          "Key": "10",
+          "Name": "Håndlugning",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "60ab7fa0-9984-4f55-8389-83f2c296d40d",
+          "Key": "3",
+          "Name": "Hedt vand",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "0d226104-2872-4437-88da-2da0d2cdd281",
+          "Key": "4",
+          "Name": "Hedt vand med skum",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "59b83aa5-86b6-485a-88bd-361f6b7f9310",
+          "Key": "7",
+          "Name": "Miljørive",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "51ce9324-848e-4633-b691-5eab7d38004f",
+          "Key": "6",
+          "Name": "Slæbenet",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "a2092ae7-bc54-4923-a5fe-5cdd6ab6f940",
+          "Key": "8",
+          "Name": "Ukrudtsbørste",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "85182f70-496a-4c83-a47b-3b9705a6b769",
+          "Key": "5",
+          "Name": "Varm luft",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "8e87a0f2-609e-4243-8c71-d43575587e76",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "VTJx",
+      "Name": "Vintertjenestex",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "multipleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 17,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "ac7bfd9e-8fc7-49f4-9261-d8f78696a138",
+          "Key": "3",
+          "Name": "Håndarbejde",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "56fe427b-ae38-4b84-8be6-56cb0a656797",
+          "Key": "1",
+          "Name": "Ja",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b6b93332-f1d1-42b0-be97-3ae77840abcc",
+          "Key": "4",
+          "Name": "Maskinarbejde",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "12e41d32-a0ec-42bb-a1d4-ac5522e7726f",
+          "Key": "2",
+          "Name": "Nej",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "5fa94358-9a0a-4ae8-a42a-aa5787229082",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "KT",
+      "Name": "Kommentar",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "multiline",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 18,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": "",
+      "ValidationExpression": "",
+      "ElementAttributeTypeId": "393b68e7-c7f5-494f-bc8c-ca7a41e1577c",
+      "ValidationSqlExpression": ""
+    },
+    {
+      "Id": "",
+      "Key": "Kval",
+      "Name": "Kvalitet",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "multipleselect",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "",
+      "DisplayOrder": 19,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [
+        {
+          "Id": "d55e2d06-666c-426a-8a7f-150c250b312d",
+          "Key": "2",
+          "Name": "Dårlig",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "b5b9352e-5da6-4ed2-80c9-5ed198d7cd09",
+          "Key": "3",
+          "Name": "God",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        },
+        {
+          "Id": "f5317f89-47fb-4254-b5a4-aeec39170467",
+          "Key": "1",
+          "Name": "Middel",
+          "Default": false,
+          "ParentId": null,
+          "Description": ""
+        }
+      ],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": null,
+      "ValidationExpression": null,
+      "ElementAttributeTypeId": "c779296c-297d-4dd8-b988-9f465c87c3a2",
+      "ValidationSqlExpression": null
+    },
+    {
+      "Id": "",
+      "Key": "VTj",
+      "Name": "Vintertjeneste",
+      "Unit": "",
+      "Value": null,
+      "Parent": null,
+      "Children": [],
+      "DataType": "boolean",
+      "ReadOnly": false,
+      "Mandatory": false,
+      "Description": "",
+      "DefaultValue": "false",
+      "DisplayOrder": 20,
+      "ValidationMax": null,
+      "ValidationMin": null,
+      "ShortDescription": null,
+      "ValidationValues": [],
+      "ValidationDecimal": null,
+      "ValidationErrMessage": "",
+      "ValidationExpression": "",
+      "ElementAttributeTypeId": "a1e99d4b-312c-4d32-b0fe-bb1c8e918dd7",
+      "ValidationSqlExpression": ""
+    }
+  ],
+  "QualityOperationalAspects": [],
+  "QualityDescriptionsAttachments": [],
+  "QualityDescriptionsExternalLinks": []
+}

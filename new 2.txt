@@ -1,0 +1,47 @@
+WITH aa AS (
+SELECT jsondata#>>'{WorkAreaType,Key}' AS atype_key,jsondata#>>'{WorkAreaType,Name}' AS atype_navn, True AS passiv, '' AS beskrivelse, jsondata#>>'{WorkAreaType,Level}' AS niveau 
+FROM sweco_jsondata.workspace_conv GROUP BY 1,2,3,4,5)
+INSERT INTO lookup.arbejdsgruppe_typer SELECT atype_key, atype_navn, passiv, beskrivelse, niveau::INTEGER FROM AA WHERE atype_key NOT IN (SELECT atype_key FROM lookup.arbejdsgruppe_typer)
+
+SELECT a.id AS eid ,b.id AS wid, 1 as level, 
+
+
+
+
+WITH a AS 
+    (SELECT elementid,regexp_split_to_table(REPLACE (level_1_workareatypes,', ','½½'), E',') AS wa FROM driftweb.tot_elements_all WHERE elementid in (SELECT elementid FROM elementer.element_flader))
+    SELECT a.*, b.atype_key FROM a LEFT JOIN lookup.arbejdsgruppe_typer b ON (a.wa = b.atype_navn)
+
+
+SELECT a.id FROM elementer.element_flader LEFT JOIN  
+
+
+INSERT INTO elementer.element_flader_arbejdsgrupper(
+	element_id, arbejdsgruppe_id, niveau, autoinkluderet)
+  
+
+
+
+
+  SELECT 
+        a.id AS element_id ,
+        b.id AS arbejdsgruppe_id, 
+        1 AS niveau, 
+        True AS autoinkluderet 
+    JOIN driftweb.tot_elements a ON a.level_1_workareas::text ~~ b.'%VT Håndrute 1%'::text
+	
+	
+	
+	a.id = c.elementid
+    JOIN arbejde.arbejdsgrupper ON a.workspce
+    	
+  
+  
+  
+  
+  
+  
+  CREATE OR REPLACE VIEW vt_vintertjeneste.vt_haandrute_1_trpl
+ AS
+ SELECT * FROM driftweb.trpl WHERE level_1_workareas::text ~~ '%VT Håndrute 1%'::text;
+	VALUES (?, ?, ?, ?);

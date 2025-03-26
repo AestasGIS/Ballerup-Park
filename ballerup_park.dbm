@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.1.3" use-changelog="false" max-obj-count="26"
+	 last-position="-1810,-1243" last-zoom="0.95" scene-rect="-1909.7,-1308.17,6523.78,4354.51"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="ballerup_park_new" encoding="UTF8" lc-collate="English_Denmark.1252" lc-ctype="English_Denmark.1252" is-template="false" allow-conns="true">
+	<role name="postgres"/>
+	<tablespace name="pg_default"/>
+</database>
+
+<schema name="public" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<schema name="lookup" layers="0" rect-visible="true" fill-color="#ffffff" name-color="#000000">
+	<role name="postgres"/>
+</schema>
+
+<schema name="elementer" layers="0" rect-visible="true" fill-color="#ffffff" name-color="#000000">
+	<role name="postgres"/>
+</schema>
+
+<schema name="arbejde" layers="0" rect-visible="true" fill-color="#ffffff" name-color="#000000">
+	<role name="postgres"/>
+</schema>
+
+<schema name="priser" layers="0" rect-visible="true" fill-color="#ffffff" name-color="#000000">
+	<role name="postgres"/>
+</schema>
+
+<schema name="kontakter" layers="0" rect-visible="true" fill-color="#ffffff" name-color="#000000">
+	<role name="postgres"/>
+</schema>
+
+<extension name="postgis" cur-version="3.4.0">
+	<schema name="public"/>
+	<comment> <![CDATA[PostGIS geometry and geography spatial types and functions]]> </comment>
+	<type name="spheroid"/>
+	<type name="geometry"/>
+	<type name="box3d"/>
+	<type name="box2d"/>
+	<type name="box2df"/>
+	<type name="gidx"/>
+	<type name="geometry_dump"/>
+	<type name="valid_detail"/>
+	<type name="geography"/>
+</extension>
+
+<table name="elementgruppe_typer" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="lookup"/>
+	<role name="postgres"/>
+	<position x="-217.66" y="-1192.36"/>
+	<column name="egruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="sortering">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="element_gruppetyper_pk" type="pk-constr" table="lookup.elementgruppe_typer">
+		<columns names="egruppe_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="element_typer" layers="0" collapse-mode="2" max-obj-count="9" z-value="0">
+	<schema name="lookup"/>
+	<role name="postgres"/>
+	<position x="-318.245" y="-984.708"/>
+	<column name="etype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="etype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="ebasis_type" not-null="true">
+		<type name="character varying" length="1"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="sortering">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="prioritet">
+		<type name="smallint" length="0"/>
+	</column>
+	<constraint name="element_typer_pk" type="pk-constr" table="lookup.element_typer">
+		<columns names="etype_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="omraade_typer" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="lookup"/>
+	<role name="postgres"/>
+	<position x="-576.639" y="-1237.82"/>
+	<column name="otype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="otype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="omraade_typer_pk" type="pk-constr" table="lookup.omraade_typer">
+		<columns names="otype_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="arbejdsgruppe_typer" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="lookup"/>
+	<role name="postgres"/>
+	<position x="-426.222" y="-1192.36"/>
+	<column name="atype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="atype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="arbejdsgruppe_typer_pk" type="pk-constr" table="lookup.arbejdsgruppe_typer">
+		<columns names="atype_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="arbejde_typer" layers="0" collapse-mode="2" max-obj-count="8" z-value="0">
+	<schema name="lookup"/>
+	<role name="postgres"/>
+	<position x="-562.048" y="-969.684"/>
+	<column name="abtype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="abtype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="atype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="etype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="arbejde_typer_pk" type="pk-constr" table="lookup.arbejde_typer">
+		<columns names="abtype_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="organisationer" layers="0" collapse-mode="2" max-obj-count="10" z-value="0">
+	<schema name="kontakter"/>
+	<role name="postgres"/>
+	<position x="-1656.48" y="-1245.47"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="type">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="organisatiosnavn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="adresse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="postnr">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="postby">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="telefon_nummer">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="hoved_mail">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<constraint name="organisationer_pk" type="pk-constr" table="kontakter.organisationer">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="kontakter" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="kontakter"/>
+	<role name="postgres"/>
+	<position x="-1881.7" y="-1198.29"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="organisation_id">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="telefon_nummer">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="mail_adresse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<constraint name="kontakter_pk" type="pk-constr" table="kontakter.kontakter">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="prisgrupper" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="priser"/>
+	<role name="postgres"/>
+	<position x="-1389.43" y="-991.114"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="firma_id" not-null="true">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="periode_start" not-null="true">
+		<type name="date" length="0"/>
+	</column>
+	<column name="periode_slut" not-null="true">
+		<type name="date" length="0"/>
+	</column>
+	<column name="bemaerkning">
+		<type name="character varying" length="0"/>
+	</column>
+	<constraint name="prisgrupper_pk" type="pk-constr" table="priser.prisgrupper">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="priser_arbejde" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="priser"/>
+	<role name="postgres"/>
+	<position x="-1386.9" y="-1229.59"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="prisgrupper_id" not-null="true">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="abtype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="pris_stk" not-null="true" default-value="0.0">
+		<type name="numeric" length="10" precision="2"/>
+	</column>
+	<column name="pris_m" not-null="true" default-value="0.0">
+		<type name="numeric" length="10" precision="2"/>
+	</column>
+	<column name="pris_m2" not-null="true" default-value="0.0">
+		<type name="numeric" length="10" precision="2"/>
+	</column>
+	<constraint name="priser_arbejde_pk" type="pk-constr" table="priser.priser_arbejde">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="omraader" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="arbejde"/>
+	<role name="postgres"/>
+	<position x="-1414.55" y="-483.636"/>
+	<column name="omraade_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="omraade_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="otype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="geom">
+		<type name="public.geometry" length="0"/>
+	</column>
+	<constraint name="omraader_pk" type="pk-constr" table="arbejde.omraader">
+		<columns names="omraade_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="omraader_geom_idx" table="arbejde.omraader"
+	 concurrent="false" unique="false" fast-update="false" buffering="false" nulls-not-distinct="false"
+	 index-type="gist" factor="90">
+		<idxelement use-sorting="false">
+			<column name="geom"/>
+		</idxelement>
+</index>
+
+<table name="arbejdsgrupper" layers="0" collapse-mode="2" max-obj-count="10" z-value="0">
+	<schema name="arbejde"/>
+	<role name="postgres"/>
+	<position x="-1639.81" y="-266.364"/>
+	<column name="arbejdsgruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="arbejdsgruppe_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="atype_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="omraade_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="admin_id">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="udfoerer_id">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="prisgruppe_id">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="passiv" not-null="true" default-value="false">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="beskrivelse">
+		<type name="character varying" length="0"/>
+	</column>
+	<constraint name="arbejdsgrupper_pk" type="pk-constr" table="arbejde.arbejdsgrupper">
+		<columns names="arbejdsgruppe_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="element_punkter" layers="0" collapse-mode="2" max-obj-count="13" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-724.668" y="-719.091"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="etype_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="etype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="ebasis_type" not-null="true" default-value="'F'::character(1)">
+		<type name="character varying" length="1"/>
+	</column>
+	<column name="navn">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="hoejde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="bredde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="ekstra">
+		<type name="jsonb" length="0"/>
+	</column>
+	<column name="geom" not-null="true">
+		<type name="geometry" length="0" spatial-type="POINT" variation="0" srid="25832"/>
+	</column>
+	<constraint name="element_punkter_pk" type="pk-constr" table="elementer.element_punkter">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="element_punkter_geom_idx" table="elementer.element_punkter"
+	 concurrent="false" unique="false" fast-update="false" buffering="false" nulls-not-distinct="false"
+	 index-type="gist" factor="90">
+		<idxelement use-sorting="false">
+			<column name="geom"/>
+		</idxelement>
+</index>
+
+<table name="element_linjer" layers="0" collapse-mode="2" max-obj-count="14" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-466.273" y="-608.182"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="etype_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="etype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="ebasis_type" not-null="true" default-value="'F'::character(1)">
+		<type name="character varying" length="1"/>
+	</column>
+	<column name="navn">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="laengde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="hoejde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="bredde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="ekstra">
+		<type name="jsonb" length="0"/>
+	</column>
+	<column name="geom" not-null="true">
+		<type name="geometry" length="0" spatial-type="MULTILINESTRING" variation="0" srid="25832"/>
+	</column>
+	<constraint name="element_linjer_pk" type="pk-constr" table="elementer.element_linjer">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="element_linjer_geom_idx" table="elementer.element_linjer"
+	 concurrent="false" unique="false" fast-update="false" buffering="false" nulls-not-distinct="false"
+	 index-type="gist" factor="90">
+		<idxelement use-sorting="false">
+			<column name="geom"/>
+		</idxelement>
+</index>
+
+<table name="element_flader" layers="0" collapse-mode="2" max-obj-count="15" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-211.327" y="-593.636"/>
+	<column name="id" not-null="true" default-value="gen_random_uuid()">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="etype_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="etype_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_key">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="egruppe_navn" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="ebasis_type" not-null="true" default-value="'F'::character(1)">
+		<type name="character varying" length="1"/>
+	</column>
+	<column name="navn">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="areal">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="omkreds">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="hoejde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="bredde">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="ekstra">
+		<type name="jsonb" length="0"/>
+	</column>
+	<column name="geom" not-null="true">
+		<type name="geometry" length="0" spatial-type="MULTIPOLYGON" variation="0" srid="25832"/>
+	</column>
+	<constraint name="element_flader_pk" type="pk-constr" table="elementer.element_flader">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<index name="element_flader_geom_idx" table="elementer.element_flader"
+	 concurrent="false" unique="false" fast-update="false" buffering="false" nulls-not-distinct="false"
+	 index-type="gist" factor="90">
+		<idxelement use-sorting="false">
+			<column name="geom"/>
+		</idxelement>
+</index>
+
+<table name="element_punkter_arbejdsgrupper" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-797.241" y="-366.364"/>
+	<column name="element_id" not-null="true">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="arbejdsgruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="element_punkter_arbejdsgrupper_pk" type="pk-constr" table="elementer.element_punkter_arbejdsgrupper">
+		<columns names="element_id,arbejdsgruppe_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="element_linjer_arbejdsgrupper" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-518.504" y="-253.636"/>
+	<column name="element_id" not-null="true">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="arbejdsgruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="element_linjer_arbejdsgrupper_pk" type="pk-constr" table="elementer.element_linjer_arbejdsgrupper">
+		<columns names="element_id,arbejdsgruppe_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="element_flader_arbejdsgrupper" layers="0" collapse-mode="2" max-obj-count="3" z-value="0">
+	<schema name="elementer"/>
+	<role name="postgres"/>
+	<position x="-266.486" y="-125.912"/>
+	<column name="element_id" not-null="true">
+		<type name="uuid" length="0"/>
+	</column>
+	<column name="arbejdsgruppe_key" not-null="true">
+		<type name="character varying" length="0"/>
+	</column>
+	<column name="niveau" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="element_flader_arbejdsgrupper_pk" type="pk-constr" table="elementer.element_flader_arbejdsgrupper">
+		<columns names="element_id,arbejdsgruppe_key" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<constraint name="element_typer_elementgruppe_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="lookup.elementgruppe_typer" table="lookup.element_typer">
+	<columns names="egruppe_key" ref-type="src-columns"/>
+	<columns names="egruppe_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejde_typer_element_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.element_typer" table="lookup.arbejde_typer">
+	<columns names="etype_key" ref-type="src-columns"/>
+	<columns names="etype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejde_typer_arbejdsgruppe_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.arbejdsgruppe_typer" table="lookup.arbejde_typer">
+	<columns names="atype_key" ref-type="src-columns"/>
+	<columns names="atype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="kontakter_organisationer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="kontakter.organisationer" table="kontakter.kontakter">
+	<columns names="organisation_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="prisgrupper_organisationer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="kontakter.organisationer" table="priser.prisgrupper">
+	<columns names="firma_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="priser_arbejde_prisgrupper_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="priser.prisgrupper" table="priser.priser_arbejde">
+	<columns names="prisgrupper_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="priser_arbejde_arbejde_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.arbejde_typer" table="priser.priser_arbejde">
+	<columns names="abtype_key" ref-type="src-columns"/>
+	<columns names="abtype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="omraader_omraade_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.omraade_typer" table="arbejde.omraader">
+	<columns names="otype_key" ref-type="src-columns"/>
+	<columns names="otype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejdsgrupper_arbejdsgruppe_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.arbejdsgruppe_typer" table="arbejde.arbejdsgrupper">
+	<columns names="atype_key" ref-type="src-columns"/>
+	<columns names="atype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejdsgrupper_prisgrupper_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="priser.prisgrupper" table="arbejde.arbejdsgrupper">
+	<columns names="prisgruppe_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejdsgrupper_kontakter_a_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="kontakter.kontakter" table="arbejde.arbejdsgrupper">
+	<columns names="admin_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejdsgrupper_kontakter_u_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="kontakter.kontakter" table="arbejde.arbejdsgrupper">
+	<columns names="udfoerer_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="arbejdsgrupper_omraader_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="arbejde.omraader" table="arbejde.arbejdsgrupper">
+	<columns names="omraade_key" ref-type="src-columns"/>
+	<columns names="omraade_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_punkter_element_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.element_typer" table="elementer.element_punkter">
+	<columns names="etype_key" ref-type="src-columns"/>
+	<columns names="etype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_linjer_element_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.element_typer" table="elementer.element_linjer">
+	<columns names="etype_key" ref-type="src-columns"/>
+	<columns names="etype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_flader_element_typer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="lookup.element_typer" table="elementer.element_flader">
+	<columns names="etype_key" ref-type="src-columns"/>
+	<columns names="etype_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_punkter_arbejdsgrupper_element_punkter_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="elementer.element_punkter" table="elementer.element_punkter_arbejdsgrupper">
+	<columns names="element_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_punkter_arbejdsgrupper_arbejdsgrupper_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="arbejde.arbejdsgrupper" table="elementer.element_punkter_arbejdsgrupper">
+	<columns names="arbejdsgruppe_key" ref-type="src-columns"/>
+	<columns names="arbejdsgruppe_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_linjer_arbejdsgrupper_element_linjer_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="elementer.element_linjer" table="elementer.element_linjer_arbejdsgrupper">
+	<columns names="element_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_linjer_arbejdsgrupper_arbejdsgrupper_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="arbejde.arbejdsgrupper" table="elementer.element_linjer_arbejdsgrupper">
+	<columns names="arbejdsgruppe_key" ref-type="src-columns"/>
+	<columns names="arbejdsgruppe_key" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_flader_arbejdsgrupper_element_flader_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="elementer.element_flader" table="elementer.element_flader_arbejdsgrupper">
+	<columns names="element_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="element_flader_arbejdsgrupper_arbejdsgrupper_fk" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="CASCADE" del-action="RESTRICT" ref-table="arbejde.arbejdsgrupper" table="elementer.element_flader_arbejdsgrupper">
+	<columns names="arbejdsgruppe_key" ref-type="src-columns"/>
+	<columns names="arbejdsgruppe_key" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="rel_element_typer_elementgruppe_typer" type="relfk" layers="0"
+	 custom-color="#01e728"
+	 src-table="lookup.element_typer"
+	 dst-table="lookup.elementgruppe_typer" reference-fk="element_typer_elementgruppe_typer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_arbejde_typer_element_typer" type="relfk" layers="0"
+	 custom-color="#9a68ff"
+	 src-table="lookup.arbejde_typer"
+	 dst-table="lookup.element_typer" reference-fk="arbejde_typer_element_typer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_arbejde_typer_arbejdsgruppe_typer" type="relfk" layers="0"
+	 custom-color="#7ce8d0"
+	 src-table="lookup.arbejde_typer"
+	 dst-table="lookup.arbejdsgruppe_typer" reference-fk="arbejde_typer_arbejdsgruppe_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_kontakter_organisationer" type="relfk" layers="0"
+	 custom-color="#3a5f3e"
+	 src-table="kontakter.kontakter"
+	 dst-table="kontakter.organisationer" reference-fk="kontakter_organisationer_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_prisgrupper_organisationer" type="relfk" layers="0"
+	 custom-color="#9f0505"
+	 src-table="priser.prisgrupper"
+	 dst-table="kontakter.organisationer" reference-fk="prisgrupper_organisationer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_priser_arbejde_prisgrupper" type="relfk" layers="0"
+	 custom-color="#408549"
+	 src-table="priser.priser_arbejde"
+	 dst-table="priser.prisgrupper" reference-fk="priser_arbejde_prisgrupper_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_priser_arbejde_arbejde_typer" type="relfk" layers="0"
+	 custom-color="#dc6204"
+	 src-table="priser.priser_arbejde"
+	 dst-table="lookup.arbejde_typer" reference-fk="priser_arbejde_arbejde_typer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_omraader_omraade_typer" type="relfk" layers="0"
+	 custom-color="#c97cf8"
+	 src-table="arbejde.omraader"
+	 dst-table="lookup.omraade_typer" reference-fk="omraader_omraade_typer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_arbejdsgrupper_arbejdsgruppe_typer" type="relfk" layers="0"
+	 custom-color="#abb1e8"
+	 src-table="arbejde.arbejdsgrupper"
+	 dst-table="lookup.arbejdsgruppe_typer" reference-fk="arbejdsgrupper_arbejdsgruppe_typer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_arbejdsgrupper_prisgrupper" type="relfk" layers="0"
+	 custom-color="#27782d"
+	 src-table="arbejde.arbejdsgrupper"
+	 dst-table="priser.prisgrupper" reference-fk="arbejdsgrupper_prisgrupper_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_arbejdsgrupper_kontakter" type="relfk" layers="0"
+	 custom-color="#ad2be7"
+	 src-table="arbejde.arbejdsgrupper"
+	 dst-table="kontakter.kontakter" reference-fk="arbejdsgrupper_kontakter_a_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_arbejdsgrupper_kontakter1" type="relfk" layers="0"
+	 custom-color="#e23e03"
+	 src-table="arbejde.arbejdsgrupper"
+	 dst-table="kontakter.kontakter" reference-fk="arbejdsgrupper_kontakter_u_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_arbejdsgrupper_omraader" type="relfk" layers="0"
+	 custom-color="#da69f9"
+	 src-table="arbejde.arbejdsgrupper"
+	 dst-table="arbejde.omraader" reference-fk="arbejdsgrupper_omraader_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_punkter_element_typer" type="relfk" layers="0"
+	 custom-color="#76b5b6"
+	 src-table="elementer.element_punkter"
+	 dst-table="lookup.element_typer" reference-fk="element_punkter_element_typer_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_element_linjer_element_typer" type="relfk" layers="0"
+	 custom-color="#aa0000"
+	 src-table="elementer.element_linjer"
+	 dst-table="lookup.element_typer" reference-fk="element_linjer_element_typer_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_element_flader_element_typer" type="relfk" layers="0"
+	 custom-color="#ea3ef5"
+	 src-table="elementer.element_flader"
+	 dst-table="lookup.element_typer" reference-fk="element_flader_element_typer_fk"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_element_punkter_arbejdsgrupper_element_punkter" type="relfk" layers="0"
+	 custom-color="#005500"
+	 src-table="elementer.element_punkter_arbejdsgrupper"
+	 dst-table="elementer.element_punkter" reference-fk="element_punkter_arbejdsgrupper_element_punkter_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_punkter_arbejdsgrupper_arbejdsgrupper" type="relfk" layers="0"
+	 custom-color="#355a64"
+	 src-table="elementer.element_punkter_arbejdsgrupper"
+	 dst-table="arbejde.arbejdsgrupper" reference-fk="element_punkter_arbejdsgrupper_arbejdsgrupper_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_linjer_arbejdsgrupper_element_linjer" type="relfk" layers="0"
+	 custom-color="#1fa25c"
+	 src-table="elementer.element_linjer_arbejdsgrupper"
+	 dst-table="elementer.element_linjer" reference-fk="element_linjer_arbejdsgrupper_element_linjer_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_linjer_arbejdsgrupper_arbejdsgrupper" type="relfk" layers="0"
+	 custom-color="#826440"
+	 src-table="elementer.element_linjer_arbejdsgrupper"
+	 dst-table="arbejde.arbejdsgrupper" reference-fk="element_linjer_arbejdsgrupper_arbejdsgrupper_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_flader_arbejdsgrupper_element_flader" type="relfk" layers="0"
+	 custom-color="#fcab52"
+	 src-table="elementer.element_flader_arbejdsgrupper"
+	 dst-table="elementer.element_flader" reference-fk="element_flader_arbejdsgrupper_element_flader_fk"
+	 src-required="false" dst-required="true"/>
+
+<relationship name="rel_element_flader_arbejdsgrupper_arbejdsgrupper" type="relfk" layers="0"
+	 custom-color="#700fcd"
+	 src-table="elementer.element_flader_arbejdsgrupper"
+	 dst-table="arbejde.arbejdsgrupper" reference-fk="element_flader_arbejdsgrupper_arbejdsgrupper_fk"
+	 src-required="false" dst-required="true"/>
+
+</dbmodel>
