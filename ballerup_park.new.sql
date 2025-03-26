@@ -1,5 +1,6 @@
 -- Schemas
 
+CREATE SCHEMA lookup;
 /*
 DROP SCHEMA IF EXISTS lookup CASCADE;
 DROP SCHEMA IF EXISTS elementer CASCADE;
@@ -43,7 +44,10 @@ CREATE TABLE lookup.element_typer (
     sortering smallint,
     prioritet smallint
 );
-	
+
+ALTER TABLE ONLY lookup.element_typer
+    ADD CONSTRAINT element_typer_pk PRIMARY KEY (etype_key);
+
 ALTER TABLE ONLY lookup.element_typer 
     ADD CONSTRAINT element_typer_pk PRIMARY KEY (etype_key),
     ADD CONSTRAINT element_typer_elementgruppe_typer_fk FOREIGN KEY (egruppe_key) REFERENCES lookup.elementgruppe_typer(egruppe_key);
