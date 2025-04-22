@@ -1,3 +1,99 @@
+"""
+-- View: vt_vintertjeneste.vt_haandrute_1_fdf
+
+-- DROP VIEW vt_vintertjeneste.vt_haandrute_1_fdf;
+
+SELECT ROW_NUMBER() OVER(), * FROM vt_vintertjeneste.vt_haandrute_1_fdf
+
+
+CREATE OR REPLACE VIEW vt_vintertjeneste.vt_haandrute_1_fdf_ny
+ AS
+ SELECT 
+    ROW_NUMBER() OVER() AS gid,
+    0 AS ogc_fid,
+    LOWER (a.elementtypekey) || a.id AS gml_id,
+    a.id AS elementid,
+    a.navn AS elementname,
+    a.areal AS measure,
+    a.omkreds AS perimeter,
+    '' AS element_description,
+    '' AS address,
+    '2025-01-01' AS created,
+    '2025-01-31' AS updated,
+    '' AS origin,
+    etype_key AS elementtypekey,
+    etype_navn AS elementtypename,
+    'm2' AS unittype,
+    'Polygon' AS geometrytype,
+    'Active' AS status,
+    'nobody' AS createdby,
+    'nobody' AS updatedby,
+    (now() - '2025-01-01'::Date) AS days_from_creation,
+    (now() - '2025-01-31'::Date) AS days_from_update,
+    b.level_1_workareas AS level_1_workareas,
+    b.level_1_workareatypes AS level_1_workareatypes,
+    '' AS level_2_workareas,
+    '' AS level_2_workareatypes,
+	a.ekstra as ekstra
+--    att_aot1,
+--    att_belty,
+--    att_blt,
+--    att_fkl,
+--    att_fr,
+--    att_ftvr,
+--    att_gfbm,
+--    att_gaaga,
+--    att_hbr,
+--    att_kt,
+--    att_rvsf,
+--    att_tisy,
+--    att_tur,
+--    att_type,
+--    att_ue,
+--    att_uer,
+--    att_ukb,
+--    att_vest,
+--    att_vihar,
+--    att_viruh,
+--    att_virusf,
+--    att_viruv,
+--    att_vtj,
+    geom
+   FROM elementer.element_flader a
+   JOIN elementer.element_flader_workspaces_view b ON a.id = b.element_id
+  WHERE a.etype_key = 'FDF' AND b.level_1_workareas::text ~~ '%VT Håndrute 1%'::text;
+
+CREATE VIEW "{schema_name}"."{view_name}" AS
+    SELECT 
+        {ogc_fid}::integer AS ogc_fid, 
+        {gml_id}::character varying AS gml_id, 
+        {elementid}::character varying AS elementid, 
+        {elementname}::character varying AS elementname, 
+        {measure}::double precision AS measure, 
+        {perimeter}::double precision} AS perimeter, 
+        {element_description}::character varying AS element_description, 
+        {address}::character varying AS address, 
+        {created}::character varying AS created, 
+        {updated}::character varying AS updated, 
+        {origin}::character varying AS origin, 
+        {elementtypekey}::character varying AS elementtypekey, 
+        {elementtypename}::character varying AS elementtypename, 
+        {unittype}::character varying AS unittype, 
+        {geometrytype}::character varying AS geometrytype, 
+        {status}::character varying AS status, 
+        {createdby}::character varying AS createdby, 
+        {updatedby}::character varying AS upda edby, 
+        {days_from_creation}::double precisi n AS days_from_creation, 
+        {days_from_update}::double precision AS days_from_update, 
+        {level_1_workareas}::character varying AS level_1_workareas, 
+        {level_1_workareatypes}::character varying AS level_1_workareatypes, 
+        {level_2_workareas}::character varying AS level_2_workareas, 
+        {level_2_workareatypes}::character varying AS level_2_workareatypes,
+        {attributes},
+        geom
+	FROM "{element_schema}"."{element_table}" a
+    JOIN "{workspace_schema}"."{aggr_workspace_view}" b ON a.element_id;
+
 SELECT 
     agt.atype_navn, 
     ag.arbejdsgruppe_navn, 
@@ -72,6 +168,7 @@ JOIN arbejde.arbejdsgrupper ag ON ag.arbejdsgruppe_id = eflpa.arbejdsgruppe_id
 JOIN lookup.arbejdsgruppe_typer agt ON agt.atype_key = ag.atype_key
 GROUP BY 1,2 order by 1,2
 
+"""
 
 
 
@@ -116,9 +213,37 @@ CREATE SCHEMA "{schema_name}"
 """
   
 cre_view = """
-DROP TABLE IF EXISTS "{schema_name}"."{view_name}";
+DROP VIEW IF EXISTS "{schema_name}"."{view_name}";
 CREATE VIEW "{schema_name}"."{view_name}" AS
     SELECT 
+        {ogc_fid}::integer AS ogc_fid, 
+        {gml_id}::character varying AS gml_id, 
+        {elementid}::character varying AS elementid, 
+        {elementname}::character varying AS elementname, 
+        {measure}::double precision AS measure, 
+        {perimeter}::double precision} AS perimeter, 
+        {element_description}::character varying AS element_description, 
+        {address}::character varying AS address, 
+        {created}::character varying AS created, 
+        {updated}::character varying AS updated, 
+        {origin}::character varying AS origin, 
+        {elementtypekey}::character varying AS elementtypekey, 
+        {elementtypename}::character varying AS elementtypename, 
+        {unittype}::character varying AS unittype, 
+        {geometrytype}::character varying AS geometrytype, 
+        {status}::character varying AS status, 
+        {createdby}::character varying AS createdby, 
+        {updatedby}::character varying AS upda edby, 
+        {days_from_creation}::double precisi n AS days_from_creation, 
+        {days_from_update}::double precision AS days_from_update, 
+        {level_1_workareas}::character varying AS level_1_workareas, 
+        {level_1_workareatypes}::character varying AS level_1_workareatypes, 
+        {level_2_workareas}::character varying AS level_2_workareas, 
+        {level_2_workareatypes}::character varying AS level_2_workareatypes,
+        {attributes},
+        geom
+	FROM "{element_schema}"."{element_table}" a
+    JOIN "{workspace_schema}"."{aggr_workspace_view}" b ON a.element_id;
 """
 
 # Connection to MapCentia database,
