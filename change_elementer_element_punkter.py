@@ -16,15 +16,15 @@ cur = conn.cursor()
 
 # 
 crea_ny = """
-DROP TABLE IF EXISTS elementer.element_linjer_ny CASCADE;
-CREATE TABLE elementer.element_linjer_ny  AS 
-    SELECT * FROM elementer.element_linjer;
-ALTER TABLE IF EXISTS elementer.element_linjer_ny
-    ADD CONSTRAINT element_linjer_ny_pkey PRIMARY KEY (id);
-CREATE INDEX ON elementer.element_linjer_ny USING gist (geom);
+DROP TABLE IF EXISTS elementer.element_punkter_ny CASCADE;
+CREATE TABLE elementer.element_punkter_ny  AS 
+    SELECT * FROM elementer.element_punkter;
+ALTER TABLE IF EXISTS elementer.element_punkter_ny
+    ADD CONSTRAINT element_punkter_ny_pkey PRIMARY KEY (id);
+CREATE INDEX ON elementer.element_punkter_ny USING gist (geom);
 """
 
-print ('Opret tabel elementer.element_linjer_ny') 
+print ('Opret tabel elementer.element_punkter_ny') 
 cur.execute(crea_ny)
 
 print ('Hent validation værdier') 
@@ -36,16 +36,16 @@ for a in attr:
     if a[0] not in look: look[a[0]] = {}
     look[a[0]][a[1]] = a[2]
 
-# Løb alle elementer_linjer igennem
+# Løb alle elementer_punkter igennem
 
-print ('Opdater tabel elementer.element_linjer_ny / ekstra') 
-cur.execute('SELECT * FROM elementer.element_linjer_ny')
+print ('Opdater tabel elementer.element_punkter_ny / ekstra') 
+cur.execute('SELECT * FROM elementer.element_punkter_ny')
 rows = cur.fetchall()
 
 i = 0
 for r in rows:
 
-    js = r[7]
+    js = r[6]
     res = {}
     if js:
         for attr, value in js.items():
@@ -60,7 +60,7 @@ for r in rows:
     i += 1
 #    if i >20: break
 
-    sqlcmd = 'UPDATE elementer.element_linjer_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
+    sqlcmd = 'UPDATE elementer.element_punkter_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
     cur.execute(sqlcmd)
 
     if i % 100 == 0 : print (i) 

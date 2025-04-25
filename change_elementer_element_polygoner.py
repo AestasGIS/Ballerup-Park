@@ -15,17 +15,31 @@ conn = psycopg2.connect(database=database, host=db_host, user=db_user, password=
 cur = conn.cursor()
 
 # 
+crea_ny = """
+DROP TABLE IF EXISTS elementer.element_flader_ny CASCADE;
+CREATE TABLE elementer.element_flader_ny  AS 
+    SELECT * FROM elementer.element_flader;
+ALTER TABLE IF EXISTS elementer.element_flader_ny
+    ADD CONSTRAINT element_flader_ny_pkey PRIMARY KEY (id);
+CREATE INDEX ON elementer.element_flader_ny USING gist (geom);
+"""
 
+print ('Opret tabel elementer.element_flader_ny') 
+cur.execute(crea_ny)
+
+print ('Hent validation værdier') 
 look = {}
 cur.execute('SELECT * FROM lookup.attribute_validation')
 attr = cur.fetchall()
+
 for a in attr:
     if a[0] not in look: look[a[0]] = {}
     look[a[0]][a[1]] = a[2]
 
 # Løb alle elementer_flader igennem
 
-cur.execute('SELECT * FROM elementer.element_flader_tmp')
+print ('Opdater tabel elementer.element_flader_ny / ekstra') 
+cur.execute('SELECT * FROM elementer.element_flader_ny')
 rows = cur.fetchall()
 
 i = 0
@@ -33,7 +47,6 @@ for r in rows:
 
     js = r[8]
     res = {}
-
     if js:
         for attr, value in js.items():
             if attr in look:
@@ -47,9 +60,9 @@ for r in rows:
     i += 1
 #    if i >20: break
 
-    sqlcmd = 'UPDATE elementer.element_flader_tmp SET xxx = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
-#    print(sqlcmd)
+    sqlcmd = 'UPDATE elementer.element_flader_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
     cur.execute(sqlcmd)
+
     if i % 100 == 0 : print (i) 
 
 cur.close()
