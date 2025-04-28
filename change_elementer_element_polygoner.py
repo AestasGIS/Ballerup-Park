@@ -20,12 +20,25 @@ DROP TABLE IF EXISTS elementer.element_flader_ny CASCADE;
 CREATE TABLE elementer.element_flader_ny  AS 
     SELECT * FROM elementer.element_flader;
 ALTER TABLE IF EXISTS elementer.element_flader_ny
-    ADD CONSTRAINT element_flader_ny_pkey PRIMARY KEY (id);
+    ADD CONSTRAINT element_flader_ny_pkey PRIMARY KEY (id),
+    ADD COLUMN oprettet timestamp without time zone,
+    ADD COLUMN oprettet_af character varying COLLATE pg_catalog."default",
+    ADD COLUMN rettet timestamp without time zone,
+    ADD COLUMN rettet_af character varying COLLATE pg_catalog."default";
 CREATE INDEX ON elementer.element_flader_ny USING gist (geom);
+UPDATE elementer.element_flader_ny a
+    SET 
+        oprettet = b.created::timestamp without time zone,
+        oprettet_af = b.createdby,
+        rettet = b.updated::timestamp without time zone,
+        rettet_af = b.updatedby
+    FROM driftweb.tot_elements_all b
+    WHERE a.id = b.elementid::UUID;
 """
 
 print ('Opret tabel elementer.element_flader_ny') 
 cur.execute(crea_ny)
+conn.commit()
 
 print ('Hent validation værdier') 
 look = {}
@@ -63,7 +76,7 @@ for r in rows:
     sqlcmd = 'UPDATE elementer.element_flader_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
     cur.execute(sqlcmd)
 
-    if i % 100 == 0 : print (i) 
+    print (r[0]) 
 
 cur.close()
 conn.commit()
