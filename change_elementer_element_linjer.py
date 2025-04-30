@@ -16,18 +16,26 @@ cur = conn.cursor()
 
 # 
 crea_ny = """
-DROP TABLE IF EXISTS elementer.element_linjer_ny CASCADE;
-CREATE TABLE elementer.element_linjer_ny  AS 
-    SELECT * FROM elementer.element_linjer;
-ALTER TABLE IF EXISTS elementer.element_linjer_ny
-    ADD CONSTRAINT element_linjer_ny_pkey PRIMARY KEY (id),
+--DROP TABLE IF EXISTS elementer.element_linjer_ny CASCADE;
+--CREATE TABLE elementer.element_linjer_ny  AS 
+--    SELECT * FROM elementer.element_linjer;
+--ALTER TABLE IF EXISTS elementer.element_linjer_ny
+--    ADD CONSTRAINT element_linjer_ny_pkey PRIMARY KEY (id),
+ALTER TABLE IF EXISTS elementer.element_linjer
+    ADD COLUMN beskrivelse character varying COLLATE pg_catalog."default",
+    ADD COLUMN adresse character varying COLLATE pg_catalog."default",
+    ADD COLUMN oprindelse character varying COLLATE pg_catalog."default",
     ADD COLUMN oprettet timestamp without time zone,
     ADD COLUMN oprettet_af character varying COLLATE pg_catalog."default",
     ADD COLUMN rettet timestamp without time zone,
     ADD COLUMN rettet_af character varying COLLATE pg_catalog."default";
-CREATE INDEX ON elementer.element_linjer_ny USING gist (geom);
-UPDATE elementer.element_linjer_ny a
+--CREATE INDEX ON elementer.element_linjer_ny USING gist (geom);
+--UPDATE elementer.element_linjer_ny a
+UPDATE elementer.element_linjer a
     SET 
+        beskrivelse = b.element_description,
+        adresse = b.address,
+        oprindelse = b.origin,
         oprettet = b.created::timestamp without time zone,
         oprettet_af = b.createdby,
         rettet = b.updated::timestamp without time zone,
@@ -73,7 +81,8 @@ for r in rows:
     i += 1
 #    if i >20: break
 
-    sqlcmd = 'UPDATE elementer.element_linjer_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
+#    sqlcmd = 'UPDATE elementer.element_linjer_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
+    sqlcmd = 'UPDATE elementer.element_linjer SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
     cur.execute(sqlcmd)
 
     if i % 100 == 0 : print (i) 
