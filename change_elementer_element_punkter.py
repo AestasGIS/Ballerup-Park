@@ -44,7 +44,9 @@ UPDATE elementer.element_punkter a
     WHERE a.id = b.elementid::UUID;
 """
 
-print ('Opret tabel elementer.element_punkter_ny') 
+# print ('Opret tabel elementer.element_punkter_ny') 
+print ('Opdater tabel elementer.element_punkter') 
+print (crea_ny) 
 cur.execute(crea_ny)
 conn.commit()
 
@@ -59,8 +61,10 @@ for a in attr:
 
 # Løb alle elementer_punkter igennem
 
-print ('Opdater tabel elementer.element_punkter_ny / ekstra') 
-cur.execute('SELECT * FROM elementer.element_punkter_ny')
+# print ('Opdater tabel elementer.element_punkter_ny / ekstra') 
+# cur.execute('SELECT * FROM elementer.element_punkter_ny')
+print ('Opdater tabel elementer.element_punkter / ekstra') 
+cur.execute('SELECT * FROM elementer.element_punkter')
 rows = cur.fetchall()
 
 i = 0
@@ -79,7 +83,6 @@ for r in rows:
                 res[attr] = {'value' : value, 'text': value}
 
     i += 1
-#    if i >20: break
 
 #    sqlcmd = 'UPDATE elementer.element_punkter_ny SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
     sqlcmd = 'UPDATE elementer.element_punkter SET ekstra = \'{}\'::JSONB WHERE id = \'{}\'::UUID;'.format(json.dumps(res, ensure_ascii = False).replace ("'","''"),r[0])
