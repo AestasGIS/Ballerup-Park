@@ -44,7 +44,9 @@ UPDATE elementer.element_linjer a
     WHERE a.id = b.elementid::UUID;
 """
 
-print ('Opret tabel elementer.element_linjer_ny') 
+# print ('Opret tabel elementer.element_linjer_ny') 
+print ('Opdater tabel elementer.element_linjer med nye kolonner') 
+print (crea_ny) 
 cur.execute(crea_ny)
 conn.commit()
 
@@ -59,8 +61,10 @@ for a in attr:
 
 # Løb alle elementer_linjer igennem
 
-print ('Opdater tabel elementer.element_linjer_ny / ekstra') 
-cur.execute('SELECT * FROM elementer.element_linjer_ny')
+# print ('Opdater tabel elementer.element_linjer_ny / ekstra') 
+# cur.execute('SELECT * FROM elementer.element_linjer_ny')
+print ('Opdater tabel elementer.element_linjer / ekstra') 
+cur.execute('SELECT * FROM elementer.element_linjer')
 rows = cur.fetchall()
 
 i = 0

@@ -44,7 +44,9 @@ UPDATE elementer.element_flader a
     WHERE a.id = b.elementid::UUID;
 """
 
-print ('Opret tabel elementer.element_flader_ny') 
+# print ('Opret tabel elementer.element_flader_ny') 
+print ('Opdater tabel elementer.element_flader') 
+print (crea_ny) 
 cur.execute(crea_ny)
 conn.commit()
 
@@ -59,8 +61,10 @@ for a in attr:
 
 # Løb alle elementer_flader igennem
 
-print ('Opdater tabel elementer.element_flader_ny / ekstra') 
-cur.execute('SELECT * FROM elementer.element_flader_ny')
+#print ('Opdater tabel elementer.element_flader_ny / ekstra') 
+#cur.execute('SELECT * FROM elementer.element_flader_ny')
+print ('Opdater tabel elementer.element_flader / ekstra') 
+cur.execute('SELECT * FROM elementer.element_flader')
 rows = cur.fetchall()
 
 i = 0
