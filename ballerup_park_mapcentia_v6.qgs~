@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.42.2-Münster" saveUser="Bo Victor Thomsen" saveUserFull="Bo Victor Thomsen" projectname="" saveDateTime="2025-05-23T08:30:44">
+<qgis version="3.42.2-Münster" saveUser="Bo Victor Thomsen" saveUserFull="Bo Victor Thomsen" projectname="" saveDateTime="2025-05-23T10:18:22">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -69,16 +69,16 @@
           <Option/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer name="element_flader_arbejdsgrupper" legend_split_behavior="0" expanded="1" source="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' key='id' checkPrimaryKeyUnicity='1' table=&quot;elementer&quot;.&quot;element_flader_arbejdsgrupper&quot;" patch_size="-1,-1" providerKey="postgres" checked="Qt::Checked" id="element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215" legend_exp="">
-        <customproperties>
-          <Option/>
-        </customproperties>
-      </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group name="Opslag" expanded="1" groupLayer="" checked="Qt::Unchecked">
       <customproperties>
         <Option/>
       </customproperties>
+      <layer-tree-layer name="element_flader_arbejdsgrupper" legend_split_behavior="0" expanded="1" source="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' key='id' checkPrimaryKeyUnicity='1' table=&quot;elementer&quot;.&quot;element_flader_arbejdsgrupper&quot;" patch_size="-1,-1" providerKey="postgres" checked="Qt::Checked" id="element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215" legend_exp="">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
       <layer-tree-layer name="ekstra_skabelon" legend_split_behavior="0" expanded="1" source="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' key='tid' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;ekstra_skabelon&quot;" patch_size="-1,-1" providerKey="postgres" checked="Qt::Checked" id="ekstra_skabelon_efc98d6d_558c_4d34_b880_38ec368f5844" legend_exp="">
         <customproperties>
           <Option/>
@@ -121,13 +121,14 @@
       <item>element_punkter_f4f6bc0a_9627_4197_82af_3019810818f9</item>
       <item>Sk_rmkort___gr__3a142292_54d6_41da_9955_ed2cf8ff986d</item>
       <item>arbejdsgrupper_bb53d3f6_c302_4165_ace1_b22afdfe8193</item>
+      <item>element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings maxScale="0" tolerance="12" intersection-snapping="0" mode="2" type="1" unit="1" self-snapping="0" scaleDependencyMode="0" enabled="0" minScale="0">
     <individual-layer-settings>
-      <layer-setting maxScale="0" tolerance="12" type="1" units="1" enabled="0" id="element_linjer_f5904117_9a3d_444b_811e_9760e40db95e" minScale="0"/>
       <layer-setting maxScale="0" tolerance="12" type="1" units="1" enabled="0" id="element_punkter_f4f6bc0a_9627_4197_82af_3019810818f9" minScale="0"/>
       <layer-setting maxScale="0" tolerance="12" type="1" units="1" enabled="0" id="element_flader_0bcebcf6_cc65_4860_8c95_558dc8a830f6" minScale="0"/>
+      <layer-setting maxScale="0" tolerance="12" type="1" units="1" enabled="0" id="element_linjer_f5904117_9a3d_444b_811e_9760e40db95e" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -197,13 +198,13 @@
           <legendlayerfile layerid="element_punkter_arbejdsgrupper_7beb98f4_bb14_42f5_8793_e16006e4e33c" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
+    </legendgroup>
+    <legendgroup name="Opslag" open="true" checked="Qt::Unchecked">
       <legendlayer name="element_flader_arbejdsgrupper" open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
         <filegroup open="true" hidden="false">
           <legendlayerfile layerid="element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215" isInOverview="0" visible="0"/>
         </filegroup>
       </legendlayer>
-    </legendgroup>
-    <legendgroup name="Opslag" open="true" checked="Qt::Unchecked">
       <legendlayer name="ekstra_skabelon" open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked">
         <filegroup open="true" hidden="false">
           <legendlayerfile layerid="ekstra_skabelon_efc98d6d_558c_4d34_b880_38ec368f5844" isInOverview="0" visible="0"/>
@@ -2084,6 +2085,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingHints="1" simplifyMaxScale="1" wkbType="MultiPolygon" simplifyDrawingTol="1" refreshOnNotifyMessage="" readOnly="0" type="vector" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" autoRefreshMode="Disabled" geometry="Polygon" maxScale="0" minScale="100000000" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" legendPlaceholderImage="" symbologyReferenceScale="-1">
+      <extent>
+        <xmin>705501.32335154921747744</xmin>
+        <ymin>6177659.30950212851166725</ymin>
+        <xmax>715144.18686211016029119</xmax>
+        <ymax>6184558.69075335841625929</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>12.27044546877688802</xmin>
+        <ymin>55.69690650445430435</ymin>
+        <xmax>12.4290315785161134</xmax>
+        <ymax>55.76297746421158763</ymax>
+      </wgs84extent>
       <id>element_flader_0bcebcf6_cc65_4860_8c95_558dc8a830f6</id>
       <datasource>dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table="elementer"."element_flader" (geom)</datasource>
       <keywordList>
@@ -5478,7 +5491,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="element_typer_20f3c1f4_730b_4159_a0d9_ea893bcc8865" type="QString"/>
                 <Option name="LayerName" value="element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -5516,7 +5529,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="elementgruppe_typer_925ff728_dae4_4bb0_bf31_25f63d26f2db" type="QString"/>
                 <Option name="LayerName" value="elementgruppe_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -6231,11 +6244,6 @@ def my_form_open(dialog, layer, feature):
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
             <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
-            <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
-            <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
-            <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
-            <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
-            <Option value="COALESCE( &quot;id&quot;, '&lt;NULL>' )" type="QString"/>
           </Option>
           <Option name="embeddedWidgets/count" value="0" type="int"/>
           <Option name="variableNames" type="invalid"/>
@@ -6314,7 +6322,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgrupper_bb53d3f6_c302_4165_ace1_b22afdfe8193" type="QString"/>
                 <Option name="LayerName" value="arbejdsgrupper" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -6352,7 +6360,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgruppe_typer_element_typer_56f99cd3_cfad_418e_82b2_95d92dadeab5" type="QString"/>
                 <Option name="LayerName" value="arbejdsgruppe_typer_element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -6906,7 +6914,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgrupper_bb53d3f6_c302_4165_ace1_b22afdfe8193" type="QString"/>
                 <Option name="LayerName" value="arbejdsgrupper" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -6944,7 +6952,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgruppe_typer_element_typer_56f99cd3_cfad_418e_82b2_95d92dadeab5" type="QString"/>
                 <Option name="LayerName" value="arbejdsgruppe_typer_element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -10082,7 +10090,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="element_typer_20f3c1f4_730b_4159_a0d9_ea893bcc8865" type="QString"/>
                 <Option name="LayerName" value="element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -10120,7 +10128,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="elementgruppe_typer_925ff728_dae4_4bb0_bf31_25f63d26f2db" type="QString"/>
                 <Option name="LayerName" value="elementgruppe_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -10908,7 +10916,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgrupper_bb53d3f6_c302_4165_ace1_b22afdfe8193" type="QString"/>
                 <Option name="LayerName" value="arbejdsgrupper" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='arbejdsgruppe_id' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;arbejde&quot;.&quot;arbejdsgrupper&quot; (geom)" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -10946,7 +10954,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="arbejdsgruppe_typer_element_typer_56f99cd3_cfad_418e_82b2_95d92dadeab5" type="QString"/>
                 <Option name="LayerName" value="arbejdsgruppe_typer_element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' authcfg=sal6z8c key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='id' checkPrimaryKeyUnicity='0' table=&quot;lookup&quot;.&quot;arbejdsgruppe_typer_element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -14146,7 +14154,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="element_typer_20f3c1f4_730b_4159_a0d9_ea893bcc8865" type="QString"/>
                 <Option name="LayerName" value="element_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='etype_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;element_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -14184,7 +14192,7 @@ def my_form_open(dialog, layer, feature):
                 <Option name="Layer" value="elementgruppe_typer_925ff728_dae4_4bb0_bf31_25f63d26f2db" type="QString"/>
                 <Option name="LayerName" value="elementgruppe_typer" type="QString"/>
                 <Option name="LayerProviderName" value="postgres" type="QString"/>
-                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 authcfg=3juni07 key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
+                <Option name="LayerSource" value="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' password='gaker9jI' key='egruppe_key' checkPrimaryKeyUnicity='1' table=&quot;lookup&quot;.&quot;elementgruppe_typer&quot;" type="QString"/>
                 <Option name="NofColumns" value="1" type="int"/>
                 <Option name="OrderByDescending" value="false" type="bool"/>
                 <Option name="OrderByField" value="false" type="bool"/>
@@ -15420,6 +15428,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="element_punkter_f4f6bc0a_9627_4197_82af_3019810818f9"/>
     <layer id="Sk_rmkort___gr__3a142292_54d6_41da_9955_ed2cf8ff986d"/>
     <layer id="arbejdsgrupper_bb53d3f6_c302_4165_ace1_b22afdfe8193"/>
+    <layer id="element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215"/>
   </layerorder>
   <labelEngineSettings/>
   <properties>
@@ -15597,7 +15606,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="6182094.40070797968655825" xmax="714644.36744468519464135" ymax="6184331.36006333399564028" xmin="709270.44067062274552882">
+    <DefaultViewExtent ymin="6182094.40070797968655825" xmax="714622.99522154487203807" ymax="6184331.36006333399564028" xmin="709291.8128937630681321">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
         <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -15611,7 +15620,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
-  <ProjectStyleSettings colorModel="Rgb" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///SNKuRA_styles.db" iccProfileId="attachment:///QGIS3-NJYiCJ">
+  <ProjectStyleSettings colorModel="Rgb" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1" projectStyleId="attachment:///IAhupk_styles.db" iccProfileId="attachment:///QGIS3-NJYiCJ">
     <databases/>
   </ProjectStyleSettings>
   <ProjectTimeSettings frameRate="1" timeStepUnit="h" timeStep="1" totalMovieFrames="100" cumulativeTemporalRange="0"/>
@@ -15662,7 +15671,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings autoAddTrackVertices="0" destinationLayer="element_punkter_f4f6bc0a_9627_4197_82af_3019810818f9" destinationLayerSource="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' key='id' srid=25832 type=Point checkPrimaryKeyUnicity='1' table=&quot;elementer&quot;.&quot;element_punkter&quot; (geom)" destinationFollowsActiveLayer="1" destinationLayerName="Elementer, punkter" autoCommitFeatures="0" destinationLayerProvider="postgres">
+  <ProjectGpsSettings autoAddTrackVertices="0" destinationLayer="element_flader_arbejdsgrupper_55a402f4_895c_4076_941e_559f6cceb215" destinationLayerSource="dbname='ballerup_park' host=common-db.gc2.io port=5432 user='ballerup_park' key='id' checkPrimaryKeyUnicity='1' table=&quot;elementer&quot;.&quot;element_flader_arbejdsgrupper&quot;" destinationFollowsActiveLayer="1" destinationLayerName="element_flader_arbejdsgrupper" autoCommitFeatures="0" destinationLayerProvider="postgres">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
