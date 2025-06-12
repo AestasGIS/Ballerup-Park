@@ -72,7 +72,7 @@
         <Option name="GT" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="GTYPE" type="List">
@@ -109,7 +109,7 @@
         <Option name="OPTIONS" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="OVERWRITE" type="List">
@@ -133,7 +133,7 @@
         <Option name="PRIMARY_KEY" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="PROMOTETOMULTI" type="List">
@@ -151,19 +151,19 @@
         <Option name="SEGMENTIZE" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="SHAPE_ENCODING" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="SIMPLIFY" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="SKIPFAILURES" type="List">
@@ -200,7 +200,7 @@
         <Option name="WHERE" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -233,7 +233,7 @@
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="replace(trim(lower(concat(&#xd;&#xa;  array_get(array('T1','T5','T10','T20','T50','T100','T200','T500','T1000'),@hndelsestype),&#xd;&#xa;  '_',&#xd;&#xa;  @rstal,&#xd;&#xa;  '_',&#xd;&#xa;  array_get(array('','ssp2-4.5','ssp3-7.2'),@beregningsmodel),&#xd;&#xa;  '_',&#xd;&#xa;  @suffix))),&#xd;&#xa;array(' ','.','-','æ','ø','å'),array('_','_','_','ae','oe','aa'))&#xd;&#xa; " name="expression" type="QString"/>
+            <Option value="replace(trim(lower(concat(&#xd;&#xa;  array_get(array('T1','T5','T10','T20','T50','T100','T200','T500','T1000'),@incident_type),&#xd;&#xa;  '_',&#xd;&#xa;  @year,&#xd;&#xa;  array_get(array('','_ssp2-4.5','_ssp3-7.2'),@model_name),&#xd;&#xa;  if (coalesce(@suffix,'')='','','_'||@suffix)))),&#xd;&#xa;array(' ','.','-','æ','ø','å'),array('_','_','_','ae','oe','aa'))&#xd;&#xa; " name="expression" type="QString"/>
             <Option value="3" name="source" type="int"/>
           </Option>
         </Option>
@@ -340,13 +340,13 @@
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option value="2" name="beregningsmodel" type="int"/>
     <Option value="flood_damage_hvidovre at localhost as postgres" name="database_connection" type="QString"/>
+    <Option value="true" name="depth_in_centimeters_" type="bool"/>
     <Option value="D:/projekter/hvidovre.tif" name="flood_raster" type="QString"/>
     <Option value="1" name="flood_raster_layer" type="int"/>
-    <Option value="7" name="hndelsestype" type="int"/>
-    <Option value="2075" name="rstal" type="int"/>
-    <Option value="test7" name="suffix" type="QString"/>
+    <Option value="2" name="incident_type" type="int"/>
+    <Option value="0" name="model_name" type="int"/>
+    <Option value="2027" name="year" type="int"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
@@ -357,23 +357,6 @@
   <Option value="" name="outputGroup" type="QString"/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
-    <Option name="beregningsmodel" type="Map">
-      <Option value="false" name="allow_multiple" type="bool"/>
-      <Option name="default" type="invalid"/>
-      <Option name="defaultGui" type="invalid"/>
-      <Option value="Beregningsmodel" name="description" type="QString"/>
-      <Option value="0" name="flags" type="int"/>
-      <Option value="" name="help" type="QString"/>
-      <Option name="metadata"/>
-      <Option value="beregningsmodel" name="name" type="QString"/>
-      <Option name="options" type="StringList">
-        <Option value="" type="QString"/>
-        <Option value="ssp2-4.5" type="QString"/>
-        <Option value="ssp3-7.2" type="QString"/>
-      </Option>
-      <Option value="enum" name="parameter_type" type="QString"/>
-      <Option value="false" name="uses_static_strings" type="bool"/>
-    </Option>
     <Option name="database_connection" type="Map">
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
@@ -386,7 +369,7 @@
       <Option value="postgres" name="provider" type="QString"/>
     </Option>
     <Option name="depth_in_centimeters_" type="Map">
-      <Option value="true" name="default" type="bool"/>
+      <Option value="false" name="default" type="bool"/>
       <Option name="defaultGui" type="invalid"/>
       <Option value="Depth in centimeters ? " name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
@@ -419,15 +402,15 @@
       <Option value="band" name="parameter_type" type="QString"/>
       <Option value="flood_raster" name="parent_layer" type="QString"/>
     </Option>
-    <Option name="hndelsestype" type="Map">
+    <Option name="incident_type" type="Map">
       <Option value="false" name="allow_multiple" type="bool"/>
-      <Option name="default" type="invalid"/>
+      <Option name="default"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option value="Hændelsestype" name="description" type="QString"/>
+      <Option value="Incident type" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
-      <Option value="hndelsestype" name="name" type="QString"/>
+      <Option value="incident_type" name="name" type="QString"/>
       <Option name="options" type="StringList">
         <Option value="T1" type="QString"/>
         <Option value="T5" type="QString"/>
@@ -442,18 +425,22 @@
       <Option value="enum" name="parameter_type" type="QString"/>
       <Option value="false" name="uses_static_strings" type="bool"/>
     </Option>
-    <Option name="rstal" type="Map">
-      <Option value="0" name="data_type" type="int"/>
-      <Option value="2025" name="default" type="double"/>
+    <Option name="model_name" type="Map">
+      <Option value="false" name="allow_multiple" type="bool"/>
+      <Option name="default"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option value="Årstal" name="description" type="QString"/>
+      <Option value="Model name" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
-      <Option value="3000" name="max" type="double"/>
       <Option name="metadata"/>
-      <Option value="2000" name="min" type="double"/>
-      <Option value="rstal" name="name" type="QString"/>
-      <Option value="number" name="parameter_type" type="QString"/>
+      <Option value="model_name" name="name" type="QString"/>
+      <Option name="options" type="StringList">
+        <Option value="(none)" type="QString"/>
+        <Option value="ssp2-4.5" type="QString"/>
+        <Option value="ssp3-7.2" type="QString"/>
+      </Option>
+      <Option value="enum" name="parameter_type" type="QString"/>
+      <Option value="false" name="uses_static_strings" type="bool"/>
     </Option>
     <Option name="schema_flood_data" type="Map">
       <Option value="fdc_flood" name="default" type="QString"/>
@@ -467,15 +454,28 @@
       <Option value="databaseschema" name="parameter_type" type="QString"/>
     </Option>
     <Option name="suffix" type="Map">
-      <Option name="default" type="invalid"/>
+      <Option value="" name="default" type="QString"/>
       <Option name="defaultGui" type="invalid"/>
       <Option value="Suffix" name="description" type="QString"/>
-      <Option value="0" name="flags" type="int"/>
+      <Option value="8" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
       <Option value="false" name="multiline" type="bool"/>
       <Option value="suffix" name="name" type="QString"/>
       <Option value="string" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="year" type="Map">
+      <Option value="0" name="data_type" type="int"/>
+      <Option value="2025" name="default" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Year" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option value="3000" name="max" type="double"/>
+      <Option name="metadata"/>
+      <Option value="2000" name="min" type="double"/>
+      <Option value="year" name="name" type="QString"/>
+      <Option value="number" name="parameter_type" type="QString"/>
     </Option>
   </Option>
   <Option name="parameterOrder" type="StringList">
@@ -484,33 +484,12 @@
     <Option value="depth_in_centimeters_" type="QString"/>
     <Option value="database_connection" type="QString"/>
     <Option value="schema_flood_data" type="QString"/>
-    <Option value="hndelsestype" type="QString"/>
-    <Option value="rstal" type="QString"/>
-    <Option value="beregningsmodel" type="QString"/>
+    <Option value="incident_type" type="QString"/>
+    <Option value="year" type="QString"/>
+    <Option value="model_name" type="QString"/>
     <Option value="suffix" type="QString"/>
   </Option>
   <Option name="parameters" type="Map">
-    <Option name="beregningsmodel" type="Map">
-      <Option value="" name="color" type="QString"/>
-      <Option name="comment" type="Map">
-        <Option value="" name="color" type="QString"/>
-        <Option value="" name="component_description" type="QString"/>
-        <Option value="60" name="component_height" type="double"/>
-        <Option value="293" name="component_pos_x" type="double"/>
-        <Option value="701" name="component_pos_y" type="double"/>
-        <Option value="100" name="component_width" type="double"/>
-        <Option value="true" name="outputs_collapsed" type="bool"/>
-        <Option value="true" name="parameters_collapsed" type="bool"/>
-      </Option>
-      <Option value="beregningsmodel" name="component_description" type="QString"/>
-      <Option value="30" name="component_height" type="double"/>
-      <Option value="130" name="component_pos_x" type="double"/>
-      <Option value="585" name="component_pos_y" type="double"/>
-      <Option value="200" name="component_width" type="double"/>
-      <Option value="beregningsmodel" name="name" type="QString"/>
-      <Option value="true" name="outputs_collapsed" type="bool"/>
-      <Option value="true" name="parameters_collapsed" type="bool"/>
-    </Option>
     <Option name="database_connection" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
@@ -595,7 +574,7 @@
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
-    <Option name="hndelsestype" type="Map">
+    <Option name="incident_type" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
@@ -607,33 +586,33 @@
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="hndelsestype" name="component_description" type="QString"/>
+      <Option value="incident_type" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="130" name="component_pos_x" type="double"/>
       <Option value="465" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
-      <Option value="hndelsestype" name="name" type="QString"/>
+      <Option value="incident_type" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
-    <Option name="rstal" type="Map">
+    <Option name="model_name" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
         <Option value="" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="282" name="component_pos_x" type="double"/>
-        <Option value="643" name="component_pos_y" type="double"/>
+        <Option value="293" name="component_pos_x" type="double"/>
+        <Option value="701" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="rstal" name="component_description" type="QString"/>
+      <Option value="model_name" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="130" name="component_pos_x" type="double"/>
-      <Option value="525" name="component_pos_y" type="double"/>
+      <Option value="585" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
-      <Option value="rstal" name="name" type="QString"/>
+      <Option value="model_name" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
@@ -676,6 +655,27 @@
       <Option value="645" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option value="suffix" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="year" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="282" name="component_pos_x" type="double"/>
+        <Option value="643" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="year" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="130" name="component_pos_x" type="double"/>
+      <Option value="525" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="year" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
