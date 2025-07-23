@@ -1,0 +1,936 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="gdal:importvectorintopostgisdatabaseavailableconnections_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="gdal:importvectorintopostgisdatabaseavailableconnections" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="910" type="double"/>
+        <Option name="component_pos_y" value="430" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Export to PostgreSQL (available connections)" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="959.3263971353368" type="double"/>
+      <Option name="component_pos_y" value="555.8326834792192" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="gdal:importvectorintopostgisdatabaseavailableconnections_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="ADDFIELDS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="APPEND" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="A_SRS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="CLIP" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="DATABASE" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="database_connection" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="DIM" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="GEOCOLUMN" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="geom" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="GT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="GTYPE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="5" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INDEX" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:refactorfields_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="LAUNDER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="MAKEVALID" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="OPTIONS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="OVERWRITE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="true" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="PK" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="fid" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="PRECISION" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="true" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="PRIMARY_KEY" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="PROMOTETOMULTI" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="SCHEMA" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="schema_flood_data" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEGMENTIZE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="SHAPE_ENCODING" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="SIMPLIFY" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="SKIPFAILURES" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="SPAT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="S_SRS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="TABLE" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:calculateexpression_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="T_SRS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="WHERE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="gdal:polygonize_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="gdal:polygonize" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1379.3263971353367" type="double"/>
+        <Option name="component_pos_y" value="681.4303712431903" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Polygonize (raster to vector)" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="552.8418635612411" type="double"/>
+      <Option name="component_pos_y" value="272.8081165452653" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="gdal:polygonize_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="BAND" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="layer_number_for_flood_raster_layer" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="EIGHT_CONNECTEDNESS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="EXTRA" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="depth" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:roundrastervalues_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:calculateexpression_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:calculateexpression" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1240" type="double"/>
+        <Option name="component_pos_y" value="580" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Calculate expression" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="547.1612367631756" type="double"/>
+      <Option name="component_pos_y" value="409.5830262594112" type="double"/>
+      <Option name="component_width" value="210" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:calculateexpression_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="expression" value="replace(trim(lower(concat(&#xd;&#xa;  array_get(array('T1','T5','T10','T20','T50','T100','T200','T500','T1000'),@return_period_of_flood),&#xd;&#xa;  '_',&#xd;&#xa;  @year,&#xd;&#xa;  array_get(array('','_SSP1-2.6','_SSP2-4.5','_SSP3-7.0'),@climate_scenario),&#xd;&#xa;  if (coalesce(@append_text_to_tablename,'')='','','_'||@append_text_to_tablename)))),&#xd;&#xa;array(' ','.','-','æ','ø','å'),array('_','_','_','ae','oe','aa'))&#xd;&#xa; " type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:calculateexpression_2" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:calculateexpression" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1540" type="double"/>
+        <Option name="component_pos_y" value="730" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Calculate expression2" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="547.5322641855907" type="double"/>
+      <Option name="component_pos_y" value="511.3762808349145" type="double"/>
+      <Option name="component_width" value="209.27580645161288" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:calculateexpression_2" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="expression" value="concat (&#xd;&#xa;'WITH one AS (SELECT * FROM fdc_admin.parametre WHERE name LIKE \'t_flood_%\' AND POSITION(\'', &#xd;&#xa;@schema_flood_data, &#xd;&#xa;'\' in value) > 0 AND POSITION(\'', &#xd;&#xa;@Calculate_expression_OUTPUT, &#xd;&#xa;'\' in value) > 0 ',&#xd;&#xa;'UNION (SELECT * FROM fdc_admin.parametre WHERE name LIKE \'t_flood_%\' AND COALESCE(value,\'\') = \'\'',' ORDER BY name ASC LIMIT 1) ORDER BY value DESC LIMIT 1), ',&#xd;&#xa;'two   AS (UPDATE fdc_admin.parametre SET value = \'&quot;', &#xd;&#xa;@schema_flood_data,&#xd;&#xa;'&quot;.&quot;', &#xd;&#xa;@Calculate_expression_OUTPUT,&#xd;&#xa;'&quot;\' WHERE name in (SELECT name FROM one)), ',&#xd;&#xa;'three AS (UPDATE fdc_admin.parametre SET value = \'&quot;fid&quot;\' WHERE name in (SELECT \'f_pkey_\'||name FROM one)), ',&#xd;&#xa;'four AS (UPDATE fdc_admin.parametre SET value = \'&quot;vanddybde_m&quot;\' WHERE name in (SELECT \'f_depth_\'||name FROM one)) ',&#xd;&#xa;'UPDATE fdc_admin.parametre SET value = \'&quot;geom&quot;\' WHERE name in (SELECT \'f_geom_\'||name FROM one);'&#xd;&#xa;)&#xd;&#xa;" type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:modelerrastercalc_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:modelerrastercalc" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1498.5774193548386" type="double"/>
+        <Option name="component_pos_y" value="772.3967741935485" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Raster calculator" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="554.0268194895024" type="double"/>
+      <Option name="component_pos_y" value="48.55506978025343" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:modelerrastercalc_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CELL_SIZE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="EXPRESSION" type="List">
+          <Option type="Map">
+            <Option name="expression" value="concat(&#xd;&#xa;  '&quot;A@',&#xd;&#xa;  to_string(@layer_number_for_flood_raster_layer),&#xd;&#xa;  '&quot;*',&#xd;&#xa;  if (@is_depth_values_in_centimeters_,'1.0','100.0')&#xd;&#xa;)" type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+        <Option name="EXTENT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="LAYERS" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="flood_raster_layer_or_file" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:postgisexecutesql_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:postgisexecutesql" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1510" type="double"/>
+        <Option name="component_pos_y" value="610" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="PostgreSQL execute SQL" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="547.1487864969089" type="double"/>
+      <Option name="component_pos_y" value="626.4303712431903" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="gdal:importvectorintopostgisdatabaseavailableconnections_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="native:postgisexecutesql_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="DATABASE" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="database_connection" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SQL" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:calculateexpression_2" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:refactorfields_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:refactorfields" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="832" type="double"/>
+        <Option name="component_pos_y" value="344" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Refactor fields" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="954.8622589826773" type="double"/>
+      <Option name="component_pos_y" value="421.8135459386669" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:refactorfields_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELDS_MAPPING" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="List">
+              <Option type="Map">
+                <Option name="alias" value="" type="QString"/>
+                <Option name="comment" value="" type="QString"/>
+                <Option name="expression" value="&quot;depth&quot;/100.0" type="QString"/>
+                <Option name="length" value="7" type="int"/>
+                <Option name="name" value="vanddybde_m" type="QString"/>
+                <Option name="precision" value="2" type="int"/>
+                <Option name="sub_type" value="0" type="int"/>
+                <Option name="type" value="6" type="int"/>
+                <Option name="type_name" value="double precision" type="QString"/>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="gdal:polygonize_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:roundrastervalues_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:roundrastervalues" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="573" type="double"/>
+        <Option name="component_pos_y" value="759" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="Round raster" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="551.8899609271391" type="double"/>
+      <Option name="component_pos_y" value="153.8885189039195" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:roundrastervalues_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="BAND" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="layer_number_for_flood_raster_layer" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="BASE_N" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="classification_value_in_cm" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="CREATE_OPTIONS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="DECIMAL_PLACES" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="-1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:modelerrastercalc_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="ROUNDING_DIRECTION" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map">
+    <Option name="append_text_to_tablename" value="test_model_2" type="QString"/>
+    <Option name="climate_scenario" value="3" type="int"/>
+    <Option name="database_connection" value="fdc_hvidovre at localhost as postgres" type="QString"/>
+    <Option name="flood_raster_layer_or_file" value="trae_hojde_2f1aff7f_fedd_4aac_98bb_53b7fc93fa97" type="QString"/>
+    <Option name="is_depth_values_in_centimeters_" value="false" type="bool"/>
+    <Option name="layer_number_for_flood_raster_layer" value="1" type="int"/>
+    <Option name="return_period_of_flood" value="0" type="int"/>
+    <Option name="year" value="2000" type="int"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="internal_version" value="Version2" type="QString"/>
+  <Option name="modelVariables"/>
+  <Option name="model_group" value="" type="QString"/>
+  <Option name="model_name" value="flood_raster_polygon3" type="QString"/>
+  <Option name="outputGroup" value="" type="QString"/>
+  <Option name="outputOrder"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="append_text_to_tablename" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Append text to tablename" type="QString"/>
+      <Option name="flags" value="8" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="multiline" value="false" type="bool"/>
+      <Option name="name" value="append_text_to_tablename" type="QString"/>
+      <Option name="parameter_type" value="string" type="QString"/>
+    </Option>
+    <Option name="classification_value_in_cm" type="Map">
+      <Option name="data_type" value="0" type="int"/>
+      <Option name="default" value="10" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Classification value in cm" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="max" value="100" type="double"/>
+      <Option name="metadata"/>
+      <Option name="min" value="2" type="double"/>
+      <Option name="name" value="classification_value_in_cm" type="QString"/>
+      <Option name="parameter_type" value="number" type="QString"/>
+    </Option>
+    <Option name="climate_scenario" type="Map">
+      <Option name="allow_multiple" value="false" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Climate scenario" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="climate_scenario" type="QString"/>
+      <Option name="options" type="StringList">
+        <Option value="(none)" type="QString"/>
+        <Option value="SSP1-2.6" type="QString"/>
+        <Option value="SSP2-4.5" type="QString"/>
+        <Option value="SSP3-7.0" type="QString"/>
+      </Option>
+      <Option name="parameter_type" value="enum" type="QString"/>
+      <Option name="uses_static_strings" value="false" type="bool"/>
+    </Option>
+    <Option name="database_connection" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Database connection" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="database_connection" type="QString"/>
+      <Option name="parameter_type" value="providerconnection" type="QString"/>
+      <Option name="provider" value="postgres" type="QString"/>
+    </Option>
+    <Option name="flood_raster_layer_or_file" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Flood raster layer or file" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="flood_raster_layer_or_file" type="QString"/>
+      <Option name="parameter_type" value="raster" type="QString"/>
+    </Option>
+    <Option name="is_depth_values_in_centimeters_" type="Map">
+      <Option name="default" value="true" type="bool"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Is depth values in centimeters ? " type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="is_depth_values_in_centimeters_" type="QString"/>
+      <Option name="parameter_type" value="boolean" type="QString"/>
+    </Option>
+    <Option name="layer_number_for_flood_raster_layer" type="Map">
+      <Option name="allow_multiple" value="false" type="bool"/>
+      <Option name="default" type="StringList">
+        <Option value="1" type="QString"/>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Layer number for flood raster layer" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="layer_number_for_flood_raster_layer" type="QString"/>
+      <Option name="parameter_type" value="band" type="QString"/>
+      <Option name="parent_layer" value="flood_raster_layer_or_file" type="QString"/>
+    </Option>
+    <Option name="return_period_of_flood" type="Map">
+      <Option name="allow_multiple" value="false" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Return period of flood" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="return_period_of_flood" type="QString"/>
+      <Option name="options" type="StringList">
+        <Option value="T1" type="QString"/>
+        <Option value="T5" type="QString"/>
+        <Option value="T10" type="QString"/>
+        <Option value="T20" type="QString"/>
+        <Option value="T50" type="QString"/>
+        <Option value="T100" type="QString"/>
+        <Option value="T200" type="QString"/>
+        <Option value="T500" type="QString"/>
+        <Option value="T1000" type="QString"/>
+      </Option>
+      <Option name="parameter_type" value="enum" type="QString"/>
+      <Option name="uses_static_strings" value="false" type="bool"/>
+    </Option>
+    <Option name="schema_flood_data" type="Map">
+      <Option name="default" value="fdc_flood" type="QString"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Schema, flood data" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="mParentConnectionParameterName" value="database_connection" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="schema_flood_data" type="QString"/>
+      <Option name="parameter_type" value="databaseschema" type="QString"/>
+    </Option>
+    <Option name="year" type="Map">
+      <Option name="data_type" value="0" type="int"/>
+      <Option name="default" value="2025" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Year" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="max" value="3000" type="double"/>
+      <Option name="metadata"/>
+      <Option name="min" value="2000" type="double"/>
+      <Option name="name" value="year" type="QString"/>
+      <Option name="parameter_type" value="number" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder" type="StringList">
+    <Option value="flood_raster_layer_or_file" type="QString"/>
+    <Option value="layer_number_for_flood_raster_layer" type="QString"/>
+    <Option value="is_depth_values_in_centimeters_" type="QString"/>
+    <Option value="database_connection" type="QString"/>
+    <Option value="schema_flood_data" type="QString"/>
+    <Option value="return_period_of_flood" type="QString"/>
+    <Option value="year" type="QString"/>
+    <Option value="climate_scenario" type="QString"/>
+    <Option value="append_text_to_tablename" type="QString"/>
+    <Option value="classification_value_in_cm" type="QString"/>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="append_text_to_tablename" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="550" type="double"/>
+        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="append_text_to_tablename" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="132.06129032258065" type="double"/>
+      <Option name="component_pos_y" value="355.125" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="append_text_to_tablename" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="classification_value_in_cm" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="350" type="double"/>
+        <Option name="component_pos_y" value="658" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="classification_value_in_cm" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="129.4433193568791" type="double"/>
+      <Option name="component_pos_y" value="181.42005162106472" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="classification_value_in_cm" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="climate_scenario" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="293" type="double"/>
+        <Option name="component_pos_y" value="701" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="climate_scenario" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="131.03064516129032" type="double"/>
+      <Option name="component_pos_y" value="318.31451612903226" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="climate_scenario" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="database_connection" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="288" type="double"/>
+        <Option name="component_pos_y" value="285" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="database_connection" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="131.0306451612903" type="double"/>
+      <Option name="component_pos_y" value="427.5349911244415" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="database_connection" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="flood_raster_layer_or_file" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="320" type="double"/>
+        <Option name="component_pos_y" value="30" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="flood_raster_layer_or_file" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="130" type="double"/>
+      <Option name="component_pos_y" value="45" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="flood_raster_layer_or_file" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="is_depth_values_in_centimeters_" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="300" type="double"/>
+        <Option name="component_pos_y" value="283" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="is_depth_values_in_centimeters_" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="130.51532258064515" type="double"/>
+      <Option name="component_pos_y" value="114.43153628777215" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="is_depth_values_in_centimeters_" type="QString"/>
+      <Option name="outputs_collapsed" value="false" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="layer_number_for_flood_raster_layer" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="298" type="double"/>
+        <Option name="component_pos_y" value="150" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="layer_number_for_flood_raster_layer" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="129.48467741935485" type="double"/>
+      <Option name="component_pos_y" value="79.34516129032257" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="layer_number_for_flood_raster_layer" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="return_period_of_flood" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="550" type="double"/>
+        <Option name="component_pos_y" value="15" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="return_period_of_flood" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="130.51532258064515" type="double"/>
+      <Option name="component_pos_y" value="246.23951612903227" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="return_period_of_flood" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="schema_flood_data" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="308" type="double"/>
+        <Option name="component_pos_y" value="503" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="schema_flood_data" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="129.28633010956725" type="double"/>
+      <Option name="component_pos_y" value="541.3394671604333" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="schema_flood_data" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="year" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="282" type="double"/>
+        <Option name="component_pos_y" value="643" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="year" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="131.0306451612903" type="double"/>
+      <Option name="component_pos_y" value="283.5653225806452" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="year" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+  </Option>
+</Option>
