@@ -29,4 +29,3 @@ ALTER TABLE IF EXISTS elementer.element_punkter_arbejdsgrupper
 	ADD PRIMARY KEY (id),
     ADD FOREIGN KEY (arbejdsgruppe_id) REFERENCES arbejde.arbejdsgrupper (arbejdsgruppe_id) MATCH SIMPLE ON UPDATE CASCADE ON DELETE CASCADE DEFERRABLE INITIALLY DEFERRED,
     ADD FOREIGN KEY (element_id) REFERENCES elementer.element_punkter (id)                   MATCH SIMPLE ON UPDATE CASCADE ON DELETE CASCADE DEFERRABLE INITIALLY DEFERRED;
-2278 5466

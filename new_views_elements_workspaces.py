@@ -1,16 +1,17 @@
 del_or_rename = 'rename' # 'delete'
-workspace_filter = "like '%VT Håndrute 1%'"
-schema_name='slet_mig_efter_brug'
-rename_suffix = '_old'
+workspace_filter = "like '%VT %'"
+schema_name='vt_vintertjeneste'
+rename_suffix = '_20250630'
 # Under normale omstændigheder skal der *IKKE* laves rettelser under denne linje
 
-sel_ag_et = """SELECT 
+sel_ag_et = """SELECT DISTINCT
     ag.arbejdsgruppe_navn AS workspace_name, 
     agt.ebasis_type AS element_gtype,
     agt.etype_key AS element_type
 FROM arbejde.arbejdsgrupper ag
 JOIN lookup.arbejdsgruppe_typer_element_typer agt ON agt.atype_key = ag.atype_key
-WHERE ag.arbejdsgruppe_navn {workspace_filter};
+WHERE ag.arbejdsgruppe_navn {workspace_filter}
+ORDER BY 1,3;
 """
 
 sel_attribute = """SELECT view_template FROM lookup.ekstra_template WHERE etype_key = '{}';
@@ -51,8 +52,8 @@ cre_view_f = """CREATE VIEW "{schema_name}"."{view_name}" AS
     c.level_2_workareastypes AS level_2_workareatypes,
 {attributes}a.geom
   FROM elementer.element_flader a
-    JOIN elementer.element_flader_workspaces1_view b ON a.id = b.element_id
-    JOIN elementer.element_flader_workspaces2_view c ON a.id = c.element_id
+    LEFT JOIN elementer.element_flader_workspaces1_view b ON a.id = b.element_id
+    LEFT JOIN elementer.element_flader_workspaces2_view c ON a.id = c.element_id
   WHERE a.etype_key::text = '{element_type}'  AND b.level_1_workareas::text ~~ '%{workspace_name}%'::text;
 
 """
@@ -163,8 +164,8 @@ for r in rows:
     element_gtype = r[1].lower()
     element_type = r[2]
     view_name = workspace_name.lower().replace('æ','ae').replace('ø','oe').replace('å','aa') 
-    view_name = '{}_{}'.format(re.sub(r'[^a-zA-Z0-9]', '_', view_name),element_type.lower())
-
+    view_name = '{}_{}'.format(re.sub(r'[^a-zA-Z0-9]+', '_', view_name),element_type.lower())
+    view_name = view_name.replace('__','_')
     
     # Ryd op mht. eksisterende views
     match del_or_rename[:1].lower():
@@ -185,10 +186,9 @@ for r in rows:
 
     # Opret view
     match element_gtype:
-        case "f": cre_view = cre_view_f
-        case "l": cre_view = cre_view_l
-        case "p": cre_view = cre_view_p
-    sqlcmd = cre_view.format(schema_name=schema_name,view_name=view_name,element_type=element_type,workspace_name=workspace_name,attributes=attributes)     
+        case "f": sqlcmd = cre_view_f.format(schema_name=schema_name,view_name=view_name,element_type=element_type,workspace_name=workspace_name,attributes=attributes)
+        case "l": sqlcmd = cre_view_l.format(schema_name=schema_name,view_name=view_name,element_type=element_type,workspace_name=workspace_name,attributes=attributes)
+        case "p": sqlcmd = cre_view_p.format(schema_name=schema_name,view_name=view_name,element_type=element_type,workspace_name=workspace_name,attributes=attributes)
     print (sqlcmd)
     #cur.execute(sqlcmd)
 
