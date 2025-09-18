@@ -1,7 +1,31 @@
-del_or_rename = 'rename' # 'delete'
-workspace_filter = "like '%VT %'"
+# 4 parametre som bestemmer hvilke views, der scriptes
+# ====================================================
+
+# Navn til det nye schema.
 schema_name='vt_vintertjeneste'
+
+# Filter til bestemmels af hvilke arbejdsområder, som skal inkluderes i det nye schema
+# Filtret udformes som højresiden i et where udtryk   
+workspace_filter = "like '%VT %'"
+
+# Hvad skal der gøres med evt. eksisterende view, som scriptet vil forsøge at oprette ? 
+# Hvis der er eksisterende schema i databasen med det samme navn som scriptet vil forsøge at oprette criptet med, 
+# omdøbes eller slettes nedenstående paramater bestemmer hvilken jandling, der udføres: 
+# 'rename' -> evt. eks. schema omdøbes 
+# 'delete' -> evt. eks. schema slettes inkl. alt indholde omdøbes 
+del_or_rename = 'rename' # 'delete'
+
+# Hvis 'rename' benyttes vil nedenstående parameter bestemmer, hvad det eksisterende schema omdøbes til
+# Med nuv. parameterværdi, vil f.eks. schema "vt_vintertjeneste" blive omdøbt til "vt_vintertjeneste_20250630"  
 rename_suffix = '_20250630'
+
+# Connection to MapCentia database - skal ikke ændres (undtaget hvis databaseplacering eller credetials laves om
+db_host="common-db.gc2.io"
+db_port="5432"
+db_user="ballerup_park"
+db_pass="gaker9jI"
+database="ballerup_park"
+
 # Under normale omstændigheder skal der *IKKE* laves rettelser under denne linje
 
 sel_ag_et = """SELECT DISTINCT
@@ -126,12 +150,6 @@ cre_view_p = """CREATE VIEW "{schema_name}"."{view_name}" AS
 
 """
 
-# Connection to MapCentia database,
-db_host="common-db.gc2.io"
-db_port="5432"
-db_user="ballerup_park"
-db_pass="gaker9jI"
-database="ballerup_park"
 
 # Imports
 import psycopg2
