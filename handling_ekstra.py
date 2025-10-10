@@ -37,4 +37,4 @@ else:
         wEkstra.insertPlainText('{}')
     else:
         wEkstra.clear()
-        wEkstra.insertPlainText(tbname)
+        wEkstra.insertPlainText(results[0][0])

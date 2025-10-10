@@ -58,7 +58,7 @@ sqlTmplP = """
 
 
 from qgis.PyQt.QtWidgets import * 
-from qgis.core import QgsDataSourceUri
+from qgis.core import QgsDataSourceUri,QgsRelationManager
 
 wEtype_navn = form.findChildren(QComboBox,"etype_navn")[0]
 if wEtype_navn.currentIndex() < 0:
@@ -82,13 +82,16 @@ else:
     if gt == 'Polygon':
         wEtype = 'F'
         sqlTmp =sqlTmplF
+        rlName = 'element_flader_arbejdsgrupper'
     elif gt == 'Line':
         wEtype = 'L'
         sqlTmp =sqlTmplL
+        rlName = 'element_linjer_arbejdsgrupper'
     else:
         wEtype = 'P'
         sqlTmp =sqlTmplP
-    
+        rlName = 'element_punkter_arbejdsgrupper'
+
     layer = QgsProject.instance().mapLayer('[%@layer_id%]')
     layerProvider = layer.dataProvider()
     layerUri = QgsDataSourceUri(layerProvider.dataSourceUri())
@@ -100,8 +103,18 @@ else:
     sqlTxt = sqlTmp.format (eid=wId, etyp=wEtype_key, wkt=wWkt, srid=wSrid) 
     results = conn.executeSql(sqlTxt)
 
-    print('Arbejdsgruppe-id                     Arbejdsgruppe-navn                            AGT-key    Arbejdsgruppetype-navn                        ET-key')
-    print('=====================================================================================================================================================')
+#    print('Arbejdsgruppe-id                     Arbejdsgruppe-navn                            AGT-key    Arbejdsgruppetype-navn                        ET-key')
+#    print('=====================================================================================================================================================')
+#    for r in results:
+#        print('{: <32} {: <45} {: <10} {: <45} {: <10}'.format(r[1],r[4],r[5],r[6],r[8]))
+
+    #Find relation layer based on geometry type for main layer
+    relLayer = QgsProject.instance().mapLayersByName(rlName)[0]
+    
+    # Iterate results
+    relLayer.startEditing()
     for r in results:
-        print('{: <32} {: <45} {: <10} {: <45} {: <10}'.format(r[1],r[4],r[5],r[6],r[8]))
+        feat = QgsFeature(relLayer.fields())
+        feat.setAttributes(r) 
+        relLayer.addFeature(feat) 
 
